@@ -1,0 +1,101 @@
+LASS NIGHT.png
+	size: 4096, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+LASS KNIGHT/BAG
+	bounds: 1376, 20, 80, 101
+	rotate: 90
+LASS KNIGHT/CLOAK
+	bounds: 2044, 29, 152, 141
+	offsets: 8, 7, 169, 156
+	rotate: 90
+LASS KNIGHT/EYES
+	bounds: 1512, 121, 135, 144
+	rotate: 90
+LASS KNIGHT/HAIR_BACK
+	bounds: 448, 36, 220, 212
+	offsets: 5, 9, 233, 229
+	rotate: 90
+LASS KNIGHT/HEAD
+	bounds: 1103, 82, 174, 168
+	rotate: 90
+LASS KNIGHT/HELMET
+	bounds: 898, 67, 185, 189
+	offsets: 0, 0, 185, 229
+LASS KNIGHT/HELMET PUNGOS
+	bounds: 1291, 3, 65, 59
+LASS KNIGHT/HELMET SHADOW
+	bounds: 1600, 11, 90, 83
+	rotate: 90
+LASS KNIGHT/HELMET_BACK
+	bounds: 1291, 120, 201, 136
+	offsets: 0, 0, 205, 140
+LASS KNIGHT/HELMET_PONYTAIL
+	bounds: 1676, 130, 126, 136
+	offsets: 1, 4, 133, 140
+	rotate: 90
+LASS KNIGHT/L_ARM
+	bounds: 1832, 156, 65, 100
+	offsets: 3, 5, 73, 107
+LASS KNIGHT/L_FOREARM
+	bounds: 1917, 182, 63, 74
+	offsets: 16, 2, 82, 132
+LASS KNIGHT/L_HAND
+	bounds: 2000, 201, 53, 55
+	offsets: 4, 2, 57, 60
+LASS KNIGHT/L_LEG
+	bounds: 898, 1, 46, 89
+	offsets: 5, 4, 56, 97
+	rotate: 90
+LASS KNIGHT/L_SHIN
+	bounds: 2158, 220, 36, 62
+	offsets: 8, 8, 50, 77
+	rotate: 90
+LASS KNIGHT/MOUTH
+	bounds: 2240, 223, 33, 28
+	rotate: 90
+LASS KNIGHT/R_ARM
+	bounds: 1804, 10, 72, 100
+	offsets: 6, 7, 78, 113
+LASS KNIGHT/R_FOREARM
+	bounds: 1007, 0, 47, 64
+	offsets: 5, 5, 57, 75
+	rotate: 90
+LASS KNIGHT/R_HAND
+	bounds: 2205, 1, 51, 44
+	offsets: 5, 8, 58, 56
+	rotate: 90
+LASS KNIGHT/R_LEG
+	bounds: 1173, 3, 59, 98
+	offsets: 6, 3, 68, 101
+	rotate: 90
+LASS KNIGHT/R_SHIN
+	bounds: 1091, 1, 46, 62
+	offsets: 3, 8, 78, 112
+	rotate: 90
+LASS KNIGHT/SHIELD_1
+	bounds: 0, 25, 204, 231
+LASS KNIGHT/SHIELD_2
+	bounds: 224, 25, 204, 231
+LASS KNIGHT/STRAP
+	bounds: 2073, 213, 65, 43
+	offsets: 8, 6, 79, 55
+LASS KNIGHT/Slash_1
+	bounds: 1896, 8, 128, 128
+LASS KNIGHT/Slash_2
+	bounds: 2205, 72, 128, 128
+LASS KNIGHT/Slash_3
+	bounds: 2353, 128, 128, 128
+LASS KNIGHT/TORSO
+	bounds: 1497, 5, 95, 83
+	offsets: 17, 143, 112, 229
+	rotate: 90
+LASS KNIGHT/WAIST
+	bounds: 1703, 19, 91, 81
+	offsets: 2, 0, 93, 81
+	rotate: 90
+LASS KNIGHT/WEAPON
+	bounds: 680, 24, 232, 198
+	offsets: 1, 0, 233, 199
+	rotate: 90

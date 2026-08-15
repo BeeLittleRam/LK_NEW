@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: b708c7dc665bbe14c97815f5eba202cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7255390982338400109
+    second: LASS NIGHT_0
+  - first:
+      213: 8403660493768938089
+    second: LASS NIGHT_1
+  - first:
+      213: 2859191487614425397
+    second: LASS NIGHT_2
+  - first:
+      213: -2650779216483027359
+    second: LASS NIGHT_3
+  - first:
+      213: 7017024245230291856
+    second: LASS NIGHT_4
+  - first:
+      213: 316336219644102113
+    second: LASS NIGHT_5
+  - first:
+      213: 3624910470456537829
+    second: LASS NIGHT_6
+  - first:
+      213: -8815253401442485906
+    second: LASS NIGHT_7
+  - first:
+      213: 7624125450227220877
+    second: LASS NIGHT_8
+  - first:
+      213: -385927306813016003
+    second: LASS NIGHT_9
+  - first:
+      213: 3284490496463088273
+    second: LASS NIGHT_10
+  - first:
+      213: -1041892434218651141
+    second: LASS NIGHT_11
+  - first:
+      213: 8027787532652151276
+    second: LASS NIGHT_12
+  - first:
+      213: -5279941523242523444
+    second: LASS NIGHT_13
+  - first:
+      213: -7984420769546768530
+    second: LASS NIGHT_14
+  - first:
+      213: 1466001998749889375
+    second: LASS NIGHT_15
+  - first:
+      213: 4395305220987487337
+    second: LASS NIGHT_16
+  - first:
+      213: 2495457010428009501
+    second: LASS NIGHT_17
+  - first:
+      213: -2769586453186670251
+    second: LASS NIGHT_18
+  - first:
+      213: -609250274231030709
+    second: LASS NIGHT_19
+  - first:
+      213: -1255978962656818067
+    second: LASS NIGHT_20
+  - first:
+      213: -7303548266125059820
+    second: LASS NIGHT_21
+  - first:
+      213: 7177794570243971221
+    second: LASS NIGHT_22
+  - first:
+      213: -8524379655623950919
+    second: LASS NIGHT_23
+  - first:
+      213: -1366210857460578025
+    second: LASS NIGHT_24
+  - first:
+      213: 7164158168986928029
+    second: LASS NIGHT_25
+  - first:
+      213: -3177134369683910792
+    second: LASS NIGHT_26
+  - first:
+      213: -2101814383983604916
+    second: LASS NIGHT_27
+  - first:
+      213: -1450595219751983806
+    second: LASS NIGHT_28
+  - first:
+      213: -4083689404247019166
+    second: LASS NIGHT_29
+  - first:
+      213: 9126469256425526831
+    second: LASS NIGHT_30
+  - first:
+      213: 6309815940486024456
+    second: LASS NIGHT_31
+  - first:
+      213: 1341130354670915866
+    second: LASS NIGHT_32
+  - first:
+      213: 1202393996065628929
+    second: LASS NIGHT_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
