@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0080202e443918c4c883c28860ed43be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Volumes_URP/MMFeedbacksDemoFilterVolume.asset
+  uploadId: 954714

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d0fca5c8694d4344b9ed06cf1dcdb906
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/Demos/TheHunt/PostProcessing/TheHuntPostProcessingVolume
+    Profile.asset
+  uploadId: 954714

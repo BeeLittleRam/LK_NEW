@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d6f4aa82ec708c44f949e37262d41549
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMGyroscope/MMGyroscope.unity
+  uploadId: 954714

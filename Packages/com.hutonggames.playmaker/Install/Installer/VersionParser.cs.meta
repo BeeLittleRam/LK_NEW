@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ec34638963ac4a73b8ad2d4a743503dd
+timeCreated: 1727979746
+AssetOrigin:
+  serializedVersion: 1
+  productId: 391026
+  packageName: PlayMaker 2
+  packageVersion: 2.0.0-beta.81
+  assetPath: Packages/com.hutonggames.playmaker/Install/Installer/VersionParser.cs
+  uploadId: 974466

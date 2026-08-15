@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91851527377c4cb4e8a4fa46864f06d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/Demos/URP_Settings/PC_RPAsset.asset
+  uploadId: 954714

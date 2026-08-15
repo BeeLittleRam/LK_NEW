@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c962d2d6c5bcddc4d96bb4473abd6dde
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 391026
+  packageName: PlayMaker 2
+  packageVersion: 2.0.0-beta.81
+  assetPath: Packages/com.hutonggames.playmaker/Install/HutongGames.PlayMaker.Install.asmdef
+  uploadId: 974466

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b453f42173805424ea3bceb7de0b4b31
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 391026
+  packageName: PlayMaker 2
+  packageVersion: 2.0.0-beta.81
+  assetPath: Packages/com.hutonggames.playmaker/package.json
+  uploadId: 974466

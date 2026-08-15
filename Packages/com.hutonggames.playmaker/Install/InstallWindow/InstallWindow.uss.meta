@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cb3cf9e66d3c04c4e80794d660087734
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12385, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 391026
+  packageName: PlayMaker 2
+  packageVersion: 2.0.0-beta.81
+  assetPath: Packages/com.hutonggames.playmaker/Install/InstallWindow/InstallWindow.uss
+  uploadId: 974466

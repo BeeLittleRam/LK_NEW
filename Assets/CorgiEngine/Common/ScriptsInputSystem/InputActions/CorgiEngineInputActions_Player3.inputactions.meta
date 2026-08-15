@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 374a646b2968e81428bdfe945c94f036
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
+  generateWrapperCode: 0
+  wrapperCodePath: 
+  wrapperClassName: 
+  wrapperCodeNamespace: MoreMountains.CorgiEngine
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/Common/ScriptsInputSystem/InputActions/CorgiEngineInputActions_Player3.inputactions
+  uploadId: 954714

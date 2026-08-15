@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e0e894584dcdb074e8f42b2236d52ce1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/Demos/Pixel/PostProcessing/PixelPostProcessingVolume
+    Profile.asset
+  uploadId: 954714

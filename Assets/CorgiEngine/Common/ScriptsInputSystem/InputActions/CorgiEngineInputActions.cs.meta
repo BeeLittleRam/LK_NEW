@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6c460157cc4c9154ebaa7a07404f32db
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 10.0
+  assetPath: Assets/CorgiEngine/Common/ScriptsInputSystem/InputActions/CorgiEngineInputActions.cs
+  uploadId: 954714
