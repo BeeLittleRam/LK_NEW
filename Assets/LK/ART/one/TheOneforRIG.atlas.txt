@@ -1,0 +1,427 @@
+TheOneforRIG.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+ADD_SwordGlow_Green
+	bounds: 1510, 1442, 234, 134
+ADD_SwordGlow_Purple
+	bounds: 1301, 1447, 207, 134
+ADD_SwordGlow_Red
+	bounds: 1746, 1434, 234, 134
+Belt
+	bounds: 1076, 2007, 66, 30
+	offsets: 2, 0, 68, 36
+BladeGlow
+	bounds: 1524, 1708, 351, 99
+DeathPoseTentacle
+	bounds: 622, 1174, 271, 750
+	offsets: 190, 0, 584, 750
+	rotate: 90
+EyeBall
+	bounds: 876, 2011, 26, 26
+EyeLid1
+	bounds: 491, 2019, 31, 18
+EyeLid2
+	bounds: 688, 2015, 30, 22
+	offsets: 0, 9, 30, 41
+EyeWhite
+	bounds: 51, 2021, 16, 16
+FX/Arc
+	bounds: 1409, 1902, 64, 64
+FX/BlinkAppearBlur
+	bounds: 1144, 2005, 32, 32
+FX/BlinkBackward
+	bounds: 1475, 1902, 64, 64
+FX/BlinkBlur
+	bounds: 1178, 2005, 32, 32
+FX/BlinkBlur2
+	bounds: 69, 2021, 16, 30
+	offsets: 9, 2, 32, 32
+	rotate: 90
+FX/BlinkBlur3
+	bounds: 1212, 2005, 32, 32
+FX/BlinkUp
+	bounds: 1246, 2005, 32, 64
+	rotate: 90
+FX/Blur
+	bounds: 1, 1683, 279, 105
+FX/Blur1st
+	bounds: 904, 2011, 42, 26
+	offsets: 19, 8, 64, 74
+FX/BlurGreen
+	bounds: 282, 1672, 279, 105
+FX/BlurHeavyStrike
+	bounds: 1312, 2005, 32, 32
+FX/BlurHeavyStrikeAfterImage
+	bounds: 1884, 1801, 87, 90
+	rotate: 90
+FX/BlurNormal
+	bounds: 563, 1662, 279, 105
+FX/BlurPurple
+	bounds: 844, 1641, 279, 105
+FX/BlurThrust
+	bounds: 1346, 2005, 64, 32
+FX/BlurThrust2
+	bounds: 1412, 2005, 64, 32
+FX/DashAccent
+	bounds: 1478, 2005, 64, 32
+FX/DashFX
+	bounds: 1544, 2005, 64, 32
+FX/DrillParticle/1
+	bounds: 101, 2021, 16, 16
+FX/DrillParticle/10
+	bounds: 119, 2021, 16, 16
+FX/DrillParticle/11
+	bounds: 137, 2021, 16, 16
+FX/DrillParticle/12
+	bounds: 155, 2021, 16, 16
+FX/DrillParticle/13
+	bounds: 173, 2021, 16, 16
+FX/DrillParticle/14
+	bounds: 191, 2021, 16, 16
+FX/DrillParticle/15
+	bounds: 209, 2021, 16, 16
+FX/DrillParticle/16
+	bounds: 227, 2021, 16, 16
+FX/DrillParticle/2
+	bounds: 245, 2021, 16, 16
+FX/DrillParticle/3
+	bounds: 263, 2021, 16, 16
+FX/DrillParticle/4
+	bounds: 281, 2021, 16, 16
+FX/DrillParticle/5
+	bounds: 299, 2021, 16, 16
+FX/DrillParticle/6
+	bounds: 317, 2021, 16, 16
+FX/DrillParticle/7
+	bounds: 335, 2021, 16, 16
+FX/DrillParticle/8
+	bounds: 353, 2021, 16, 16
+FX/DrillParticle/9
+	bounds: 371, 2021, 16, 16
+FX/DualSlashFX/1
+	bounds: 1610, 2005, 32, 32
+FX/DualSlashFX/10
+	bounds: 1644, 2005, 32, 32
+FX/DualSlashFX/2
+	bounds: 1678, 2005, 32, 32
+FX/DualSlashFX/3
+	bounds: 1712, 2005, 32, 32
+FX/DualSlashFX/4
+	bounds: 1746, 2005, 32, 32
+FX/DualSlashFX/5
+	bounds: 1780, 2005, 32, 32
+FX/DualSlashFX/6
+	bounds: 1814, 2005, 32, 32
+FX/DualSlashFX/7
+	bounds: 1848, 2005, 32, 32
+FX/DualSlashFX/8
+	bounds: 1882, 2005, 32, 32
+FX/DualSlashFX/9
+	bounds: 1916, 2005, 32, 32
+FX/FXSword1/1
+	bounds: 583, 1938, 45, 45
+FX/FXSword1/2
+	bounds: 630, 1934, 45, 45
+FX/FXSword1/3
+	bounds: 677, 1934, 45, 45
+FX/FXSword1/4
+	bounds: 724, 1932, 45, 45
+FX/FXSword1/5
+	bounds: 771, 1932, 45, 45
+FX/FXSwordRev1/1
+	bounds: 1950, 2005, 32, 32
+FX/FXSwordRev1/2
+	bounds: 1984, 2005, 32, 32
+FX/FXSwordRev1/3
+	bounds: 1, 1994, 32, 32
+FX/FXSwordRev1/4
+	bounds: 35, 1987, 32, 32
+FX/FXSwordRev1/5
+	bounds: 69, 1987, 32, 32
+FX/FXSwordThrust1/1
+	bounds: 1466, 1968, 64, 35
+FX/FXSwordThrust1/10
+	bounds: 1532, 1968, 64, 35
+FX/FXSwordThrust1/11
+	bounds: 1598, 1968, 64, 35
+FX/FXSwordThrust1/12
+	bounds: 1664, 1968, 64, 35
+FX/FXSwordThrust1/2
+	bounds: 1730, 1968, 64, 35
+FX/FXSwordThrust1/3
+	bounds: 1796, 1968, 64, 35
+FX/FXSwordThrust1/4
+	bounds: 1862, 1968, 64, 35
+FX/FXSwordThrust1/5
+	bounds: 1928, 1968, 64, 35
+FX/FXSwordThrust1/6
+	bounds: 1, 1950, 64, 35
+FX/FXSwordThrust1/7
+	bounds: 67, 1950, 64, 35
+FX/FXSwordThrust1/8
+	bounds: 133, 1950, 64, 35
+FX/FXSwordThrust1/9
+	bounds: 199, 1950, 64, 35
+FX/GBMainLoop/1
+	bounds: 1617, 1891, 75, 75
+FX/GBMainLoop/2
+	bounds: 1694, 1891, 75, 75
+FX/GBMainLoop/3
+	bounds: 1771, 1891, 75, 75
+FX/GBMainLoop/4
+	bounds: 1848, 1891, 75, 75
+FX/GBMainLoop/5
+	bounds: 1925, 1890, 75, 75
+FX/GBMainLoop/6
+	bounds: 1, 1873, 75, 75
+FX/GBMainLoop/ADDaura
+	bounds: 798, 2013, 24, 24
+	offsets: 0, 1, 25, 25
+FX/GBMainLoop/ADDaura2
+	bounds: 720, 2015, 24, 22
+	offsets: 0, 2, 25, 25
+FX/GBMainLoop/ADDstraightGlow
+	bounds: 265, 1949, 58, 36
+	offsets: 2, 4, 66, 45
+FX/GBMainLoop/GBArc
+	bounds: 445, 1945, 38, 38
+FX/GBMainLoop/GBOrb
+	bounds: 524, 2019, 25, 18
+	offsets: 0, 3, 25, 25
+FX/GBMainLoop/GBShadow
+	bounds: 551, 2019, 50, 18
+	offsets: 0, 3, 50, 25
+FX/GBPurple/1
+	bounds: 78, 1873, 75, 75
+FX/GBPurple/2
+	bounds: 155, 1873, 75, 75
+FX/GBPurple/3
+	bounds: 232, 1872, 75, 75
+FX/GBPurple/4
+	bounds: 309, 1872, 75, 75
+FX/GBPurple/5
+	bounds: 386, 1868, 75, 75
+FX/GBPurple/6
+	bounds: 463, 1862, 75, 75
+FX/GBPurple/ADDaura
+	bounds: 824, 2013, 24, 24
+	offsets: 0, 1, 25, 25
+FX/GBPurple/ADDaura2
+	bounds: 746, 2015, 24, 22
+	offsets: 0, 2, 25, 25
+FX/GBPurple/ADDstraightGlow
+	bounds: 325, 1949, 58, 36
+	offsets: 2, 4, 66, 45
+FX/GBPurple/GBOrb
+	bounds: 603, 2019, 25, 18
+	offsets: 0, 3, 25, 25
+FX/GBRED/1
+	bounds: 540, 1861, 75, 75
+FX/GBRED/2
+	bounds: 617, 1857, 75, 75
+FX/GBRED/3
+	bounds: 694, 1855, 75, 75
+FX/GBRED/4
+	bounds: 771, 1851, 75, 75
+FX/GBRED/5
+	bounds: 848, 1851, 75, 75
+FX/GBRED/6
+	bounds: 925, 1851, 75, 75
+FX/GBRED/ADDaura
+	bounds: 850, 2013, 24, 24
+	offsets: 0, 1, 25, 25
+FX/GBRED/ADDaura2
+	bounds: 772, 2015, 24, 22
+	offsets: 0, 2, 25, 25
+FX/GBRED/ADDstraightGlow
+	bounds: 385, 1949, 58, 36
+	offsets: 2, 4, 66, 45
+FX/GBRED/GBOrb
+	bounds: 630, 2019, 25, 18
+	offsets: 0, 3, 25, 25
+FX/SW1
+	bounds: 1362, 1713, 160, 99
+FX/SW2
+	bounds: 1877, 1700, 160, 99
+FX/Sequence/1
+	bounds: 103, 1987, 64, 32
+FX/Sequence/2
+	bounds: 169, 1987, 64, 32
+FX/Sequence/3
+	bounds: 235, 1987, 64, 32
+FX/Sequence/4
+	bounds: 301, 1987, 64, 32
+FX/Sequence/5
+	bounds: 367, 1987, 64, 32
+FX/Sequence/6
+	bounds: 467, 1985, 64, 32
+FX/Sequence/7
+	bounds: 533, 1985, 64, 32
+FX/Sequence/8
+	bounds: 667, 1981, 64, 32
+FX/Sequence/9
+	bounds: 767, 1979, 64, 32
+FX/SmokeArc/1
+	bounds: 433, 1987, 32, 32
+FX/SmokeArc/10
+	bounds: 599, 1985, 32, 32
+FX/SmokeArc/11
+	bounds: 633, 1984, 32, 32
+FX/SmokeArc/12
+	bounds: 733, 1981, 32, 32
+FX/SmokeArc/13
+	bounds: 833, 1979, 32, 32
+FX/SmokeArc/14
+	bounds: 867, 1977, 32, 32
+FX/SmokeArc/15
+	bounds: 901, 1977, 32, 32
+FX/SmokeArc/16
+	bounds: 935, 1976, 32, 32
+FX/SmokeArc/17
+	bounds: 969, 1976, 32, 32
+FX/SmokeArc/2
+	bounds: 1003, 1976, 32, 32
+FX/SmokeArc/3
+	bounds: 1037, 1974, 32, 32
+FX/SmokeArc/4
+	bounds: 1071, 1973, 32, 32
+FX/SmokeArc/5
+	bounds: 1105, 1973, 32, 32
+FX/SmokeArc/6
+	bounds: 1139, 1971, 32, 32
+FX/SmokeArc/7
+	bounds: 1173, 1971, 32, 32
+FX/SmokeArc/8
+	bounds: 1207, 1971, 32, 32
+FX/SmokeArc/9
+	bounds: 1241, 1971, 32, 32
+FX/SmokeFeedBack/1
+	bounds: 1125, 1618, 128, 128
+FX/SmokeFeedBack/10
+	bounds: 1255, 1583, 128, 128
+FX/SmokeFeedBack/11
+	bounds: 1385, 1583, 128, 128
+FX/SmokeFeedBack/12
+	bounds: 1515, 1578, 128, 128
+FX/SmokeFeedBack/13
+	bounds: 1645, 1578, 128, 128
+FX/SmokeFeedBack/14
+	bounds: 1775, 1570, 128, 128
+FX/SmokeFeedBack/15
+	bounds: 1905, 1570, 128, 128
+FX/SmokeFeedBack/16
+	bounds: 1, 1553, 128, 128
+FX/SmokeFeedBack/17
+	bounds: 131, 1553, 128, 128
+FX/SmokeFeedBack/2
+	bounds: 261, 1542, 128, 128
+FX/SmokeFeedBack/3
+	bounds: 391, 1542, 128, 128
+FX/SmokeFeedBack/4
+	bounds: 521, 1532, 128, 128
+FX/SmokeFeedBack/5
+	bounds: 651, 1532, 128, 128
+FX/SmokeFeedBack/6
+	bounds: 781, 1511, 128, 128
+FX/SmokeFeedBack/7
+	bounds: 911, 1511, 128, 128
+FX/SmokeFeedBack/8
+	bounds: 1041, 1488, 128, 128
+FX/SmokeFeedBack/9
+	bounds: 1171, 1453, 128, 128
+FX/SpeedLines/1
+	bounds: 389, 2021, 32, 16
+FX/SpeedLines/2
+	bounds: 423, 2021, 32, 16
+FX/SpeedLines/4
+	bounds: 457, 2021, 32, 16
+FX/Streak
+	bounds: 1275, 1971, 147, 32
+FrontPad
+	bounds: 818, 1928, 46, 188
+	rotate: 90
+GreenBlade
+	bounds: 1602, 1809, 280, 80
+	offsets: 71, 19, 351, 99
+Hair1
+	bounds: 948, 2010, 42, 27
+Hair2
+	bounds: 992, 2010, 45, 27
+Hair3
+	bounds: 1039, 2008, 35, 29
+Hair4
+	bounds: 1, 2030, 7, 18
+	rotate: 90
+Hair5
+	bounds: 1994, 1967, 40, 36
+	offsets: 0, 0, 40, 37
+Hair6
+	bounds: 21, 2028, 9, 14
+	rotate: 90
+Head
+	bounds: 1424, 1969, 34, 40
+	rotate: 90
+Jaw
+	bounds: 657, 2018, 19, 29
+	rotate: 90
+L_Arm
+	bounds: 1541, 1899, 67, 74
+	offsets: 3, 0, 72, 74
+	rotate: 90
+L_Fore
+	bounds: 1226, 1913, 56, 93
+	rotate: 90
+L_Leg
+	bounds: 1119, 1835, 76, 122
+	offsets: 2, 0, 78, 129
+	rotate: 90
+L_Thigh
+	bounds: 1008, 1924, 47, 111
+	rotate: 90
+NormalBlade
+	bounds: 1, 1790, 280, 80
+	offsets: 71, 19, 351, 99
+Pupil
+	bounds: 37, 2025, 12, 12
+PurpleBlade
+	bounds: 283, 1779, 280, 80
+	offsets: 71, 19, 351, 99
+R_Arm
+	bounds: 1321, 1911, 58, 86
+	rotate: 90
+R_Fore
+	bounds: 485, 1939, 44, 96
+	rotate: 90
+R_Leg
+	bounds: 1243, 1830, 79, 123
+	rotate: 90
+R_Thigh
+	bounds: 1121, 1922, 47, 103
+	rotate: 90
+RedBlade
+	bounds: 565, 1769, 280, 80
+	offsets: 71, 19, 351, 99
+Tenta1
+	bounds: 1368, 1814, 83, 232
+	rotate: 90
+Tenta2
+	bounds: 1, 1404, 147, 209
+	rotate: 90
+Tenta3
+	bounds: 847, 1762, 83, 231
+	rotate: 90
+Tenta4
+	bounds: 212, 1386, 154, 215
+	offsets: 0, 1, 171, 216
+	rotate: 90
+TentaBack
+	bounds: 429, 1345, 191, 185
+	offsets: 12, 0, 203, 198
+Torso
+	bounds: 1002, 1847, 75, 115
+	rotate: 90
+WhiteBlade
+	bounds: 1080, 1748, 280, 80
+	offsets: 71, 19, 351, 99
