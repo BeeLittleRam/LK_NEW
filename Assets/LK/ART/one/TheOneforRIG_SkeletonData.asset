@@ -26,8 +26,11 @@ MonoBehaviour:
       material: {fileID: 2100000, guid: b8a062bd34d5c9a4faf922af97d8f25d, type: 2}
     screenMaterials: []
   skeletonDataModifiers: []
-  fromAnimation: []
-  toAnimation: []
-  duration: []
-  defaultMix: 0.2
+  fromAnimation:
+  - TwinSlash_RootMotion
+  toAnimation:
+  - Idle
+  duration:
+  - 0.2
+  defaultMix: 0
   controller: {fileID: 0}
