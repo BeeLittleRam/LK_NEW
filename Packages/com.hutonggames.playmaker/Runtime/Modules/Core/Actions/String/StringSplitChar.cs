@@ -42,7 +42,8 @@ namespace HutongGames.PlayMaker.Actions
 		public override void Execute()
 		{
 			//System.String.Split(System.Char, System.StringSplitOptions);
-			_result.Values = _string.Value.Split(_separator.Value, _options);
+			var options = StringSplitOptionsUtility.GetRuntimeOptions(_options);
+			_result.Values = _string.Value.Split(_separator.Value, options);
 		}
 		
 		public override string GetSummary()

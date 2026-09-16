@@ -37,7 +37,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Prefabs/Boid.prefab",
             "_guid": "49acb81403aebb94f9df1240b517365e",
-            "_checkSum": "52716e80986dae8ca245b24c17f7e47d"
+            "_checkSum": "2ae05a8a2153db4cac59447da448c47b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Prefabs/citizen.prefab",
@@ -47,7 +47,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/RandomCharacters.unity",
             "_guid": "ce861eb44c9d3824f97d537495376e5e",
-            "_checkSum": "38951ef97a252422ed97ccc7fcb26884"
+            "_checkSum": "63c8114c932e7909c2002a9d8cc152ba"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/boid.png",
@@ -72,37 +72,37 @@
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/01_RogueMap.unity",
             "_guid": "e21d4eb6337c8004fa68bd8b84e4a888",
-            "_checkSum": "63531e689aba8101a24d45e3cfba8258"
+            "_checkSum": "69d556278f6fcf10fda20028f3a425dc"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/02_StartEndRooms.unity",
             "_guid": "4d5cb26cc08b22142992db2ce9962f23",
-            "_checkSum": "7c205e9c82ba4f100ea56b9e44e43c15"
+            "_checkSum": "9b61b51e1ed322bf06844ccb72f68aaa"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/03_Pathfinding.unity",
             "_guid": "1971f74b291359148942705402a84534",
-            "_checkSum": "c9f3bdedded0063e193c2b1fa981605d"
+            "_checkSum": "8fbc94551878433dc3db04a52cd5dc60"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/03_Pathfinding_Costs.unity",
             "_guid": "83e6f2418330d7e478f3c4f484a21e42",
-            "_checkSum": "55d110dd812a88a0b2985a9b82bfbe67"
+            "_checkSum": "dd76c6708f0b5fee69510d5f83537cce"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/CaveMap.unity",
             "_guid": "887baaf85c768f547a5f7f143fc31a84",
-            "_checkSum": "2587e5a8948d4651d844fb476dbd98e7"
+            "_checkSum": "849f066f7b2e32f6bda25adce8395fc7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/CavernsMap.unity",
             "_guid": "e380901c43c1dab418f3153a82098ba4",
-            "_checkSum": "4fcf2c0c5e0252d3f8630df2d7127f28"
+            "_checkSum": "26ad0cebc4d896708df10852237708f7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/TunnelMap.unity",
             "_guid": "23164fcc50e33e941afb22de1c1d857c",
-            "_checkSum": "78b462844a1e9fbac318d07ec5c8fb2c"
+            "_checkSum": "43d91cf3cf13e41b83263618de7fb433"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/bodies.png",
@@ -507,7 +507,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -631,7 +631,7 @@
             "HutongGames.PlayMaker.Procedural.GenerateDLACells"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379316621176
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107222482612
 }

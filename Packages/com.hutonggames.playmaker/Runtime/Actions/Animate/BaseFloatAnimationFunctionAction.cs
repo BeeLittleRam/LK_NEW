@@ -45,41 +45,51 @@ namespace HutongGames.PlayMaker.Actions
         protected LoopSettings Loop;
         
         [NonSerialized] private float _currentTime;
+        [NonSerialized] private float _lastUpdateTime;
         [NonSerialized] private float _normalizedTime;
         [NonSerialized] private bool _reverse;
         [NonSerialized] private int _count;
 
         protected virtual string AnimationName => "Animate";
-        
+
+        private float CurrentTime => UseRealtime.Value
+            ? TimeHelper.RealtimeSinceStartup
+            : BaseAction.CurrentUpdateMode == UpdateMode.FixedUpdate ? Time.fixedTime : Time.time;
+
         public override bool CanExecute() => CheckParameters(Float, StartValue, EndValue, Duration, UseRealtime);
         
         public override void OnStart()
         {
             _currentTime = 0f;
+            _lastUpdateTime = CurrentTime;
             _reverse = false;
             _count = 0;
         }
 
         public override void Execute()
         {
-            _currentTime += UseRealtime.Value ? Time.unscaledDeltaTime : Time.deltaTime;
+            var currentTime = CurrentTime;
+            _currentTime += Mathf.Max(0f, currentTime - _lastUpdateTime);
+            _lastUpdateTime = currentTime;
+
+            var duration = Mathf.Max(0f, Duration.Value);
             
-            if (_currentTime >= Duration.Value)
+            if (_currentTime >= duration)
             {
                 switch (Loop.Loop)
                 {
                     case LoopSettings.LoopMode.NoLoop:
-                        _currentTime = Duration.Value;
+                        _currentTime = duration;
                         Float.Value = EndValue.Value;
                         Progress = 1;
                         Finish();
                         break;
                     case LoopSettings.LoopMode.Loop:
-                        _currentTime -= Duration.Value;
+                        _currentTime = duration > 0f ? _currentTime - duration : 0f;
                         IncrementCount();
                         break;
                     case LoopSettings.LoopMode.PingPong:
-                        _currentTime -= Duration.Value;
+                        _currentTime = duration > 0f ? _currentTime - duration : 0f;
                         _reverse = !_reverse;
                         if (!_reverse) // One full cycle
                         {
@@ -92,11 +102,11 @@ namespace HutongGames.PlayMaker.Actions
             
             if (!_reverse)
             {
-                _normalizedTime = _currentTime / Duration.Value;
+                _normalizedTime = duration > 0f ? _currentTime / duration : 1f;
             }
             else
             {
-                _normalizedTime = 1 - _currentTime / Duration.Value;
+                _normalizedTime = duration > 0f ? 1 - _currentTime / duration : 0f;
             }
 
             Progress = _normalizedTime;

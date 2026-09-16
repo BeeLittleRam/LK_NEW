@@ -1,6 +1,6 @@
 {
     "name": "com.hutonggames.playmaker",
-    "version": "2.0.0-beta.81",
+    "version": "2.0.0-beta.83",
     "displayName": "PlayMaker 2",
     "description": "Visual scripting tool for Unity using finite state machines.",
     "author":

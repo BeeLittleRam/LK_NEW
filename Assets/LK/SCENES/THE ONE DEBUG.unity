@@ -639,7 +639,7 @@ MonoBehaviour:
         _loopCountLimit: 0
         _resetVariables: 0
         _pauseMode: 0
-        _dataVersion: 2
+        _dataVersion: 3
         _inputs:
           _owner: {fileID: 932964136}
           Expanded: 0
@@ -1085,6 +1085,20 @@ MonoBehaviour:
           _isWriteOnly: 0
           _value: 0
           _isConstant: 0
+        _hitEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _notHitEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _didHit:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
         _gameObjectHit:
           _variable:
             rid: -2

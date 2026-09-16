@@ -33,12 +33,31 @@ namespace HutongGames.PlayMaker.Actions
 		[DefaultValue(QueryTriggerInteraction.UseGlobal)]
 		[SerializeField]
 		private QueryTriggerInteraction _hitTriggers;
+
+		[ActionHeader("Result")]
+
+		[OptionalField]
+		[Tooltip("Event to send if the line hits something.")]
+		[SerializeField]
+		private EventRef _hitEvent;
+
+		[OptionalField]
+		[Tooltip("Event to send if the line doesn't hit something.")]
+		[SerializeField]
+		private EventRef _notHitEvent;
 		
-		[Tooltip("Store the result in Bool variable.")]
+		[DisplayName("DidHit")]
+		[Tooltip("Store whether the linecast hit something.")]
 		[SerializeField]
 		[OptionalField]
 		[WriteOnly]
 		private BoolRef _result;
+
+		[Tooltip("The GameObject hit by the linecast.")]
+		[SerializeField]
+		[OptionalField]
+		[WriteOnly]
+		private GameObjectRef _gameObjectHit;
 
 		[Tooltip("Store hit information from the linecast.")]
 		[SerializeField]
@@ -48,8 +67,14 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override bool CanExecute()
 		{
-			return CheckParameters(_start, _end, _layerMask) &&
-			       (_result.HasValue() || _hitInfo.HasValue());
+			return CheckParameters(_start, _end, _layerMask);
+		}
+
+		public override string ErrorCheck()
+		{
+			return HasOutputs
+				? string.Empty
+				: "Specify at least one output or event.";
 		}
 		
 		public override void Execute()
@@ -65,11 +90,23 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				_hitInfo.Value = hitInfo;
 			}
+
+			if (_gameObjectHit.IsAssigned)
+			{
+				_gameObjectHit.Value = hitInfo.collider ? hitInfo.collider.gameObject : null;
+			}
+
+			SendEvent(didHit ? _hitEvent : _notHitEvent);
 		}
 		
 		public override string GetSummary()
 		{
-			return "Linecast from {_start} to {_end} using {_layerMask} {_result:output} {_hitInfo:output}";
+			return "Physics Linecast from {_start} to {_end} " +
+			       (_hitEvent.IsSet ? "Hit {_hitEvent} " : "") +
+			       (_notHitEvent.IsSet ? "Not Hit {_notHitEvent} " : "") +
+			       "using {_layerMask} {_hitInfo:output} {_gameObjectHit:output} {_result:output}";
 		}
+
+		private bool HasOutputs => _hitEvent.IsSet || _notHitEvent.IsSet || _result.HasValue() || _gameObjectHit.IsAssigned || _hitInfo.HasValue();
 	}
 }

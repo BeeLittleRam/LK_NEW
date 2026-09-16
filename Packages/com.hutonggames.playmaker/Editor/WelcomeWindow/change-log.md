@@ -3,6 +3,55 @@
 A running log of recent changes.  
 See the package CHANGELOG for a full list of changes.
 
+## [2.0.0 beta 82] - 2026-8-19
+
+### CHANGED
+
+- Updated the FSM data version. Existing FSMs are upgraded automatically when scenes are opened, which may mark those scenes as dirty.
+
+### ADDED
+
+- ALPHA RELEASE of [Networking](addon:networking) addon. It currently supports [Netcode for GameObjects](addon:netcode-for-gameobjects) but is extensible to other networking solutions. NOTE: This is an ALPHA RELEASE and is not yet ready for production use. There is no automatic variable syncing yet.
+- Added parameter browsing support to Animator actions.
+- Added Space option to [RigidbodyGetVelocity](action:RigidbodyGetVelocity) actions.
+- Added HitEvent, NotHitEvent, and DidHit to [Physics2DRaycast](action:Physics2DRaycast), [Physics2DLinecast](action:Physics2DLinecast), and [PhysicsLinecast](action:PhysicsLinecast) actions.
+- Added Exclude Root option to [GameObjectGetComponentsInChildren](action:GameObjectGetComponentsInChildren) and [GameObjectGetComponentsInParent](action:GameObjectGetComponentsInParent) actions.
+- Added (Hold) to [InputGetKey](action:InputGetKey), [InputGetAnyKey](action:InputGetAnyKey), and [InputGetButton](action:InputGetButton) names
+- Added [GameObjectGetAncestor](action:GameObjectGetAncestor) and [GameObjectGetAncestors](action:GameObjectGetAncestors) actions.
+
+### FIXED
+
+- Fixed Get FSM list actions sharing source list.
+- Fixed FSM Input/Output settings not always updating.
+- Fixed first-field as key sometimes not working in builds.
+- Fixed selected FSM in an additively loaded scene getting "lost" when exiting play mode.
+- Fixed EnumList fields in DataDefinitions and DataComponents.
+
+## [2.0.0 beta 81] - 2026-8-11
+
+### CHANGED
+
+- Zoom with right-click drag instead of Alt middle/right click drag.
+
+### IMPROVED
+
+- Improved performance when editing graphs with many regions.
+
+### ADDED
+
+- Added InputSystem binding actions.
+- Added [PlayerInputButtonEvents](action:PlayerInputButtonEvents) action.
+- Added FSM Input/Output support for InputSystem variables.
+- Added [Export/Import CSV](docs:guides/data-tables/data-table-csv/) support for [DataTableComponents](docs:components/data-table/).
+- Added Ctrl/Cmd + Alt Click on variable toggles to make a new variable and keep the current value.
+
+### FIXED
+
+- Fixed occasional console errors while editing templates.
+- Fixed RunTemplate update timing, especially for physics actions in templates.
+- Fixed empty Addons list if there are any empty json files (or read errors).
+- Fixed [editor crashes on Linux](https://hutonggames.com/playmakerforum/index.php?topic=26922.0).
+
 ## [2.0.0 beta 80] - 2026-8-7
 
 ### Added

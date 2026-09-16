@@ -41,7 +41,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Lander/Lander.unity",
             "_guid": "58b7d82cb2278894faeb296d75b06ab1",
-            "_checkSum": "7b696b23551fd93043daace65c72560e"
+            "_checkSum": "4ee05ad03eeada1dfc112b39d055bd96"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Lander/Globals/Dead.asset",
@@ -411,7 +411,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -529,7 +529,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379123684866
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107178619280
 }

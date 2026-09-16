@@ -99,27 +99,27 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/FallingPlatform.prefab",
             "_guid": "cb0f43a0c853b3d4c8ffc25f5b4f9798",
-            "_checkSum": "46da91cbdad4b1cb67fad5cc8a59eaf2"
+            "_checkSum": "bd7561e26dec7b8c530c6b4c1620bc2e"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/LevelClear.prefab",
             "_guid": "ccb44489ecbfc604cbde2fbd09f54a3a",
-            "_checkSum": "5bfc69c1c8a3b014a4ab601c86288060"
+            "_checkSum": "0572887e0dbb6234c54680cbe1e6cd0c"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Player.prefab",
             "_guid": "0cdb5d82bf58c294dabc765ff706a52b",
-            "_checkSum": "d26e716b6513480e485b90a3af14c843"
+            "_checkSum": "dd56b2da5aeaf0ebb2b838ea819065ae"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Rock Head.prefab",
             "_guid": "bbd3f33a0decc5e48a15f893d4a99676",
-            "_checkSum": "f8c2971f9431d11eae3ad471e7ffdec3"
+            "_checkSum": "d78a132705f596b74f859a3eecf68a4b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Saw.prefab",
             "_guid": "2627541c4ad51c6468fa0e47a4264516",
-            "_checkSum": "baf7815ce7d5a3942339bb43b597da76"
+            "_checkSum": "11bf0a584acf3723ca24fb82bba46512"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/SpawnFX.prefab",
@@ -129,12 +129,12 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/SpawnPlayer.prefab",
             "_guid": "02e340ea79062da439c18f29c09cf422",
-            "_checkSum": "d09be608a470acf4d0000f704aac08cf"
+            "_checkSum": "ef57ff7672369a27aea513e085494342"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level1.unity",
             "_guid": "860530a6c7ae55c4690b8749b5cf38ad",
-            "_checkSum": "afe60d847eebc516b3b4117babf68dd1"
+            "_checkSum": "77b5764cd45bd7593bef62a039d86267"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level2.unity",
@@ -149,7 +149,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level4.unity",
             "_guid": "510dde55c6bb440c8aa18a5197099518",
-            "_checkSum": "036b153f2adfc12a267ca067bfe70d16"
+            "_checkSum": "e900ba3c17750b0edbd320c9b7806030"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level5.unity",
@@ -179,7 +179,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Templates/ScrollBackground.asset",
             "_guid": "7aa29e521234e32439772d608b31ff6c",
-            "_checkSum": "98fcc64cc56035f4cc98a83c809d742c"
+            "_checkSum": "31f1643d293d826340dc975dde4959f1"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/license.txt",
@@ -194,42 +194,42 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Apple.prefab",
             "_guid": "ece9c1ebd70b781409144371bba41973",
-            "_checkSum": "de00192c43dc05595e1b727b5cd4dcc2"
+            "_checkSum": "d7e97b7982a721378bfdaf57ce2591ef"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Bananas.prefab",
             "_guid": "242a3e152d621474db8597fa4bcced62",
-            "_checkSum": "b646db6626583013420c7b6445ff8a3e"
+            "_checkSum": "eb9741a8eac74d1ca973cc7e5574cdf1"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Cherries.prefab",
             "_guid": "757e2d5042550f5408fc69e2446df420",
-            "_checkSum": "ef4f7eb5d07ebf57479a06e34f8467fe"
+            "_checkSum": "87bb945cd1cf1655d2636d66ba3c38f3"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Kiwi.prefab",
             "_guid": "f74d659377dd1b34aa6a7572c19e03ff",
-            "_checkSum": "51249157dace8b4a32fda1603c226e5c"
+            "_checkSum": "5476448dcadd9be3190718a99f72cae7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Melon.prefab",
             "_guid": "b553537d1efd62948887b8804822a851",
-            "_checkSum": "fc95dbcbee5e2ccf3fd0be92bde6978e"
+            "_checkSum": "ee9a7cd4e798f371cbccc31b289a6cc7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Orange.prefab",
             "_guid": "afb1444826e990b4e871bcec9c3a91e5",
-            "_checkSum": "345141ec5a251cd205a262a31a39ffdb"
+            "_checkSum": "d8c2687d9cd62b6bb4ef47f53f0ad69b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Pineapple.prefab",
             "_guid": "5611db0ffd707934196b55c76645fa9c",
-            "_checkSum": "01d55749b145322b307da128652d6843"
+            "_checkSum": "f92465456ef7a2bfc826e6235671a37b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Strawberry.prefab",
             "_guid": "7d7b44d6a9c6da146aa4a3666d495bc7",
-            "_checkSum": "2bb55b0b9996293d38873f3a7a8d898f"
+            "_checkSum": "8c38214b536d4d9666497c3e7c0f9084"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Appearing (96x96).png",
@@ -2014,7 +2014,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -2159,7 +2159,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379333749770
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107127654206
 }

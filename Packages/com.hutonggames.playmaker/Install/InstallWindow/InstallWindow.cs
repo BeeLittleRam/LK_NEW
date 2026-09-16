@@ -127,17 +127,6 @@ namespace HutongGames.PlayMaker.Editor
             
             var errors = rootVisualElement.Q<HelpBox>("error");
             
-            #if UNITY_6000_OR_NEWER
-            
-            if (!UnityVersionCheck.IsMinimumUnityVersion("6000.3.5"))
-            {
-                errors.text ="PlayMaker for Unity 6 requires Unity 6000.3.5f1 or higher due to critical bug fixes.";
-                _hasCriticalError = true;
-                return;
-            }
-            
-            #endif
-            
             if (PlayMaker1Check.Failed())
             {
                 errors.text = "Cannot install PlayMaker 2 in the same project as PlayMaker 1!";
@@ -154,6 +143,16 @@ namespace HutongGames.PlayMaker.Editor
                 errors.messageType = HelpBoxMessageType.Warning;
                 _notes.style.display = DisplayStyle.None;
             }
+            #if UNITY_6000_0_OR_NEWER
+            else if (UnityVersionCheck.IsUnityVersionInRange("6000.3.0", "6000.3.4"))
+            {
+                errors.text =
+                    "Unity 6000.3.0 through 6000.3.4 contain known Unity editor issues that can affect PlayMaker.\n\n" +
+                    "We recommend updating to Unity 6000.3.5f1 or newer.";
+                errors.messageType = HelpBoxMessageType.Warning;
+                _notes.style.display = DisplayStyle.None;
+            }
+            #endif
             else
             {
                 errors.style.display = DisplayStyle.None;

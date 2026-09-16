@@ -20,6 +20,11 @@
             "define": "UNITY_INPUT_SYSTEM"
         },
         {
+            "name": "com.unity.inputsystem",
+            "expression": "1.14.0",
+            "define": "UNITY_INPUT_SYSTEM_1_14_0_OR_NEWER"
+        },
+        {
             "name": "Unity",
             "expression": "2022.3.20f1",
             "define": "UNITY_2022_3_20_OR_NEWER"

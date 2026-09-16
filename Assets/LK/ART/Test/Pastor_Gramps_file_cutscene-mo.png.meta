@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 06d7bae12a8486045835b955881c6c04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2834505928272048250
+    second: Pastor_Gramps_file_cutscene-mo_0
+  - first:
+      213: 4452552879675001760
+    second: Pastor_Gramps_file_cutscene-mo_1
+  - first:
+      213: 7883937376387363442
+    second: Pastor_Gramps_file_cutscene-mo_2
+  - first:
+      213: 6546913220985483180
+    second: Pastor_Gramps_file_cutscene-mo_3
+  - first:
+      213: -7705883387700425028
+    second: Pastor_Gramps_file_cutscene-mo_4
+  - first:
+      213: 621036553807327783
+    second: Pastor_Gramps_file_cutscene-mo_5
+  - first:
+      213: -8850304068282885052
+    second: Pastor_Gramps_file_cutscene-mo_6
+  - first:
+      213: 6195553091608925645
+    second: Pastor_Gramps_file_cutscene-mo_7
+  - first:
+      213: -6510621603434596660
+    second: Pastor_Gramps_file_cutscene-mo_8
+  - first:
+      213: -7322549321555839718
+    second: Pastor_Gramps_file_cutscene-mo_9
+  - first:
+      213: 4762378701280959711
+    second: Pastor_Gramps_file_cutscene-mo_10
+  - first:
+      213: 7946572484892407506
+    second: Pastor_Gramps_file_cutscene-mo_11
+  - first:
+      213: -8912821363944009966
+    second: Pastor_Gramps_file_cutscene-mo_12
+  - first:
+      213: -514322238182544565
+    second: Pastor_Gramps_file_cutscene-mo_13
+  - first:
+      213: -2923031161141958976
+    second: Pastor_Gramps_file_cutscene-mo_14
+  - first:
+      213: 7422570957845413672
+    second: Pastor_Gramps_file_cutscene-mo_15
+  - first:
+      213: -5662855046084008386
+    second: Pastor_Gramps_file_cutscene-mo_16
+  - first:
+      213: -4647683374406924164
+    second: Pastor_Gramps_file_cutscene-mo_17
+  - first:
+      213: -2364910031064772423
+    second: Pastor_Gramps_file_cutscene-mo_18
+  - first:
+      213: 5316999405613747334
+    second: Pastor_Gramps_file_cutscene-mo_19
+  - first:
+      213: -5646758172230889609
+    second: Pastor_Gramps_file_cutscene-mo_20
+  - first:
+      213: 8962425079695352682
+    second: Pastor_Gramps_file_cutscene-mo_21
+  - first:
+      213: -195453006278720110
+    second: Pastor_Gramps_file_cutscene-mo_22
+  - first:
+      213: 4018056571840443640
+    second: Pastor_Gramps_file_cutscene-mo_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

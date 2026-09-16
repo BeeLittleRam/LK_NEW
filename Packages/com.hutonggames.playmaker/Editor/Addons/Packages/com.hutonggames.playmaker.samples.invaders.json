@@ -39,7 +39,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Invaders.unity",
             "_guid": "efdc95f15b0a05448bde5ae59cfee293",
-            "_checkSum": "1f43074efd2716c1024acc650d84dc70"
+            "_checkSum": "983944a8dab2f9dfa74cc1b84e0c5845"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Audio/explosion4.ogg",
@@ -194,7 +194,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/cannon_bullet.prefab",
             "_guid": "db1c64d098b4c114696bff9e6b6b2be4",
-            "_checkSum": "ab81b21a970474192defa2ed0c69fe07"
+            "_checkSum": "3bb8481a31349621f5ff4c62b95e4f32"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/high_score_row.prefab",
@@ -204,27 +204,27 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/Invader.prefab",
             "_guid": "fd1482f647236f846bff963a2d126c4a",
-            "_checkSum": "cf74b5375177d4fee2e241189a81303a"
+            "_checkSum": "21cf484b5deb1b4cb135c10e77562512"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/Invader2.prefab",
             "_guid": "098935f57f3e86044b4a2b7d149f1bbb",
-            "_checkSum": "831a40e8f001603e52e7f8e139a88a62"
+            "_checkSum": "a30b70c149d3ec9a656c43310517aac2"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/Invader3.prefab",
             "_guid": "e001831534bf8ea4296787cfabc91193",
-            "_checkSum": "a04dd690abd5181cf37cb2d34fb6d580"
+            "_checkSum": "45b5d27460eb4af5468c3ca7d8bacc75"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/invader_bullet.prefab",
             "_guid": "e9da676a95361ff4b9a476db6c6eb87b",
-            "_checkSum": "358cf3d0f6fb59dd1d32e24d7b99a0a9"
+            "_checkSum": "4b756bf0ec9ba703e5671d303d684796"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Prefabs/invader_explosion.prefab",
             "_guid": "4a9c50f2422e9d944b014c8dc9686157",
-            "_checkSum": "d37815d09b4d93b753d91024460f5ebb"
+            "_checkSum": "a9f96e8e292d9ef0a5281d61d1dae936"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Invaders/Sprites/cannon-bullet.png",
@@ -569,7 +569,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -730,7 +730,7 @@
             "HutongGames.PlayMaker.Actions.WaitForVariableValue"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379286501206
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107299806293
 }

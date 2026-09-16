@@ -6,6 +6,7 @@ namespace HutongGames.PlayMaker.Actions
     [System.Serializable]
     [PublicAPI]
     [ActionCategory(Category.Keyboard)]
+    [DisplayName("Input Get Key (Hold)")]
     [ConvertibleGroup(ConvertibleGroup.InputButton)]
     [ActionDescription("Returns true while the user holds down the specified KeyCode." 
                        + Strings.SupportsBothInputSystems)]

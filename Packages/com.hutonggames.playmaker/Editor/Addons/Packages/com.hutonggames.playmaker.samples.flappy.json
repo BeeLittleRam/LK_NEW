@@ -39,7 +39,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Flappy/Flappy.unity",
             "_guid": "491f857bb1cbc7c43b2f5bb69110487e",
-            "_checkSum": "95d51e25888c4f4d01a8e04f8fd0a530"
+            "_checkSum": "9cdd30fd01b4a3999d52ca0d743fa92f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Flappy/Audio/hit1.ogg",
@@ -119,7 +119,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/Flappy/Prefabs/Pipes.prefab",
             "_guid": "5dd1037222c49c94abd795ef3cebbff2",
-            "_checkSum": "9ec594453f65f413a8b3c085fd25803b"
+            "_checkSum": "de99edb687a832d1288492d18fa500c6"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/Flappy/Sprites/Bird.controller",
@@ -439,22 +439,22 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
             "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
-            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+            "_checkSum": "e0277095193c86e0211c1fc00e9a72e1"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
             "_guid": "66083b4abef770341991fcbb6828db55",
-            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+            "_checkSum": "e5972691dc8c3091d45dc1f18380f6f4"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
             "_guid": "75a649f7bc2340247b338440bdb19ebe",
-            "_checkSum": "376106f45f9753987b5896c245b83836"
+            "_checkSum": "65881387487da380b25f09bf3075ff5b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -582,7 +582,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379164266881
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107087600256
 }

@@ -1,0 +1,246 @@
+Pastor_Gramps_file_cutscene-mo.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.5
+Layer 2
+bounds:1055,10,350,711
+rotate:90
+back cape 1
+bounds:516,964,835,697
+belt
+bounds:825,677,283,210
+rotate:90
+chest armor 2
+bounds:516,1665,900,376
+finger 14
+bounds:1607,1705,79,132
+grand pa no helmet/brow r
+bounds:1701,967,43,37
+grand pa with helmet/brow r
+bounds:1701,967,43,37
+grand pa no helmet/chest armor
+bounds:1701,1008,420,327
+rotate:90
+grand pa with helmet/chest armor
+bounds:1701,1008,420,327
+rotate:90
+grand pa no helmet/forearm r
+bounds:1420,1668,169,183
+rotate:90
+grand pa with helmet/forearm r
+bounds:1420,1668,169,183
+rotate:90
+grand pa no helmet/head
+bounds:516,704,256,305
+rotate:90
+grand pa no helmet/helmet back
+bounds:1884,657,181,151
+rotate:90
+grand pa with helmet/helmet back
+bounds:1884,657,181,151
+rotate:90
+grand pa no helmet/l pupil
+bounds:1791,4,17,16
+grand pa with helmet/l pupil
+bounds:1791,4,17,16
+grand pa no helmet/l pupil copy
+bounds:1770,4,17,16
+grand pa with helmet/l pupil copy
+bounds:1770,4,17,16
+grand pa no helmet/l shoulder
+bounds:1770,24,270,336
+grand pa with helmet/l shoulder
+bounds:1770,24,270,336
+grand pa no helmet/r hand
+bounds:1884,842,158,162
+grand pa with helmet/r hand
+bounds:1884,842,158,162
+grand pa no helmet/sword
+bounds:1420,1841,200,599
+rotate:90
+grand pa with helmet/sword
+bounds:1420,1841,200,599
+rotate:90
+grand pa with helmet/chest star
+bounds:1701,1432,405,338
+rotate:90
+grand pa with helmet/grandpa cape
+bounds:1055,364,596,825
+rotate:90
+left hand 1
+bounds:1884,500,153,151
+rotate:90
+r finger 1
+bounds:1884,373,126,123
+skeleton cloth
+bounds:1355,973,342,688
+staff
+bounds:4,676,508,1365
+tail
+bounds:4,5,1047,667
+
+Pastor_Gramps_file_cutscene-mo_2.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.5
+back fur
+bounds:1470,1592,460,452
+body cloth
+bounds:393,495,244,383
+bottom back cloth 1
+bounds:4,1001,447,377
+bottom cloth 1
+bounds:755,1297,501,393
+dead head
+bounds:755,1694,350,711
+rotate:90
+finger 11
+bounds:1373,84,138,119
+finger 12
+bounds:313,564,68,106
+finger 13
+bounds:1885,225,104,132
+rotate:90
+front armor
+bounds:4,384,286,305
+rotate:90
+front cape 1
+bounds:4,1382,747,662
+grand pa no helmet/Arm Left
+bounds:1194,479,217,304
+grand pa with helmet/Arm Left
+bounds:1194,479,217,304
+grand pa no helmet/Layer 15
+bounds:702,1331,48,47
+grand pa with helmet/Layer 15
+bounds:702,1331,48,47
+grand pa no helmet/Layer 16
+bounds:702,1285,42,42
+grand pa with helmet/Layer 16
+bounds:702,1285,42,42
+grand pa no helmet/Neck
+bounds:1424,578,332,229
+rotate:90
+grand pa with helmet/Neck
+bounds:1424,578,332,229
+rotate:90
+grand pa no helmet/arm r
+bounds:1657,692,179,237
+rotate:90
+grand pa with helmet/arm r
+bounds:1657,692,179,237
+rotate:90
+grand pa no helmet/belly
+bounds:391,215,276,220
+rotate:90
+grand pa with helmet/belly
+bounds:391,215,276,220
+rotate:90
+grand pa no helmet/brow l
+bounds:393,883,55,53
+grand pa with helmet/brow l
+bounds:393,883,55,53
+grand pa no helmet/glove
+bounds:922,384,298,244
+rotate:90
+grand pa with helmet/glove
+bounds:922,384,298,244
+rotate:90
+grand pa no helmet/glove r
+bounds:1755,221,119,126
+rotate:90
+grand pa with helmet/glove r
+bounds:1755,221,119,126
+rotate:90
+grand pa no helmet/l leg top
+bounds:1170,131,166,199
+rotate:90
+grand pa with helmet/l leg top
+bounds:1170,131,166,199
+rotate:90
+grand pa no helmet/loin cloth
+bounds:455,882,243,496
+grand pa with helmet/loin cloth
+bounds:455,882,243,496
+grand pa no helmet/nose
+bounds:313,477,74,83
+grand pa with helmet/nose
+bounds:313,477,74,83
+grand pa no helmet/r leg
+bounds:189,90,169,290
+grand pa with helmet/r leg
+bounds:189,90,169,290
+grand pa no helmet/shield grandpa
+bounds:1464,1174,414,455
+rotate:90
+grand pa with helmet/shield grandpa
+bounds:1464,1174,414,455
+rotate:90
+grand pa no helmet/shoulder r
+bounds:1887,333,148,233
+grand pa with helmet/shoulder r
+bounds:1887,333,148,233
+grand pa no helmet/sock
+bounds:1170,301,174,209
+rotate:90
+grand pa no helmet/stache
+bounds:1898,714,140,143
+rotate:90
+grand pa with helmet/head
+bounds:1424,914,256,305
+rotate:90
+grand pa with helmet/helmet front
+bounds:4,674,323,385
+rotate:90
+grand pa with helmet/sock
+bounds:1622,344,174,209
+rotate:90
+grand pa with helmet/stache
+bounds:1898,570,140,143
+rotate:90
+intestine 1
+bounds:1657,522,226,166
+intestine 2
+bounds:1923,1057,118,328
+intestine 3
+bounds:1415,394,203,180
+left bottom arm 1
+bounds:702,554,216,444
+left bottom armor
+bounds:4,108,181,272
+left leg
+bounds:1573,175,165,178
+rotate:90
+left lower leg
+bounds:1207,787,213,481
+left upper arm 1
+bounds:922,686,185,312
+left upper leg
+bounds:1129,949,74,344
+long chain
+bounds:1934,1702,110,342
+r finger 2
+bounds:393,940,58,57
+r hand
+bounds:1383,207,186,183
+r leg 1
+bounds:4,4,100,102
+rotate:90
+r lower arm
+bounds:641,268,282,252
+rotate:90
+r lower leg 2
+bounds:1905,858,195,134
+rotate:90
+r upper arm
+bounds:1934,1389,91,309
+right lower leg
+bounds:1260,1272,200,418
+right upper leg
+bounds:1733,875,168,295
+short chain
+bounds:1111,772,79,173
+skeleton details
+bounds:748,1002,377,291

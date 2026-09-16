@@ -37,7 +37,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/EnemyWaves.unity",
             "_guid": "ba7c27c1d15c92943802f409d92c0e62",
-            "_checkSum": "73872be68073db9547856702d00e5504"
+            "_checkSum": "d16ce7521726d0becf693795558e3c40"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Wave.asset",
@@ -62,7 +62,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/HighScores/HighScores.unity",
             "_guid": "0c8031c883b6c064aa5251f4c0053596",
-            "_checkSum": "d1cb27e8d1c7fe88386c3e3d0fde471b"
+            "_checkSum": "554c646031acffa6c5c23df042e410e2"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/HighScores/HighScoreUI.prefab",
@@ -72,7 +72,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/LeaderBoard/LeaderBoard.unity",
             "_guid": "82a248d345ae7db43b5a43c38baa3407",
-            "_checkSum": "2c4110f06b17df5c706d00e34c5342c2"
+            "_checkSum": "a5b848a67087c31c50003dba9a93f4f3"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/LeaderBoard/Racer.asset",
@@ -92,37 +92,37 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/TableEditor/ItemUI.prefab",
             "_guid": "06bb30513b8b4c24fbc26cf2392010b4",
-            "_checkSum": "fcd499a60e9b1e3db2037fdc17ba8e0b"
+            "_checkSum": "01198cf0b3f517d5a79108e372c85976"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/TableEditor/TableEditor.unity",
             "_guid": "00444fd91731b6742a1f37956ef0739a",
-            "_checkSum": "18653139cc44f0aec367e08351ce0224"
+            "_checkSum": "76a737733aa20fd43023f8cfe6934702"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/bat.prefab",
             "_guid": "8ed39181104930a4bb51e7ebf9edd7d9",
-            "_checkSum": "a771e9ba3f000971021cca88f4da23c7"
+            "_checkSum": "7275f8a693554353aabe3cff7ed430ed"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/dragon-big.prefab",
             "_guid": "5e6f64883b46c8f41bb27da876a30973",
-            "_checkSum": "dfd145cd0c6b9fafa5452c67ae5ee052"
+            "_checkSum": "70b0e85ce47a54cee7a540addfd9145a"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/dragon.prefab",
             "_guid": "030e7e3f787ffad449bc9518da1cd878",
-            "_checkSum": "17a07917311d0672cdd7042a272ca268"
+            "_checkSum": "f56ef012a408a3e38c1d92ff6222ab37"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/eyeball.prefab",
             "_guid": "1152862a5dd0ce84f871d8e7e2b98c6a",
-            "_checkSum": "768b233111445bbede8c08c4f8a0ec29"
+            "_checkSum": "31e966918a860306458bdedb794b5173"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/gargoyle.prefab",
             "_guid": "f7fb1be69c45f4548bea78a70dc4d6d0",
-            "_checkSum": "4a4cfe6c8ac79f99266bdffc1de20ee0"
+            "_checkSum": "3a6aa56e2e1a6ef492692782cbb071ba"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/ghost.prefab",
@@ -132,27 +132,27 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/ghoul.prefab",
             "_guid": "7299fe599ffbd9c4ba08c17e53b74101",
-            "_checkSum": "6d219ab9b1d31f0dcac48cbf9f504bd5"
+            "_checkSum": "51b4dff258bb16331cc8d2b556802602"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/goblin.prefab",
             "_guid": "d437221e05c301a4290e13981ead0d39",
-            "_checkSum": "2570d8408f43c484b453c41cded99af5"
+            "_checkSum": "92be153635e8060b3bceb14f50274695"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/hydra.prefab",
             "_guid": "8a7c43b670d4c3e4e969d9939762cc76",
-            "_checkSum": "0379eeecf9f1c9940899e049ddb58ac6"
+            "_checkSum": "da68869d29638412e98843c4357bfb18"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/knight.prefab",
             "_guid": "84248be0515d6644b86ffa8acc069eda",
-            "_checkSum": "86210c57ef7aca4c9caaca265ce56271"
+            "_checkSum": "8f3e7d5a891f35ca61c9745d474f7e0b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/orbs.prefab",
             "_guid": "b6c4d6d9150d75f428c90644bb76f142",
-            "_checkSum": "e9ece38d398ff070852dd2792a496c0d"
+            "_checkSum": "fcd68a1521460092bd2e7764451949aa"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/ork.prefab",
@@ -167,12 +167,12 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/skeleton.prefab",
             "_guid": "ed0b8c395a6a49d4a96e19a106846f98",
-            "_checkSum": "6c934b4c485e04466aa09ad65c18a1aa"
+            "_checkSum": "1a4f2f81b3e5837854342771f357f383"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/slime.prefab",
             "_guid": "75f65f8ea8bcfdb4b9413aac2e56097c",
-            "_checkSum": "679f20e7a6d21532f1b36a823a484e74"
+            "_checkSum": "e886961a6d709c2d3c818d4c1bbe5412"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/EnemyWaves/Prefabs/trap.prefab",
@@ -197,7 +197,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/LeaderBoard/Prefabs/Racer.prefab",
             "_guid": "c993af4d9ac3ad941b071107374180b9",
-            "_checkSum": "8012847c43c0c01eb747a7957643136b"
+            "_checkSum": "25a526c319e7adeb03d9fa259e0ca6ba"
         },
         {
             "_path": "Assets/Samples/PlayMaker/DataTables/LeaderBoard/Prefabs/RacerUI.prefab",
@@ -547,7 +547,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -679,7 +679,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379308275716
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107194391049
 }

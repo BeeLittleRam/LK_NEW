@@ -34,7 +34,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/AnimalMatch/AnimalMatch.unity",
             "_guid": "7eac8d082fa02414198ce8b3436e38dc",
-            "_checkSum": "6b735d22516c13a85a5c0100e4508be0"
+            "_checkSum": "95dd3346846c957c49764c90b4d0ad65"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/AnimalMatch/Documentation.asset",
@@ -79,12 +79,12 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/AnimalMatch/Prefabs/Animal.prefab",
             "_guid": "7d5404b7465524242acb3c069f1060b5",
-            "_checkSum": "94d88fad13499660a0201b8f6bea13bb"
+            "_checkSum": "e51abc3995961e8466963169fb7014c1"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/AnimalMatch/Prefabs/DropTarget.prefab",
             "_guid": "370d13f1b05ab7a49ad0e5053bbfba01",
-            "_checkSum": "a20a35923712239f1bbb9121579e298d"
+            "_checkSum": "4c632f9b5912fe173b253ff586cad5e9"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/AnimalMatch/Sprites/bear.png",
@@ -544,7 +544,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -652,7 +652,7 @@
             "HutongGames.PlayMaker.Actions.UI.ImageGetSprite"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379243321232
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107229676160
 }

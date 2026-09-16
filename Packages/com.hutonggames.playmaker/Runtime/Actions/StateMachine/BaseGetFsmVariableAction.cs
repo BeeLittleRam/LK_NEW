@@ -80,8 +80,30 @@ namespace HutongGames.PlayMaker.Actions
             else
             {
                 _target.LogAmbiguousShortNameWarning(this, variable);
-                _storeValue.Value = variable.Value;
+                _storeValue.Value = CopyValueForStore(variable.Value);
             }
+        }
+
+        private static T CopyValueForStore(T value)
+        {
+            if (value == null)
+            {
+                return default;
+            }
+
+            var valueType = value.GetType();
+            if (!valueType.IsGenericType || valueType.GetGenericTypeDefinition() != typeof(System.Collections.Generic.List<>))
+            {
+                return value;
+            }
+
+            var copy = (System.Collections.IList)Activator.CreateInstance(valueType);
+            foreach (var item in (System.Collections.IEnumerable)value)
+            {
+                copy.Add(item);
+            }
+
+            return (T)copy;
         }
 
         public override string GetSummary() => "Get {_target._fsmComponent} {_target._variableName} -> {_storeValue}";

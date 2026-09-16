@@ -2127,6 +2127,11 @@ Action Editor
     color: var(--hutong-editor-colors-paused);
 }
 
+.hutong-fsm-play-mode-gui__status {
+    margin-top: 3px;
+    white-space: normal;
+}
+
 .unity-editor--playing > .hutong-fsm-play-mode-gui {
     display: flex;
 }

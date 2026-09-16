@@ -39,7 +39,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/ShootingGallery.unity",
             "_guid": "d3dd7aa4386869c41971f0ea27608cf6",
-            "_checkSum": "0a908d4b734ac4d0eab5a33a79b44d93"
+            "_checkSum": "25eb3241bd2acbb0aa5ebded0bd41fd0"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Audio/empty.mp3",
@@ -134,22 +134,22 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Prefabs/DuckTarget White.prefab",
             "_guid": "6320011bb651a5f418bdef4c48bed81f",
-            "_checkSum": "29cb3a51b359ee2e08a381ae6ce20c79"
+            "_checkSum": "b63ac58697832858e1b1b564b8328463"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Prefabs/DuckTarget.prefab",
             "_guid": "3cc9f773728023d469ed766f51a880fb",
-            "_checkSum": "e05062d5dbb33f1ab615e0beb99cebab"
+            "_checkSum": "8720652bb635bcdf3a3ffe726a0f3cb2"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Prefabs/Target Top.prefab",
             "_guid": "930d41f14ff27f94e947f2cdd7dec17a",
-            "_checkSum": "f4e1721bf909ea2147e05a57510d3764"
+            "_checkSum": "50fd724cee4819f9203f79492718b78d"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Prefabs/Target.prefab",
             "_guid": "fd237f6447c7fd742b5ba76a28ff7e10",
-            "_checkSum": "a81ac2a0eb4347186efc091ae984c322"
+            "_checkSum": "b4567fec4c87cff8a268c8aa89f7e89c"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Sprites/License.txt",
@@ -159,7 +159,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Templates/Spawner.asset",
             "_guid": "36896cf14e922544fa3c863fc37155e4",
-            "_checkSum": "6daecd41d90b889a161347de51f1689f"
+            "_checkSum": "554e3514fe0060dcc49bf59796845b26"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/ShootingGallery/Sprites/HUD/crosshair_outline_large.png",
@@ -729,7 +729,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -855,7 +855,7 @@
             "HutongGames.PlayMaker.Actions.WaitForVariableValue"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379114811432
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107281845970
 }

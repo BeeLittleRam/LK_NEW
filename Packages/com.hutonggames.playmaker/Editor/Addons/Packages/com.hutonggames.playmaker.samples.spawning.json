@@ -42,7 +42,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Prefabs/PooledCube.prefab",
             "_guid": "10f56059a7bea72419a5754b43c117ef",
-            "_checkSum": "70ca5f291f4f6c014426e22f7c101d05"
+            "_checkSum": "fc5b45f42b0f3a3ceb52e951d6fbe5f6"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Prefabs/TestCapsuleRigidBody.prefab",
@@ -52,7 +52,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Prefabs/TestCubeClickToDelete.prefab",
             "_guid": "23f0e3cf062dcf24dbeb48b276b509cb",
-            "_checkSum": "29d9ced758d15e2ab165edf5dfce6a86"
+            "_checkSum": "9fd22dc1ca1d7a89e6ad6ce2bfc4f9bb"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Prefabs/TestCubeRigidBody.prefab",
@@ -67,27 +67,27 @@
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Scenes/MouseClickToSpawn.unity",
             "_guid": "08a041b5b248fc74ca3bd45bca897f2e",
-            "_checkSum": "5738ab27cbe2725946b71c0dbdc54ceb"
+            "_checkSum": "bbf1d5120d4b81d4f55ff6046ca300e6"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Scenes/MouseClickToSpawnAligned.unity",
             "_guid": "40934b63b12bd4f4481cb78a524b0c99",
-            "_checkSum": "3fb7b09c6fcbbe708d8410b1e05f121c"
+            "_checkSum": "dfb4abb0adcfe6d7738195c1d9e5d703"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Scenes/MouseClickToSpawnRandom.unity",
             "_guid": "2c0d70cd15b79b54eb794f74aa59a1a3",
-            "_checkSum": "409c65cf883dc06c2509c23b00fead47"
+            "_checkSum": "6ecae6921574ced82738706587d471b5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Scenes/ObjectPooling.unity",
             "_guid": "ef5bc3ce73fc6614aa7500c29ba21f14",
-            "_checkSum": "a6735e9c9826af1370fc8c54235d7705"
+            "_checkSum": "59b4035b4f43d5bcaec0ee7203be86b5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Spawning/Scenes/SpawnWave.unity",
             "_guid": "403bd3f3676daf8438951ecba48345c7",
-            "_checkSum": "1556631dc966c233a392ec0263701162"
+            "_checkSum": "b8d3edf291386527f9435e7a3da42cac"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
@@ -387,7 +387,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -498,7 +498,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379146588038
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107245115606
 }

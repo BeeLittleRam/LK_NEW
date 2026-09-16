@@ -12,7 +12,7 @@ namespace HutongGames.PlayMaker.Actions
         "Evaluates a mathematical expression. Use {VarName} to reference FSM variables.\n" +
         "Supports property paths like {Position.x}, {Velocity.magnitude}, {Owner.transform.position.y}.\n" +
         "Built-ins: {Time.deltaTime}, {Time.time}, {Time.unscaledTime} (braces optional for built-ins).\n" +
-        "Supports whitelisted math functions like Abs(...).")]
+        "Supports whitelisted math functions like Abs(...), Sqrt(...), Sin(...).")]
     public abstract class BaseExpressionEvaluatorEvaluate : BaseAction
     {
         [Tooltip("Expression with {VarName} placeholders, e.g., {Health} / {Max} * 100.\n" +

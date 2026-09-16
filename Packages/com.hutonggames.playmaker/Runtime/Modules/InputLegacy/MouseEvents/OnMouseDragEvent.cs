@@ -13,6 +13,14 @@ namespace HutongGames.PlayMaker
     
     public class OnMouseDragProxyComponent : BaseProxyEventComponent
     {
-        public void OnMouseDrag() => SendEvent(OnMouseDragEvent.Instance);
+        private int _lastMouseDragFrame = -1;
+
+        public void OnMouseDrag()
+        {
+            if (!IsDuplicateFrameEvent(ref _lastMouseDragFrame))
+            {
+                SendEvent(OnMouseDragEvent.Instance);
+            }
+        }
     }
 }

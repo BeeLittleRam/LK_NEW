@@ -42,42 +42,42 @@
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/01_BasicController.unity",
             "_guid": "9f6406a51585f244cbb71828ec68e8b9",
-            "_checkSum": "97b7fda55e6af93763a9a78e84f53091"
+            "_checkSum": "1cdceed45daf6949abd6b91d5ffbf0ba"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/02_JumpTweaks.unity",
             "_guid": "6e64e2f8579abc24fb46e2e7e7f50360",
-            "_checkSum": "ba1632a8977b70339e2ff8be9f8ad6f1"
+            "_checkSum": "360d2b7017ea53273f2b1933767e8a48"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/03_DoubleJump.unity",
             "_guid": "cf521242df4d11a42a9cf9f5c6888b46",
-            "_checkSum": "78ca7683b31d65bc43dcf6896864c8a4"
+            "_checkSum": "93cb57e454028bf6928337687411812e"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/04_SyncAnimator.unity",
             "_guid": "223b43826394eb64bba96e70777537f0",
-            "_checkSum": "b89b07f5c4a31dc0e556614f674d9bb7"
+            "_checkSum": "a323fc099fe6c4d32c2d3d3ce8a4439d"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/05_WallSlide.unity",
             "_guid": "646d7c3fe03ef34419019194eb6bff78",
-            "_checkSum": "46540abc6a4ca72e9fc943bfe391b067"
+            "_checkSum": "89dc2cb095800a7f4c7188d50e6efe39"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/06_WallJump.unity",
             "_guid": "fa82759e61a344d4384c01f69f7d496e",
-            "_checkSum": "e6e6e2ac4f6124adcfd79ed0e29f3629"
+            "_checkSum": "3ace6cb531d20d3dcf8e7c0ec691b455"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/InAirDash.unity",
             "_guid": "458299905ddda954c857224c5f53b61f",
-            "_checkSum": "710339eaa65c0d4dc86d8b87a493c99e"
+            "_checkSum": "db000e1b1f7a4b4ad3cf8f823f63fb13"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Scenes/MovingPlatforms.unity",
             "_guid": "3d8b4bb7f66ef474e8cef27aed479a5e",
-            "_checkSum": "36d0c727b828763d20b1b8dd012953b3"
+            "_checkSum": "303f8af90795bc871a37afeea0568019"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Platformer2D/Sprites/Bob.png",
@@ -492,7 +492,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -620,7 +620,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379171822616
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107334799334
 }

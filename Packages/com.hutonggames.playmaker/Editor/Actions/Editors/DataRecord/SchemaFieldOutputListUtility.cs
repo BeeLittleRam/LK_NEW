@@ -56,8 +56,7 @@ namespace HutongGames.PlayMaker.Editor
 
         private static IVariableRef CreateDefaultStore(DataSchemaUtility.SchemaField sf)
         {
-            // Your convention: SubType is never null and is safe to use as the type.
-            return VariableFactory.CreateVariableRefForDataType(sf.SubType);
+            return VariableFactory.CreateVariableRefForDataType(sf.DataType, sf.SubType);
         }
 
         public static Dictionary<SerializableGuid, int> BuildGuidToIndexMap(

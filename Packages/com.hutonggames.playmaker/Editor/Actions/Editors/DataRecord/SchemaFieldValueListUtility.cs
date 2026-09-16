@@ -58,7 +58,7 @@ namespace HutongGames.PlayMaker.Editor
 
         private static IVariableVar CreateDefaultVar(DataSchemaUtility.SchemaField schemaField)
         {
-            return VariableFactory.CreateVariableVarForDataType(schemaField.SubType);
+            return VariableFactory.CreateVariableVarForDataType(schemaField.DataType, schemaField.SubType);
         }
 
         public static Dictionary<SerializableGuid, int> BuildGuidToIndexMap(

@@ -22,7 +22,7 @@ namespace HutongGames.PlayMaker.Editor.Install
         /// <summary>
         /// The version this installer will install.
         /// </summary>
-        public const string InstallerVersion = "2.0.0b81";
+        public const string InstallerVersion = "2.0.0b83";
         
         public static bool UpToDate => LastInstallerVersion == InstallerVersion && IsPlayMakerInstalled();
         

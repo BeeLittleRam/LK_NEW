@@ -42,7 +42,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/MazeChase/MazeChase.unity",
             "_guid": "ffeb85d3ec59fab4e8832600137c57c4",
-            "_checkSum": "cf61284bf329627871cbfcbb7fdd7685"
+            "_checkSum": "7bdbb4bd31f015926eeb978913575259"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/eyes-down.anim",
@@ -277,7 +277,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Prefabs/Ghost.prefab",
             "_guid": "51692c4866eefaf4d91146d1707ed688",
-            "_checkSum": "5456635dc04b47863b6ec111276e63f3"
+            "_checkSum": "5e543c28304d916978f3a9e0005aca1a"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Sprites/ghosts.png",
@@ -857,7 +857,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -1002,7 +1002,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379260429936
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107291251587
 }

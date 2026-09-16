@@ -12,7 +12,9 @@
         "com.hutonggames.playmaker.flight",
         "com.hutonggames.playmaker.proc-gen"
     ],
-    "_upmDependencies": [],
+    "_upmDependencies": [
+        "com.unity.inputsystem"
+    ],
     "_upmPackageRequirements": [],
     "_minimumUnityVersion": "",
     "_summary": "3D space shooter with 6DOF controls and enemy AI.",
@@ -237,7 +239,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Scenes/SpaceShooter.unity",
             "_guid": "6753429ad853d90409f5fcead39491a5",
-            "_checkSum": "e592a0a0855dbf1214e985dcca80d577"
+            "_checkSum": "ba5387be549250507dc8703a90d1cfe2"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/6-dof-flight-controls.png",
@@ -292,7 +294,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Templates/CommEntry.asset",
             "_guid": "a8cfa333d417b3e48b0c81b401064b7f",
-            "_checkSum": "71aca6584f418c4a5650830abc00d357"
+            "_checkSum": "ac61ece8f6cc0cd92fc49fa1172b8be5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Templates/Health.asset",
@@ -517,37 +519,37 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Enemies/Pirate.prefab",
             "_guid": "6bb4476d478b2504cad857d0f5ac6bf7",
-            "_checkSum": "3df4c55dc2e54783e78a6b3c024c2782"
+            "_checkSum": "6d704c64c93e85807c2e14e6b6271ad8"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Enemies/Sentry.prefab",
             "_guid": "8120624428d1d954a9ca54f9236e52cc",
-            "_checkSum": "677eb4af9264d049eabd4bd7f9bce505"
+            "_checkSum": "5f5c7742df7f66802cc8217a800e11a7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/Message.prefab",
             "_guid": "dc6bd8d1d6484ae43ac144989f5b8677",
-            "_checkSum": "6111457f88ceaea89961c3cd576a2e3b"
+            "_checkSum": "e50688c6c7b2774e0d57b7e58099d19a"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/OffscreenArrow.prefab",
             "_guid": "5874a22af03a86a43b0f8205ad55b22d",
-            "_checkSum": "e65572e56d2ced078d9e570970987d46"
+            "_checkSum": "4c3695ccfe6c0053e150f8c6136c4f41"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/TargetBracket.prefab",
             "_guid": "f9eb0257f9803d94ca1639cc5e6c5064",
-            "_checkSum": "4e0da18b15f5f729cce1d509991d6e9e"
+            "_checkSum": "2933ccbdc45a22e5d45a2eb933cfc974"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Beacon Dark.prefab",
             "_guid": "2d316f56abd20ae459474e3d5621239c",
-            "_checkSum": "3bd36a1ce5ba75a3d9f23c79cf1c7405"
+            "_checkSum": "0a2e3855c9aa1e46fa87bed62c34f616"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Beacon.prefab",
             "_guid": "699b1e812b952dd4785c10adae4dd6b7",
-            "_checkSum": "25f9290370038cbeb2387d75f7b51233"
+            "_checkSum": "db192dba98e577872713462b6c7df1b9"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Wreck.prefab",
@@ -557,17 +559,17 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/Explosion.prefab",
             "_guid": "b33b0f90d13fc194c95a1539763d6396",
-            "_checkSum": "8fe76f43370e28bc14b673c11e118ebe"
+            "_checkSum": "d649329b6bda1e1d389b802298c3e507"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LargeExplosion.prefab",
             "_guid": "bcd7abb2fa135e24988eceb6bed3ba1f",
-            "_checkSum": "f523feef8ec9c84d6e729d1d1ce7e78f"
+            "_checkSum": "a34d6a4cb1fd6222c1a35c5d41567b43"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LaserBolt.prefab",
             "_guid": "7bef0abb19a477f4296e654cbec52e5d",
-            "_checkSum": "d34404be5774c04880d3a06e4805c4b9"
+            "_checkSum": "028797fa2c8ab310a2f46f76c597492b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LaserFlash.prefab",
@@ -957,7 +959,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -1109,7 +1111,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379230517344
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107100419798
 }

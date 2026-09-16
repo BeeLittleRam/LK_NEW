@@ -14,6 +14,57 @@ Check out the [online documentation](https://hutonggames.com/playmaker/docs/welc
 - Unity 6.3 is supported in 6000.3.5f1 and higher.
 - The GraphView does not currently have a light theme. Other parts of the UI might also be less optimal in the light theme. Please report any problems you see when using the light editor theme.
 
+## [2.0.0 beta 83] - 2026-8-25
+
+### ADDED
+
+- Added network syncing of variables. Use a PlayMaker Network Variable Sync component on the same GameObject as the FSM you want to sync.
+- Added more networking actions. Update the **Networking** addon and then the **Netcode for GameObjects** addon.
+- Added more **networking samples scenes**.
+- Added optional name field to **GameObjectFindWithTag** action.
+- Added **ListAddItems** action so you can add multiple variables to a list.
+- Added *Add Global Transition* to Parent State context menu.
+- Added image drag and drop onto the graph view to create a new Image node.
+- Added *Select Icon* to Image nodes to make it easier to select built-in icons.
+- Added Size control to Image nodes to size the node using the native image size.
+- Added an installer warning for Unity versions 6.3.0 - 6.3.4 that had compatibility issues with third party tools.
+- Added some colors to the node colors palette.
+
+### FIXED
+
+- Fixed **String Split** errors when selecting Options: Everything.
+- Fixed math functions in **ExpressionEvaluatorEvaluate** actions.
+- Fixed an issue where nested event transitions could leave a parallel region with no active state.
+- Fixed duplicate OnMouseXXX system events when only the new Input System is enabled.
+- Fixed Animate Variable actions sometimes entering an infinite transition loop when short-duration animations completed immediately on the first frame after entering Play Mode.
+- Fixed InputShim compile errors with Input System package versions earlier than 1.14.0.
+- Fixed a null reference error when checking unused events in prefab FSMs.
+- Fixed **SpaceShooter** InputSystem requirement when importing.
+
+## [2.0.0 beta 82] - 2026-8-19
+
+### CHANGED
+
+- Updated the FSM data version. Existing FSMs are upgraded automatically when scenes are opened, which may mark those scenes as dirty.
+
+### ADDED
+
+- ALPHA RELEASE of **Networking** addon. It currently supports **Netcode for GameObjects** but is extensible to other networking solutions. NOTE: This is an ALPHA RELEASE and is not yet ready for production use. There is no automatic variable syncing yet.
+- Added parameter browsing support to Animator actions.
+- Added Space option to **RigidbodyGetVelocity** actions.
+- Added HitEvent, NotHitEvent, and DidHit to **Physics2DRaycast**, **Physics2DLinecast**, and **PhysicsLinecast** actions.
+- Added Exclude Root option to **GameObjectGetComponentsInChildren** and **GameObjectGetComponentsInParent** actions.
+- Added (Hold) to **InputGetKey**, **InputGetAnyKey**, and **InputGetButton** names
+- Added **GameObjectGetAncestor** and **GameObjectGetAncestors** actions.
+
+### FIXED
+
+- Fixed Get FSM list actions sharing source list.
+- Fixed FSM Input/Output settings not always updating.
+- Fixed first-field as key sometimes not working in builds.
+- Fixed selected FSM in an additively loaded scene getting "lost" when exiting play mode.
+- Fixed EnumList fields in DataDefinitions and DataComponents.
+
 ## [2.0.0 beta 81] - 2026-8-11
 
 ### CHANGED
@@ -1700,6 +1751,32 @@ This visually clarifies state hierarchies, and you spend less time moving region
 - Fixed setting Default Link Style in PlayMaker settings.
 - Fixed ActionBrowser panels overlapping when small.
 - Fixed typo in CheckIntLessThanOrEqual action name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

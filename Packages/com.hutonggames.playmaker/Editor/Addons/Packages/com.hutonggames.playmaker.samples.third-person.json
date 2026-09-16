@@ -26,57 +26,57 @@
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/Camera/CraneCamera.unity",
             "_guid": "07d4846e04e8799428f952aaa47307d2",
-            "_checkSum": "5c1f40f81cd698e876cc4e8f7fe39e46"
+            "_checkSum": "fcbd3b4b7b4a39a1bbb2b65777dcf21c"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/Camera/FixedCamera.unity",
             "_guid": "5eb7934cc461296479511fe672c0a07f",
-            "_checkSum": "612b172fce7719a7bfcfb3caa20fa938"
+            "_checkSum": "cef38e6d2905b970d9a21d47cfa2faf6"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/Camera/OrbitCamera.unity",
             "_guid": "af335fba0d6584449a2cf1669d0d7045",
-            "_checkSum": "27d693a86d436c0699caa69196fbcf74"
+            "_checkSum": "79928cd647404b26999378e228067f2e"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/Enemies/Turrets.unity",
             "_guid": "fffcc185428804e4b9d6040d45ae8647",
-            "_checkSum": "e6847d126428c0461bec6d4aeb2eddbb"
+            "_checkSum": "f65512b74075366a34738fd7d1240866"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/MoveTowards/MoveTowardsNextTarget.unity",
             "_guid": "6520161cde3cc1640b0d5039c6459299",
-            "_checkSum": "fed3403d69018a2d64097fee3a9691cc"
+            "_checkSum": "675beb04c4c994176148ef3a074209b7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/MoveTowards/MoveTowardsRandomTarget.unity",
             "_guid": "a3fe67fd682989e46b1b28f2c6c2b382",
-            "_checkSum": "91311f3371dd0491e76705c1fa0c490c"
+            "_checkSum": "29bba1dfe26259ecccb5d9f6ccbb0ca1"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/MoveTowards/MoveTowardsTarget.unity",
             "_guid": "9d3f85634b367a44d99d941d796542b7",
-            "_checkSum": "41319c69dcd6d6de5e01e24a659af728"
+            "_checkSum": "63077377f711c459b8e81177f1e9369b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/PlayerController/01_SimpleMove.unity",
             "_guid": "2044bd96fa7f6904f92bcdd6d41b7836",
-            "_checkSum": "f63f13b8da9827da9c0467d01938527c"
+            "_checkSum": "8e6de7455886ca6b612197b9bc0849de"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/PlayerController/02_WalkAndRun.unity",
             "_guid": "3209ba5883740404aa06b432a0e32556",
-            "_checkSum": "9afd46d938dae674c9959521c5dc403b"
+            "_checkSum": "2cd05d393f9a72dbf88270f00aaed4e5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/PlayerController/03_WalkRunAndJump.unity",
             "_guid": "9386e2e50c12ba444b4a5b8d05dd2b50",
-            "_checkSum": "41b0aad197b32c716305952c3662add7"
+            "_checkSum": "2d710eea13db1b54ff62f4be14dce724"
         },
         {
             "_path": "Assets/Samples/PlayMaker/ThirdPerson/Scenes/PlayerController/PlayerController.unity",
             "_guid": "d1c740a4ec77353458503c6d1dab586f",
-            "_checkSum": "acdc68f950c6a4fbe2b42f3808a79447"
+            "_checkSum": "9c378e9981ed8bdccb87d85c5c1d3bbe"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
@@ -376,7 +376,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -492,7 +492,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379139687265
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107236094320
 }

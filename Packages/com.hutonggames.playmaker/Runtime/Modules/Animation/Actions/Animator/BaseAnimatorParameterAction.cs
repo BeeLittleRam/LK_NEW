@@ -17,6 +17,7 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[DisplayOrder(-999)]
 		[Tooltip("The parameter name.")]
+		[AnimatorParameter]
 		[SerializeField]
 		protected StringVar _name;
 

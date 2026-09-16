@@ -120,7 +120,7 @@ namespace HutongGames.PlayMaker
                 if (definitionVar is not BaseVariable baseVariable || baseVariable.Guid != fieldGuid)
                     continue;
 
-                var value = VariableFactory.CreateVariableVarForDataType(definitionVar.DataType);
+                var value = VariableFactory.CreateVariableVarForDataType(definitionVar.DataType, definitionVar.SubType);
                 if (value == null)
                     return null;
 

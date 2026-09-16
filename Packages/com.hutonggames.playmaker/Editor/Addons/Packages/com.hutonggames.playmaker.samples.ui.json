@@ -48,77 +48,77 @@
         {
             "_path": "Assets/Samples/PlayMaker/UI/Prefabs/DraggableBlock.prefab",
             "_guid": "ce04ba2695cbce3498db79f374d6b07f",
-            "_checkSum": "d3cb4348f530f60336690bf519f8102d"
+            "_checkSum": "8be1a09f3423e52a2ba702ba7d00c5d8"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Prefabs/Greeting.prefab",
             "_guid": "a209cfe410165fd4cb2d3242f997a641",
-            "_checkSum": "820c64870a3596be2373c400621ae9ae"
+            "_checkSum": "776545e7b5e4324818cd9ebea42c3819"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/Countdown.unity",
             "_guid": "75fcd560f577d514b805b9879e943e04",
-            "_checkSum": "3f9cb109afdc3534265090b88c6ffd1a"
+            "_checkSum": "90b5a19ff9b1d85cac6840b8ae52a796"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/DragAndDrop.unity",
             "_guid": "1ca87f00da8330b4ebfed25d0064f2f8",
-            "_checkSum": "37db8678f6b1e6366519773b1c3c09ac"
+            "_checkSum": "719e482d6a007ccc3a41d150c2f09d4a"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/DragImage.unity",
             "_guid": "4745ffe245793564cbdb904ad7b459a3",
-            "_checkSum": "9ce1b1339053ff1616937c534102cfa8"
+            "_checkSum": "101bdcf3060448c29c25a475fe37695c"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/DragImages.unity",
             "_guid": "69df12895e08d2345a92a1450c20bdb3",
-            "_checkSum": "fa9fccf577f6af3c632324675b6b404f"
+            "_checkSum": "1eaf8aaceafaddc9676474e2748d5cc7"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/HealthBar.unity",
             "_guid": "37d61ae7fb64c3c4c907bc0978f744db",
-            "_checkSum": "941de2a1f96303fe54c55b10f652dc85"
+            "_checkSum": "f27aa88718fb52b138f1a46069350af5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/KeypadLock.unity",
             "_guid": "d90348f22b8097948aacb1df4a5e598a",
-            "_checkSum": "b12b48c809413447282ee8672254cc2a"
+            "_checkSum": "a23547edb156bcead590b663b66810b0"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/Radar.unity",
             "_guid": "923c8ed4b9f00484db19202e5ebce327",
-            "_checkSum": "02d8bd34bd2deebf5851ac5da6953bd5"
+            "_checkSum": "6801c72ade5374ceb648e2eb65b72f2d"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/RandomGreeting.unity",
             "_guid": "89e540a5e8d897d48b8efad0f97a8362",
-            "_checkSum": "4dcd5283607d2eeee1e0de36f885f81e"
+            "_checkSum": "188906cba2e979b66a2c9e81c859b903"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/SavePlayerName.unity",
             "_guid": "c16ce18c807015541a5a065d5cdb8120",
-            "_checkSum": "902ee71a7697726167a12824de78dbde"
+            "_checkSum": "d1bb8f34371e5dc04b760e4f07176efa"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/SwipeEvent.unity",
             "_guid": "64478cd3992bcfe4bb815459c390b2cf",
-            "_checkSum": "ba23750c171258368602f4dc55f627fb"
+            "_checkSum": "e22fe194d992383110029e5d09635176"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/UIControls.unity",
             "_guid": "30fcefbfd234495409988639bc04eeeb",
-            "_checkSum": "2e61c6cae6c80cb542d251f47cf874b7"
+            "_checkSum": "3cbdd8676af47dac2ec30562ebf2e33b"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/VolumeSlider.unity",
             "_guid": "09ce0e3c6d018ef4295fcf3a946c8821",
-            "_checkSum": "6e2658cb60e29f9321de86d155f66718"
+            "_checkSum": "1df78d509f02685feebf11fcf15ac184"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Scenes/Widgets.unity",
             "_guid": "a9b4ae4424e0988409d565b37d4fa33c",
-            "_checkSum": "e152775d32115bb2b2bf907547657bb9"
+            "_checkSum": "bec3b459475ad2d5850e2abf01003dc2"
         },
         {
             "_path": "Assets/Samples/PlayMaker/UI/Sprites/CountdownCircles.png",
@@ -438,7 +438,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -606,7 +606,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379200637371
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107186241249
 }

@@ -32,47 +32,47 @@
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/ClickSprite.unity",
             "_guid": "50c9e6c06c30e19428443704856f8fbf",
-            "_checkSum": "be16b51c41648e4716e2b886ba446047"
+            "_checkSum": "7ee71d6f13438d7eda5609f8aabdf592"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/FollowMouse.unity",
             "_guid": "a9eaee83acc216b47bf1840f253acd56",
-            "_checkSum": "d19869274bd13c5e846b784d75a6642e"
+            "_checkSum": "dd124f44024ab66e9e11790556374e66"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/FollowMouseX.unity",
             "_guid": "8b5963fc0475c2641b8e29b292a1903e",
-            "_checkSum": "d73b9347bc5192fafbad28753090ba3d"
+            "_checkSum": "0f03d453a4fda8902fbfc838c6c6c540"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/LookAtMouse.unity",
             "_guid": "f98fce5c819e6e94b96748b7fe4bfe6c",
-            "_checkSum": "5f290e7c7e2bc3f4f940445da4e39927"
+            "_checkSum": "548d74e814a9ebfd8a59c87a1aadd771"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/MouseOverSprite.unity",
             "_guid": "6bb441bbbfa4bea48a078cebb6933a7b",
-            "_checkSum": "274be666a20b345ebaefc1c035a81ac4"
+            "_checkSum": "41dd50e047cddbca49c6d73108ab98d5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Scenes/MoveSprite.unity",
             "_guid": "994e7cf1e32f9c740a8526dee549f69b",
-            "_checkSum": "ef1e39819f5963af0f5c04130a0d40cd"
+            "_checkSum": "46babcba2aabce915778ef26cd9ec980"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Templates/ClickSprite.asset",
             "_guid": "9ae4d55158f12224fad47876c37de0c1",
-            "_checkSum": "0f54b1494d4875288b0a18938b66ba67"
+            "_checkSum": "f12dddbd1127ec3f15fd66ed3fed0554"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Templates/LookAtMouse.asset",
             "_guid": "8c3f76388d704c14d89eab99436b3af1",
-            "_checkSum": "a658b3eefaa72cb09a33fcb577e3ec88"
+            "_checkSum": "64ff766e4306039d809f6928f527a842"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Mouse/Templates/MouseOverSprite.asset",
             "_guid": "4b6f0d8752d2ddd4ca6e3915c6759b57",
-            "_checkSum": "d06b42f140d7257e0603ca7f95011982"
+            "_checkSum": "d0f8bb3ecfd717a2310ea738c9f94692"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
@@ -372,7 +372,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -471,7 +471,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379214865148
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107341578752
 }

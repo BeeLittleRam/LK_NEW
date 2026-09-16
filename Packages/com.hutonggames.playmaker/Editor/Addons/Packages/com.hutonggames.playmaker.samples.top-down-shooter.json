@@ -42,7 +42,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Prefabs/Bullet.prefab",
             "_guid": "ec194d9263cd2a04094b1710dad0e29a",
-            "_checkSum": "c2100f9a9d2a10cc0f9079032a28d26e"
+            "_checkSum": "21260cf5d2e966c2f289fcbb35ad40ce"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Prefabs/BulletHit.prefab",
@@ -57,7 +57,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Prefabs/Robot.prefab",
             "_guid": "16e61f70e5fbe4146b648a543b5f91d6",
-            "_checkSum": "de48ba23070cd89e09187e5c7dfdbe91"
+            "_checkSum": "b6a6a5841026170729e0c20eb6190e89"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Prefabs/Splat.prefab",
@@ -67,22 +67,22 @@
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Scenes/01_Movement.unity",
             "_guid": "df5d5b104f47449419869202562e3fdb",
-            "_checkSum": "68789c848a4b67f396eaba3c36efb407"
+            "_checkSum": "83d526b3ce5f556c52ed42ff1332203e"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Scenes/02_Shooting.unity",
             "_guid": "d03a9e1ba8850dd4fb964e9fe5c3a5c3",
-            "_checkSum": "bc50335609f7cb55b9e59c07ad750177"
+            "_checkSum": "59997da0a64865f7a2d468db63ce16a9"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Scenes/03_Enemy.unity",
             "_guid": "031b601521c92674d9d4972ae1d3fcfc",
-            "_checkSum": "e890ab67934e6ec1c74e2d9a85add0c1"
+            "_checkSum": "603b69f2153f2dcae011842345bc6c50"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Scenes/04_EnemyWaves.unity",
             "_guid": "769ad98f8fe9aca4e8ca88105fb79d7b",
-            "_checkSum": "b6585e7ccdc3c3979f2a6272ef08f27c"
+            "_checkSum": "70cfab545ab2a5873ea4dadcb2bc12e5"
         },
         {
             "_path": "Assets/Samples/PlayMaker/TopDownShooter/Sprites/bulletBeige.png",
@@ -417,7 +417,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -519,7 +519,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379099384893
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107322506923
 }

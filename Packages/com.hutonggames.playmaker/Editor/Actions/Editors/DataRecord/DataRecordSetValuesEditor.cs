@@ -260,7 +260,7 @@ namespace HutongGames.PlayMaker.Editor
 
         private static IVariableVar CreateVarForSchemaField(DataSchemaUtility.SchemaField f)
         {
-            return VariableFactory.CreateVariableVarForDataType(f.SubType ?? f.DataType);
+            return VariableFactory.CreateVariableVarForDataType(f.DataType, f.SubType);
         }
 
         private static int FindIndexByGuid(SerializedProperty setValuesProp, SerializableGuid guid)

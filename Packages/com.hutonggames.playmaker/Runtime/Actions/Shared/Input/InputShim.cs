@@ -975,6 +975,7 @@ namespace HutongGames.PlayMaker
                 case KeyCode.F10: return Key.F10;
                 case KeyCode.F11: return Key.F11;
                 case KeyCode.F12: return Key.F12;
+#if UNITY_INPUT_SYSTEM_1_14_0_OR_NEWER
                 case KeyCode.F13: return Key.F13;
                 case KeyCode.F14: return Key.F14;
                 case KeyCode.F15: return Key.F15;
@@ -987,6 +988,7 @@ namespace HutongGames.PlayMaker
                 case KeyCode.F22: return Key.F22;
                 case KeyCode.F23: return Key.F23;
                 case KeyCode.F24: return Key.F24;
+#endif
 
                 // Top-row digits
                 case KeyCode.Alpha0: return Key.Digit0;

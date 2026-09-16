@@ -29,12 +29,12 @@
         {
             "_path": "Assets/Samples/PlayMaker/Simulation/Prefabs/Boid.prefab",
             "_guid": "806bbd5249b4b194ca740b953870669b",
-            "_checkSum": "ebd1dd9bac7fb62cbf6a4ea5beb44765"
+            "_checkSum": "e259b23356fffdff6b149012baf261df"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Simulation/Scenes/Boids.unity",
             "_guid": "f8ffca5af18531e45b6b477285865452",
-            "_checkSum": "a630c03ed046c522e65794e776e9173b"
+            "_checkSum": "5e6d7b3056d42e85f8ee399ec6572bdb"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Simulation/Sprites/boid.png",
@@ -339,7 +339,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -438,7 +438,7 @@
             "HutongGames.PlayMaker.Actions.TransformWrapAcrossScreen"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379323964408
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107172286147
 }

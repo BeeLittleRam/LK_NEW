@@ -171,7 +171,7 @@
         {
             "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorIsParameterControlledByCurve.cs",
             "_guid": "9afaeb078d8e8df4c90245c1aa7606a1",
-            "_checkSum": "503b0f7268c735477c840a056f3bdcf4"
+            "_checkSum": "3df95f2cf13e9f74b52286228fa7bedf"
         },
         {
             "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorIsParameterControlledByCurve__Id.cs",
@@ -252,7 +252,7 @@
     "_usages": {
         "_actions": []
     },
-    "_playMakerVersion": "2.0.0b69",
-    "_datePublished": "2026-06-07",
-    "_timeCode": 134253479592702947
+    "_playMakerVersion": "2.0.0b82",
+    "_datePublished": "2026-08-19",
+    "_timeCode": 134316296198203934
 }

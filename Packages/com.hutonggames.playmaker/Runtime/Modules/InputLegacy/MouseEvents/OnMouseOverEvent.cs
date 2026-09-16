@@ -13,6 +13,14 @@ namespace HutongGames.PlayMaker
 
     public class OnMouseOverProxyComponent : BaseProxyEventComponent
     {
-        public void OnMouseOver() => SendEvent(OnMouseOverEvent.Instance);
+        private int _lastMouseOverFrame = -1;
+
+        public void OnMouseOver()
+        {
+            if (!IsDuplicateFrameEvent(ref _lastMouseOverFrame))
+            {
+                SendEvent(OnMouseOverEvent.Instance);
+            }
+        }
     }
 }

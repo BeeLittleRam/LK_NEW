@@ -45,7 +45,24 @@ namespace HutongGames.PlayMaker.Actions
 		[DefaultValue("~FloatPositiveInfinity")]
 		private FloatVar _maxDepth;
 		
-		[ActionHeader("Results")]
+		[ActionHeader("Result")]
+
+		[OptionalField]
+		[Tooltip("Event to send if the ray hits something.")]
+		[SerializeField]
+		private EventRef _hitEvent;
+
+		[OptionalField]
+		[Tooltip("Event to send if the ray doesn't hit something.")]
+		[SerializeField]
+		private EventRef _notHitEvent;
+
+		[OptionalField]
+		[DisplayName("DidHit")]
+		[WriteOnly]
+		[Tooltip("Store whether the raycast hit something.")]
+		[SerializeField]
+		private BoolRef _didHit;
 		
 		[WriteOnly]
 		[Tooltip("The GameObject hit by the raycast.")]
@@ -62,15 +79,21 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override string ErrorCheck()
 		{
-			return _result.IsAssigned || _gameObjectHit.IsAssigned
+			return HasOutputs
 				? string.Empty
-				: "Specify at least one output: RaycastHit2D or GameObject.";
+				: "Specify at least one output or event.";
 		}
 
 		public override void Execute()
 		{
 			var result = Physics2D.Raycast(
 				_origin.Value, _direction.Value, _maxDistance.Value, _layerMask.Value, _minDepth.Value, _maxDepth.Value);
+			var didHit = result.collider != null;
+
+			if (_didHit.IsAssigned)
+			{
+				_didHit.Value = didHit;
+			}
 
 			if (_result.IsAssigned)
 			{
@@ -81,8 +104,18 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				_gameObjectHit.Value = result.collider ? result.collider.gameObject : null;
 			}
+
+			SendEvent(didHit ? _hitEvent : _notHitEvent);
 		}
 		
-		public override string GetSummary() => "Physics2D Raycast from {_origin} direction {_direction} -> {_result} {_gameObjectHit:output}";
+		public override string GetSummary()
+		{
+			return "Physics2D Raycast from {_origin} direction {_direction} " +
+			       (_hitEvent.IsSet ? "Hit {_hitEvent} " : "") +
+			       (_notHitEvent.IsSet ? "Not Hit {_notHitEvent} " : "") +
+			       "-> {_result} {_gameObjectHit:output} {_didHit:output}";
+		}
+
+		private bool HasOutputs => _hitEvent.IsSet || _notHitEvent.IsSet || _didHit.IsAssigned || _result.IsAssigned || _gameObjectHit.IsAssigned;
 	}
 }

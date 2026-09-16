@@ -39,7 +39,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PinWheel/PinWheel.unity",
             "_guid": "8d0dba34fd2e6db4cb1718e26e6aa4d2",
-            "_checkSum": "da730a0951cf75e0b60b63fd1a3f49df"
+            "_checkSum": "3eb19ef878e88e153e5d1391f1bdd6a3"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PinWheel/Animations/Wheel.anim",
@@ -79,7 +79,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Games/PinWheel/Prefabs/Pin.prefab",
             "_guid": "078b3af934ca7a8419e65e7f9e282f3e",
-            "_checkSum": "a6d2736459cca6bd2d362685908211ed"
+            "_checkSum": "9fc0e6ee50deaa079d6d89887548fae9"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Games/PinWheel/Sprites/Circle.png",
@@ -384,7 +384,7 @@
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
             "_guid": "212b8995053a83e4aa6208246bbaad84",
-            "_checkSum": "7a90a0f3be77a608c5819cb07355ff01"
+            "_checkSum": "a869bad356e12c65d42de81b9e2bde1f"
         },
         {
             "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
@@ -500,7 +500,7 @@
             "HutongGames.PlayMaker.Actions.WaitForSeconds"
         ]
     },
-    "_playMakerVersion": "2.0.0b81",
-    "_datePublished": "2026-08-11",
-    "_timeCode": 134309379131629902
+    "_playMakerVersion": "2.0.0b83",
+    "_datePublished": "2026-08-25",
+    "_timeCode": 134321107329044686
 }

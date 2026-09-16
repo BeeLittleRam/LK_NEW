@@ -30,6 +30,7 @@ namespace HutongGames.PlayMaker.Actions
 		private AnimatorVar _animator;
 
 		[Tooltip("The trigger parameter name.")]
+		[AnimatorParameter(AnimatorControllerParameterType.Trigger)]
 		[SerializeField]
 		private StringVar _triggerName;
 		

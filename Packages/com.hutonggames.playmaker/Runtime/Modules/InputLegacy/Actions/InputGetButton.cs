@@ -9,6 +9,7 @@ namespace HutongGames.PlayMaker.Actions
     
     [System.Serializable]
     [PublicAPI]
+    [DisplayName("Input Get Button (Hold)")]
     [ActionCategory(Category.InputButton)]
     [ConvertibleGroup(ConvertibleGroup.InputButton)]
     [ActionDescription("Returns true while the virtual button identified by buttonName is held down."

@@ -233,7 +233,7 @@ namespace MyNamespace
 
                 var valueProp = newElem.FindPropertyRelative(nameof(DataRecordAssetSetValues.FieldValue.Value));
                 if (valueProp != null)
-                    valueProp.managedReferenceValue = VariableFactory.CreateVariableVarForDataType(f.SubType ?? f.DataType);
+                    valueProp.managedReferenceValue = VariableFactory.CreateVariableVarForDataType(f.DataType, f.SubType);
             }
 
             // Reorder to schema order; orphans remain at end

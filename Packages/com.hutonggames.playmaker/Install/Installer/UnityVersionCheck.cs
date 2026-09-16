@@ -17,6 +17,15 @@ namespace HutongGames.PlayMaker.Editor
             return current >= minimum;
         }
 
+        public static bool IsUnityVersionInRange(string minVersion, string maxVersion)
+        {
+            var current = ParseUnityVersion(Application.unityVersion);
+            var min = ParseUnityVersion(minVersion);
+            var max = ParseUnityVersion(maxVersion);
+
+            return current >= min && current <= max;
+        }
+
         private static Version ParseUnityVersion(string versionString)
         {
             // Remove any 'f1', 'p1', etc. suffix

@@ -7,6 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 {
     [System.Serializable]
     [PublicAPI]
+    [DisplayName("Input Get Any Key (Hold)")]
     [ActionCategory(Category.InputButton)]
     [ConvertibleGroup(ConvertibleGroup.InputButton)]
     [Tooltip("Check if any key or mouse button is pressed." + Strings.SupportsBothInputSystems)]

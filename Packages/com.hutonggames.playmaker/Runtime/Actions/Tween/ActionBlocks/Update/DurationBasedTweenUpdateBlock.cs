@@ -43,12 +43,18 @@ namespace HutongGames.PlayMaker.Actions
         }
 
         private float _elapsedTime;
+        private float _lastUpdateTime;
         private bool _started;
         private bool _reverse;
+
+        private float CurrentTime => UseRealtime.Value
+            ? TimeHelper.RealtimeSinceStartup
+            : BaseAction.CurrentUpdateMode == UpdateMode.FixedUpdate ? Time.fixedTime : Time.time;
 
         protected virtual void Start(BaseAction _)
         {
             _elapsedTime = 0;
+            _lastUpdateTime = CurrentTime;
             _reverse = false;
             _started = false;
             Finished = false;
@@ -59,34 +65,35 @@ namespace HutongGames.PlayMaker.Actions
         {
             if (Finished) return;
 
-            _elapsedTime += UseRealtime.Value 
-                ? Time.unscaledDeltaTime 
-                : Time.deltaTime;
+            var currentTime = CurrentTime;
+            _elapsedTime += Mathf.Max(0f, currentTime - _lastUpdateTime);
+            _lastUpdateTime = currentTime;
 
             if (!_started)
             {
-                if (_elapsedTime > StartDelay.Value)
+                if (_elapsedTime >= StartDelay.Value)
                 {
                     _started = true;
                     _elapsedTime -= StartDelay.Value;
                 }
             }
             
-            if (_started && _elapsedTime > TweenDuration)
+            var tweenDuration = Mathf.Max(0f, TweenDuration);
+            if (_started && _elapsedTime >= tweenDuration)
             {
                 switch (TweenAction.LoopMode)
                 {
                     case LoopMode.None:
                         Finished = true;
-                        _elapsedTime = TweenDuration;
+                        _elapsedTime = tweenDuration;
                         break;
                     case LoopMode.Loop:
                         TweenAction.LoopCount++;
-                        _elapsedTime -= TweenDuration;
+                        _elapsedTime = tweenDuration > 0f ? _elapsedTime - tweenDuration : 0f;
                         break;
                     case LoopMode.PingPong:
                         TweenAction.LoopCount++;
-                        _elapsedTime -= TweenDuration;
+                        _elapsedTime = tweenDuration > 0f ? _elapsedTime - tweenDuration : 0f;
                         _reverse = !_reverse;
                         break;
                 }
@@ -102,8 +109,11 @@ namespace HutongGames.PlayMaker.Actions
         {
             if (!_started) return 0;
             if (Finished) return 1;
+
+            var tweenDuration = TweenDuration;
+            if (tweenDuration <= 0f) return _reverse ? 0 : 1;
             
-            var progress = Mathf.Clamp(_elapsedTime / TweenDuration, 0, 1);
+            var progress = Mathf.Clamp(_elapsedTime / tweenDuration, 0, 1);
             if (_reverse)
             {
                 progress = 1 - progress;

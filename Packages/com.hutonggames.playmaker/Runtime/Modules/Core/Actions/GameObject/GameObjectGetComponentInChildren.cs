@@ -8,7 +8,7 @@ namespace HutongGames.PlayMaker.Actions
     [PublicAPI]
     [ActionCategory(Category.GameObject)]
     [ConvertibleGroup("GetComponent")]
-    [ActionDescription("Get a Component on a GameObject, or any child of the GameObject.")]
+    [ActionDescription("Get a Component on a GameObject, or any child of the GameObject. By default, Unity includes components on the root GameObject.")]
     [HelpURL("https://docs.unity3d.com/ScriptReference/GameObject.GetComponentInChildren.html")]
     public class GameObjectGetComponentInChildren : BaseAction
     {
@@ -21,6 +21,9 @@ namespace HutongGames.PlayMaker.Actions
         
         [Tooltip("Should the search include inactive GameObjects?")]
         public BoolVar IncludeInactive;
+
+        [Tooltip("Exclude components on the root GameObject from the result.")]
+        public BoolVar ExcludeRoot = new();
         
         [SerializeReference]
         [WriteOnly, MatchType(nameof(ComponentType))]
@@ -30,10 +33,32 @@ namespace HutongGames.PlayMaker.Actions
         public override void Execute()
         {
             if (!RuntimeCheck(GameObject)) return;
-            StoreResult?.SetValue(GameObject.Value.GetComponentInChildren(ComponentType.Type, IncludeInactive.Value));
+            StoreResult?.SetValue(GetComponentInChildren());
         }
-        
+
+        private Component GetComponentInChildren()
+        {
+            var gameObject = GameObject.Value;
+            var includeInactive = IncludeInactive.Value;
+            if (ExcludeRoot is not { Value: true })
+            {
+                return gameObject.GetComponentInChildren(ComponentType.Type, includeInactive);
+            }
+
+            var components = gameObject.GetComponentsInChildren(ComponentType.Type, includeInactive);
+            foreach (var component in components)
+            {
+                if (component == null || component.gameObject != gameObject)
+                {
+                    return component;
+                }
+            }
+
+            return null;
+        }
+
         public override string GetSummary() => "Get {ComponentType} component on {GameObject} or children -> {StoreResult}" 
-                                               + (IncludeInactive.Value ? " (including inactive)" : "");
+                                               + (IncludeInactive.Value ? " (including inactive)" : "")
+                                               + (ExcludeRoot is { Value: true } ? " (excluding root)" : "");
     }
 }
