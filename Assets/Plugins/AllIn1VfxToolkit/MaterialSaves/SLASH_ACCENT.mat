@@ -137,7 +137,7 @@ Material:
     - _FadeAmount: -0.033
     - _FadeBurnGlow: 5
     - _FadeBurnWidth: 0.01
-    - _FadePower: 0.49
+    - _FadePower: 0.25
     - _FadeScrollXSpeed: 0.5
     - _FadeScrollYSpeed: 0
     - _FadeTransition: 0.01
@@ -145,9 +145,9 @@ Material:
     - _GlowGlobal: 1
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 5
-    - _HsvBright: 1.4
-    - _HsvSaturation: 1.55
-    - _HsvShift: 232
+    - _HsvBright: 1.52
+    - _HsvSaturation: 0.18
+    - _HsvShift: 236
     - _LightAmount: 0
     - _MaskPow: 1
     - _OffsetSh1: 1
