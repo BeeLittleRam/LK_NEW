@@ -118,7 +118,7 @@
                     "name": "",
                     "id": "e2fde59b-c891-4433-8493-b3f3e3877afc",
                     "path": "<Keyboard>/shift",
-                    "interactions": "",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "Dash",

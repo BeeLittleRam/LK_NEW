@@ -16,7 +16,7 @@ MonoBehaviour:
     _animationFx: 1
   _fsmLogViewSettings:
     _compactMode: 0
-    _collapseLoops: 1
+    _collapseLoops: 0
     _showTimeCode: 1
     _showExitEntries: 0
     _showNodeIcons: 0
