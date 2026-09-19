@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -143357391, guid: af56af93b18e8464f9915f7a446a8088, type: 3}
+  m_Name: UFO_DATA
+  m_EditorClassIdentifier: PlayMaker.Runtime.dll::HutongGames.PlayMaker.DataDefinition
+  _group: {fileID: 0}
+  _variables:
+    _list:
+    - rid: 5678760288792871327
+    - rid: 5678760288792871329
+    - rid: 5678760288792871331
+    - rid: 5678760288792871539
+    _ownerValue:
+      rid: -2
+    _owner: {fileID: 11400000}
+    Expanded: 1
+    _editorOnlyList:
+      _items:
+      - rid: 5678760288792871334
+      - rid: 5678760288792871332
+      - rid: 5678760288792871330
+      - rid: 5678760288792871328
+      _locked: 0
+  _firstFieldGuid:
+    _value0: 5356914805978787067
+    _value1: 2459822923758120259
+  _description: 
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5678760288792871327
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 15463162325619504945
+          _value1: 13822599352465351703
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: baseSteeringSpeed
+        _value: 0
+    - rid: 5678760288792871328
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 5678760288792871327
+    - rid: 5678760288792871329
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 13207815532520802644
+          _value1: 2845519339268844722
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: baseThrusterSpeed
+        _value: 0
+    - rid: 5678760288792871330
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 5678760288792871329
+    - rid: 5678760288792871331
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 12182583633458395079
+          _value1: 18182554801136010651
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: baseArmor
+        _value: 0
+    - rid: 5678760288792871332
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 5678760288792871331
+    - rid: 5678760288792871334
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 5678760288792871539
+    - rid: 5678760288792871539
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 5356914805978787067
+          _value1: 2459822923758120259
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: baseHealth
+        _value: 0

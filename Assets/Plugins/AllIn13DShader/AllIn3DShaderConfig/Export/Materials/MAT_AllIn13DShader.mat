@@ -13,7 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALBEDOVERTEXCOLORMODE_REPLACE
-  - _ALPHA_CUTOFF_ON
+  - _ALLIN13D_SURFACE_TRANSPARENT
   - _COLORRAMPLIGHTINGSTAGE_AFTERLIGHTING
   - _EMISSION_ON
   - _FADEUVSET_UV1
@@ -154,13 +154,13 @@ Material:
     - _AffectedByLightmaps: 0
     - _AlbedoVertexColorMode: 1
     - _AlbedoVertexColorOn: 0
-    - _AlphaCutoffOn: 1
+    - _AlphaCutoffOn: 0
     - _AlphaCutoffValue: 0.25
     - _AlphaRoundOn: 0
     - _AnisoShininess: 0.85
     - _Anisotropy: 0.45
-    - _BlendDst: 0
-    - _BlendSrc: 1
+    - _BlendDst: 10
+    - _BlendSrc: 5
     - _BlendingMaskCutoffB: 0.1
     - _BlendingMaskCutoffG: 0.1
     - _BlendingMaskCutoffWhite: 0.15
@@ -288,7 +288,7 @@ Material:
     - _ReceivedShadowsType: 0
     - _Reflections: 1
     - _ReflectionsAtten: 0.5
-    - _RenderPreset: 1
+    - _RenderPreset: 2
     - _RimAttenuation: 1
     - _RimLighting: 0
     - _RimLightingStage: 1
@@ -354,7 +354,7 @@ Material:
     - _WindVerticalMaskMaxY: 1
     - _WindVerticalMaskMinY: -1
     - _ZTestMode: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _AOColor: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.19339621, g: 1, b: 0.90662265, a: 1}
