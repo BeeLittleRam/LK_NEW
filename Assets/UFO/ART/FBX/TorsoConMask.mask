@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TorsoConMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: root
+    m_Weight: 0
+  - m_Path: root/backbone
+    m_Weight: 0
+  - m_Path: root/backbone/ABDOMEN
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l/backforeleg.l
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l/backforeleg.l/backforeleg.l.001
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l/backforeleg.l/backforeleg.l.001/backforeleg.l.001_end
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l/backforeleg.l/BackLimb.003
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.l/backlegsocket.l/backleg.l/BackLimb
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/backleg.r
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/backleg.r/backforeleg.r
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/backleg.r/backforeleg.r/backforeleg.r.001
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/backleg.r/backforeleg.r/backforeleg.r.001/backforeleg.r.001_end
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/backleg.r/backforeleg.r/BackLimb.002
+    m_Weight: 0
+  - m_Path: root/backbone/backlegconnector.r/backlegsocket.r/BackLimb.001
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/ABDOMEN.001
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/frontleg.l
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/frontleg.l/frontforeleg.l
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/frontleg.l/frontforeleg.l/ABDOMEN.002
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/frontleg.l/frontforeleg.l/frontforeleg.l.001
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.l/frontlegsocket.l/frontleg.l/frontforeleg.l/frontforeleg.l.001/frontforeleg.l.001_end
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/ABDOMEN.004
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/frontleg.r
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/frontleg.r/frontforeleg.r
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/frontleg.r/frontforeleg.r/ABDOMEN.003
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/frontleg.r/frontforeleg.r/frontforeleg.r.001
+    m_Weight: 0
+  - m_Path: root/backbone/pelvis.r/frontlegsocket.r/frontleg.r/frontforeleg.r/frontforeleg.r.001/frontforeleg.r.001_end
+    m_Weight: 0
+  - m_Path: root/backbone/rearconnector
+    m_Weight: 0
+  - m_Path: root/backbone/rearconnector/ABDOMEN.005
+    m_Weight: 0
+  - m_Path: root/backbone/rearconnector/rearconnector_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow
+    m_Weight: 1
+  - m_Path: root/TorsoFollow/hips
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/TORSO
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/L_SHOULDERSOCKET
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/hand.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/hand.l/hand.l_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/hand.l/L_HAND
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/handAttachment.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/handAttachment.l/Cube
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/handAttachment.l/handAttachment.l_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearm.l/L_FOREARM
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearmAttach.l
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/forearmAttach.l/forearmAttach.l_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.l/shouldersocket.l/pauldron.l/arm.l/L_ARM
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/forearmAttach.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/forearmAttach.r/Cylinder
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/forearmAttach.r/forearmAttach.r_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/hand.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/hand.r/hand.r_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/hand.r/R_HAND
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/handAttachment.r
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/handAttachment.r/handAttachment.r_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/forearm.r/R_FOREARM
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/pauldron.r/arm.r/R_ARM
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/collar.r/shouldersocket.r/R_SHOULDERSOCKET
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/neck
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/neck/head
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/neck/head/HEAD
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/neck/head/head_end
+    m_Weight: 0
+  - m_Path: root/TorsoFollow/hips/torso/neck/NECK
+    m_Weight: 0
+  - m_Path: root/TorsoPP
+    m_Weight: 0
+  - m_Path: root/TorsoPP/TorsoPP_end
+    m_Weight: 0
+  - m_Path: torsoparent.001
+    m_Weight: 0
+  - m_Path: torsoparent.001/torsoparent.001_end
+    m_Weight: 0
