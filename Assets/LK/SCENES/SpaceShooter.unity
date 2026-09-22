@@ -225,6 +225,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &17311773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17311774}
+  - component: {fileID: 17311777}
+  - component: {fileID: 17311776}
+  - component: {fileID: 17311775}
+  m_Layer: 0
+  m_Name: cHILD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17311774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17311773}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.427}
+  m_LocalScale: {x: 10.469231, y: 2.1225, z: 0.085420854}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 357861505}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &17311775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17311773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &17311776
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17311773}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &17311777
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17311773}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &35435906
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +348,7 @@ GameObject:
   - component: {fileID: 35435907}
   - component: {fileID: 35435908}
   - component: {fileID: 35435909}
+  - component: {fileID: 35435910}
   m_Layer: 0
   m_Name: MODEL
   m_TagString: Untagged
@@ -259,6 +372,7 @@ Transform:
   - {fileID: 94736581}
   - {fileID: 43303210}
   - {fileID: 1746220867}
+  - {fileID: 98734399}
   m_Father: {fileID: 1781683497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &35435908
@@ -334,10 +448,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: -10
-          y: -12
-          width: 210
-          height: 200
+          x: -220
+          y: -52
+          width: 723.9
+          height: 502
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -357,24 +471,40 @@ MonoBehaviour:
         _isBreakpoint: 0
         _regions:
         - rid: 5678760333472170196
+        - rid: 6191123984957046856
+        - rid: 6191123984957047519
         EditorNodes: []
         _owner: {fileID: 35435909}
         _variables:
-          _list: []
+          _list:
+          - rid: 6191123984957046837
+          - rid: 6191123984957046853
+          - rid: 6191123984957047365
           _ownerValue:
             rid: 5678760333472170197
           _owner: {fileID: 35435909}
           Expanded: 1
           _editorOnlyList:
-            _items: []
+            _items:
+            - rid: 6191123984957047366
+            - rid: 6191123984957046854
+            - rid: 6191123984957046838
             _locked: 0
         _events:
           _owner: {fileID: 35435909}
-          _list: []
+          _list:
+          - rid: 6191123984957047372
+          - rid: 6191123984957047376
+          - rid: 6191123985831559450
+          - rid: 6191123985831559532
           Expanded: 1
           Locked: 0
           _editorOnlyList:
-            _items: []
+            _items:
+            - rid: 6191123985831559533
+            - rid: 6191123985831559451
+            - rid: 6191123984957047377
+            - rid: 6191123984957047373
             _locked: 0
         _loopCountLimit: 0
         _resetVariables: 0
@@ -408,9 +538,9 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: -0
-          y: 2
-          width: 210
+          x: 30
+          y: 59
+          width: 219
           height: 112
         _icon: {fileID: 0}
         _color:
@@ -443,7 +573,7 @@ MonoBehaviour:
     - rid: 5678760333472170198
       type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
       data:
-        _name: Start
+        _name: getter
         _guid:
           _value0: 12706370303146724521
           _value1: 2692999898620025172
@@ -451,7 +581,510 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 55
-          y: 55
+          y: 33
+          width: 109
+          height: 22
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 6191123984957046784
+          - rid: 6191123984957046848
+          - rid: 6191123984957047176
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 6191123984957046785
+            - rid: 6191123984957046849
+            - rid: 6191123984957047177
+            _locked: 0
+        _transitions: []
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123984957046784
+      type: {class: RigidbodyGetVelocityZ, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2053
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _rigidbody:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 1781683500}
+          _isConstant: 1
+        _getVelocityZ:
+          _variable:
+            rid: 6191123984957046837
+          _isWriteOnly: 1
+        _space:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 6191123984957046785
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957046784
+        _fullTypeName: HutongGames.PlayMaker.Actions.RigidbodyGetVelocityZ
+    - rid: 6191123984957046837
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 4308770765280179128
+          _value1: 3705965668326287003
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: playerVelocity
+        _value: 0
+    - rid: 6191123984957046838
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191123984957046837
+    - rid: 6191123984957046848
+      type: {class: MathfAbs, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2053
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _value:
+          _variable:
+            rid: 6191123984957046837
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 0
+        _result:
+          _variable:
+            rid: 6191123984957046853
+          _isWriteOnly: 1
+    - rid: 6191123984957046849
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957046848
+        _fullTypeName: HutongGames.PlayMaker.Actions.MathfAbs
+    - rid: 6191123984957046853
+      type: {class: FloatVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 203717005480863464
+          _value1: 4752253422394290255
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: playerAbsVelocity
+        _value: 0
+    - rid: 6191123984957046854
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191123984957046853
+    - rid: 6191123984957046856
+      type: {class: RegionNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Logic
+        _guid:
+          _value0: 891495231625837001
+          _value1: 759198503198868169
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 308.5
+          y: 32
+          width: 385.4
+          height: 418
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _disabled: 0
+        _substates:
+        - rid: 6191123984957046857
+        - rid: 6191123984957047381
+        - rid: 6191123984957047619
+        - rid: 6191123985831559557
+        _transitions: []
+        _startState:
+          rid: 6191123984957046857
+        _historyNode:
+          rid: -2
+        EditorNodes: []
+    - rid: 6191123984957046857
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: In Idle
+        _guid:
+          _value0: 18334511330124313710
+          _value1: 14769188133175460964
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 129
+          y: 33
+          width: 132
+          height: 66
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 6191123985831559649
+          - rid: 6191123985831559986
+          - rid: 6191123985831559444
+          - rid: 6191123985831559406
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 6191123985831559650
+            - rid: 6191123985831559987
+            - rid: 6191123985831559445
+            - rid: 6191123985831559407
+            _locked: 0
+        _transitions:
+        - _name: goMove
+          _guid:
+            _value0: 10429093383854112688
+            _value1: 1580733347777926680
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123984957047376
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123984957047381
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        - _name: goDash
+          _guid:
+            _value0: 10342157038552379461
+            _value1: 465654223476164368
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123985831559450
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123984957047619
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123984957047176
+      type: {class: GetFsmBool, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _target:
+          _fsmComponent:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: {fileID: 1781683498}
+            _isConstant: 1
+          _variableName:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: isDashing
+            _isConstant: 1
+          _variableGuid:
+            _value0: 1565067177738074054
+            _value1: 15339161876840194176
+        _fsmComponent:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        _variableName:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 
+          _isConstant: 1
+        _defaultValue:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _storeValue:
+          _variable:
+            rid: 6191123984957047365
+          _isWriteOnly: 1
+        _notFoundEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _logError: 0
+        _serializationVersion: 1
+    - rid: 6191123984957047177
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957047176
+        _fullTypeName: HutongGames.PlayMaker.Actions.GetFsmBool
+    - rid: 6191123984957047365
+      type: {class: BoolVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 18115025373998180563
+          _value1: 16409943710651164164
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: isDashing
+        _value: 0
+    - rid: 6191123984957047366
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191123984957047365
+    - rid: 6191123984957047372
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: goIdle
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 6191123984957047373
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 6191123984957047372
+        _expanded: 0
+    - rid: 6191123984957047376
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: goMove
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 6191123984957047377
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 6191123984957047376
+        _expanded: 0
+    - rid: 6191123984957047381
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: in Move
+        _guid:
+          _value0: 18228099746769908190
+          _value1: 7366521516834105489
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 35
+          y: 166
+          width: 130
+          height: 66
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 6191123985831559779
+          - rid: 6191123985831559778
+          - rid: 6191123985831559777
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 6191123985831559782
+            - rid: 6191123985831559781
+            - rid: 6191123985831559780
+            _locked: 0
+        _transitions:
+        - _name: goDash
+          _guid:
+            _value0: 8017862550908409265
+            _value1: 4153131201089714106
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123985831559450
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123984957047619
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        - _name: Back
+          _guid:
+            _value0: 7940556234025144912
+            _value1: 15939992279953541201
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123985831559532
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123985831559557
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123984957047519
+      type: {class: RegionNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Setter
+        _guid:
+          _value0: 9696769567566129476
+          _value1: 84507219059592227
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 34.5
+          y: 279
+          width: 210
+          height: 112
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _disabled: 0
+        _substates:
+        - rid: 6191123984957047520
+        _transitions: []
+        _startState:
+          rid: 6191123984957047520
+        _historyNode:
+          rid: -2
+        EditorNodes: []
+    - rid: 6191123984957047520
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Start
+        _guid:
+          _value0: 12366693504038765623
+          _value1: 9235360500092049084
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 55
+          y: 33
           width: 100
           height: 22
         _icon: {fileID: 0}
@@ -463,14 +1096,645 @@ MonoBehaviour:
         _attachedNodeIds: []
         _attachedNodes: []
         _actionList:
-          _list: []
+          _list:
+          - rid: 6191123984957047609
           Expanded: 1
           _editorOnlyList:
-            _items: []
+            _items:
+            - rid: 6191123984957047610
             _locked: 0
         _transitions: []
         _isEndState: 0
         _isBreakpoint: 0
+    - rid: 6191123984957047609
+      type: {class: FloatSwitch, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Float:
+          _variable:
+            rid: 6191123984957046853
+          _isWriteOnly: 0
+        Check: 0
+        Switch:
+          _cases:
+          - Case:
+              _variable:
+                rid: -2
+              _isWriteOnly: 0
+              _value: 0
+              _isConstant: 1
+            Event:
+              _event:
+                rid: 6191123984957047372
+              _eventDataSetter:
+                rid: -2
+          - Case:
+              _variable:
+                rid: -2
+              _isWriteOnly: 0
+              _value: 1
+              _isConstant: 1
+            Event:
+              _event:
+                rid: 6191123984957047376
+              _eventDataSetter:
+                rid: -2
+          _defaultEvent:
+            _event:
+              rid: -2
+            _eventDataSetter:
+              rid: -2
+    - rid: 6191123984957047610
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957047609
+        _fullTypeName: HutongGames.PlayMaker.Actions.FloatSwitch
+    - rid: 6191123984957047619
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: in Dash
+        _guid:
+          _value0: 12593642754615322
+          _value1: 3720914711590092108
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 231.4
+          y: 155
+          width: 119
+          height: 44
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 6191123985831559910
+          - rid: 6191123985831559520
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 6191123985831559913
+            - rid: 6191123985831559521
+            _locked: 0
+        _transitions:
+        - _name: Back
+          _guid:
+            _value0: 5305577977745336582
+            _value1: 15532926345698410049
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123985831559532
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123985831559557
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123985831559406
+      type: {class: FloatCompare, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _float:
+          _variable:
+            rid: 6191123984957046853
+          _isWriteOnly: 0
+        _other:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _tolerance:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _equalEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _lessThanEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _greaterThanEvent:
+          _event:
+            rid: 6191123984957047376
+          _eventDataSetter:
+            rid: -2
+        _result:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+    - rid: 6191123985831559407
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559406
+        _fullTypeName: HutongGames.PlayMaker.Actions.FloatCompare
+    - rid: 6191123985831559444
+      type: {class: BoolIsTrue, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        Bool:
+          _variable:
+            rid: 6191123984957047365
+          _isWriteOnly: 0
+        TrueEvent:
+          _event:
+            rid: 6191123985831559450
+          _eventDataSetter:
+            rid: -2
+        FalseEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+    - rid: 6191123985831559445
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559444
+        _fullTypeName: HutongGames.PlayMaker.Actions.BoolIsTrue
+    - rid: 6191123985831559450
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: goDash
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 6191123985831559451
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 6191123985831559450
+        _expanded: 0
+    - rid: 6191123985831559520
+      type: {class: BoolIsTrue, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Bool:
+          _variable:
+            rid: 6191123984957047365
+          _isWriteOnly: 0
+        TrueEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        FalseEvent:
+          _event:
+            rid: 6191123985831559532
+          _eventDataSetter:
+            rid: -2
+    - rid: 6191123985831559521
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559520
+        _fullTypeName: HutongGames.PlayMaker.Actions.BoolIsTrue
+    - rid: 6191123985831559532
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: Back
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 6191123985831559533
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 6191123985831559532
+        _expanded: 0
+    - rid: 6191123985831559557
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: BACK
+        _guid:
+          _value0: 4424474427154092532
+          _value1: 4768905740639603347
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 129
+          y: 295
+          width: 132
+          height: 66
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 6191123985831559622
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 6191123985831559623
+            _locked: 0
+        _transitions:
+        - _name: Back
+          _guid:
+            _value0: 8689546714462749108
+            _value1: 11721620591117551789
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123985831559532
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123984957046857
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        - _name: goMove
+          _guid:
+            _value0: 3818096191514283204
+            _value1: 10160534180936886595
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 6191123984957047376
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 6191123984957047381
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123985831559622
+      type: {class: FloatCompare, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _float:
+          _variable:
+            rid: 6191123984957046853
+          _isWriteOnly: 0
+        _other:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _tolerance:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _equalEvent:
+          _event:
+            rid: 6191123985831559532
+          _eventDataSetter:
+            rid: -2
+        _lessThanEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _greaterThanEvent:
+          _event:
+            rid: 6191123984957047376
+          _eventDataSetter:
+            rid: -2
+        _result:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+    - rid: 6191123985831559623
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559622
+        _fullTypeName: HutongGames.PlayMaker.Actions.FloatCompare
+    - rid: 6191123985831559649
+      type: {class: AnimatorSetInteger, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _animator:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 577483473}
+          _isConstant: 1
+        _name:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: AnimInt
+          _isConstant: 1
+        _value:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 6191123985831559650
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559649
+        _fullTypeName: HutongGames.PlayMaker.Actions.AnimatorSetInteger
+    - rid: 6191123985831559777
+      type: {class: FloatCompare, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _float:
+          _variable:
+            rid: 6191123984957046853
+          _isWriteOnly: 0
+        _other:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _tolerance:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _equalEvent:
+          _event:
+            rid: 6191123985831559532
+          _eventDataSetter:
+            rid: -2
+        _lessThanEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _greaterThanEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _result:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+    - rid: 6191123985831559778
+      type: {class: BoolIsTrue, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Bool:
+          _variable:
+            rid: 6191123984957047365
+          _isWriteOnly: 0
+        TrueEvent:
+          _event:
+            rid: 6191123985831559450
+          _eventDataSetter:
+            rid: -2
+        FalseEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+    - rid: 6191123985831559779
+      type: {class: AnimatorSetInteger, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _animator:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 577483473}
+          _isConstant: 1
+        _name:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: AnimInt
+          _isConstant: 1
+        _value:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+    - rid: 6191123985831559780
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559777
+        _fullTypeName: HutongGames.PlayMaker.Actions.FloatCompare
+    - rid: 6191123985831559781
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559778
+        _fullTypeName: HutongGames.PlayMaker.Actions.BoolIsTrue
+    - rid: 6191123985831559782
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559779
+        _fullTypeName: HutongGames.PlayMaker.Actions.AnimatorSetInteger
+    - rid: 6191123985831559910
+      type: {class: AnimatorSetInteger, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _animator:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 577483473}
+          _isConstant: 1
+        _name:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: ActionInt
+          _isConstant: 1
+        _value:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+    - rid: 6191123985831559913
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559910
+        _fullTypeName: HutongGames.PlayMaker.Actions.AnimatorSetInteger
+    - rid: 6191123985831559986
+      type: {class: AnimatorSetInteger, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _animator:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 577483473}
+          _isConstant: 1
+        _name:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: ActionInt
+          _isConstant: 1
+        _value:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 6191123985831559987
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123985831559986
+        _fullTypeName: HutongGames.PlayMaker.Actions.AnimatorSetInteger
+--- !u!95 &35435910
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35435906}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &37329086
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,36 +1875,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 35435907}
     m_Modifications:
-    - target: {fileID: -9070097690191640906, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -8.074388
-      objectReference: {fileID: 0}
-    - target: {fileID: -9070097690191640906, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -7.186553
-      objectReference: {fileID: 0}
-    - target: {fileID: -9070097690191640906, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 46.788532
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -659,12 +1893,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
@@ -679,732 +1913,41 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8248250897858290928, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -8.074388
-      objectReference: {fileID: 0}
-    - target: {fileID: -8248250897858290928, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 7.186553
-      objectReference: {fileID: 0}
-    - target: {fileID: -8248250897858290928, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -46.788532
-      objectReference: {fileID: 0}
-    - target: {fileID: -7844362361195617274, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -59.38223
-      objectReference: {fileID: 0}
-    - target: {fileID: -7844362361195617274, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 27.300932
-      objectReference: {fileID: 0}
-    - target: {fileID: -7844362361195617274, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -86.143486
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7663485386731901993, guid: 02869e50947a84b4998e8aae92d014c1,
+    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7259220200143345867, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -35.28942
-      objectReference: {fileID: 0}
-    - target: {fileID: -7259220200143345867, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 27.213919
-      objectReference: {fileID: 0}
-    - target: {fileID: -7259220200143345867, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 10.698571
-      objectReference: {fileID: 0}
-    - target: {fileID: -7153373933792244587, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.681473
-      objectReference: {fileID: 0}
-    - target: {fileID: -7153373933792244587, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -17.617558
-      objectReference: {fileID: 0}
-    - target: {fileID: -7153373933792244587, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 86.68016
-      objectReference: {fileID: 0}
-    - target: {fileID: -6953148577634173219, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -26.489693
-      objectReference: {fileID: 0}
-    - target: {fileID: -6953148577634173219, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -22.014133
-      objectReference: {fileID: 0}
-    - target: {fileID: -6953148577634173219, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 87.005486
-      objectReference: {fileID: 0}
-    - target: {fileID: -6856954270399596142, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -77.276825
-      objectReference: {fileID: 0}
-    - target: {fileID: -6856954270399596142, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 122.08929
-      objectReference: {fileID: 0}
-    - target: {fileID: -6856954270399596142, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -79.101814
-      objectReference: {fileID: 0}
-    - target: {fileID: -6827464868813910493, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.5159604
-      objectReference: {fileID: 0}
-    - target: {fileID: -6827464868813910493, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00048925914
-      objectReference: {fileID: 0}
-    - target: {fileID: -6827464868813910493, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.10908726
-      objectReference: {fileID: 0}
-    - target: {fileID: -6458723393846176207, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.5159584
-      objectReference: {fileID: 0}
-    - target: {fileID: -6458723393846176207, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00048765476
-      objectReference: {fileID: 0}
-    - target: {fileID: -6458723393846176207, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.10908686
-      objectReference: {fileID: 0}
-    - target: {fileID: -6384443536361405576, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.3340579
-      objectReference: {fileID: 0}
-    - target: {fileID: -6384443536361405576, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -29.169294
-      objectReference: {fileID: 0}
-    - target: {fileID: -6384443536361405576, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 110.63645
-      objectReference: {fileID: 0}
-    - target: {fileID: -6059846513018173612, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 15.409787
-      objectReference: {fileID: 0}
-    - target: {fileID: -6059846513018173612, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 5.0682125
-      objectReference: {fileID: 0}
-    - target: {fileID: -6059846513018173612, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 36.2283
-      objectReference: {fileID: 0}
-    - target: {fileID: -5675007548531818960, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -89.98021
-      objectReference: {fileID: 0}
-    - target: {fileID: -5675007548531818960, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.000045990106
-      objectReference: {fileID: 0}
-    - target: {fileID: -5213322533434264374, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 23.919157
-      objectReference: {fileID: 0}
-    - target: {fileID: -5213322533434264374, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 8.491065
-      objectReference: {fileID: 0}
-    - target: {fileID: -5213322533434264374, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 38.62717
-      objectReference: {fileID: 0}
-    - target: {fileID: -3997359135254179819, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 23.919165
-      objectReference: {fileID: 0}
-    - target: {fileID: -3997359135254179819, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -8.49107
-      objectReference: {fileID: 0}
-    - target: {fileID: -3997359135254179819, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -38.62717
-      objectReference: {fileID: 0}
-    - target: {fileID: -3437481009871931170, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -67.38726
-      objectReference: {fileID: 0}
-    - target: {fileID: -3437481009871931170, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -63.628414
-      objectReference: {fileID: 0}
-    - target: {fileID: -3437481009871931170, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 108.09486
-      objectReference: {fileID: 0}
-    - target: {fileID: -3184331422439408300, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -73.71132
-      objectReference: {fileID: 0}
-    - target: {fileID: -3184331422439408300, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.99998
-      objectReference: {fileID: 0}
-    - target: {fileID: -3184331422439408300, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 179.99994
-      objectReference: {fileID: 0}
-    - target: {fileID: -2180568748265214663, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 24.962639
-      objectReference: {fileID: 0}
-    - target: {fileID: -2180568748265214663, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -6.9311596e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: -2180568748265214663, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.4333156e-14
-      objectReference: {fileID: 0}
-    - target: {fileID: -2084010857390820473, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 10.118493
-      objectReference: {fileID: 0}
-    - target: {fileID: -2084010857390820473, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000021582034
-      objectReference: {fileID: 0}
-    - target: {fileID: -2084010857390820473, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.0000024378264
-      objectReference: {fileID: 0}
-    - target: {fileID: -2082449276842084981, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 68.405945
-      objectReference: {fileID: 0}
-    - target: {fileID: -2082449276842084981, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -73.848694
-      objectReference: {fileID: 0}
-    - target: {fileID: -2082449276842084981, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -67.174225
-      objectReference: {fileID: 0}
-    - target: {fileID: -1703770560135669845, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -77.276825
-      objectReference: {fileID: 0}
-    - target: {fileID: -1703770560135669845, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -122.08929
-      objectReference: {fileID: 0}
-    - target: {fileID: -1703770560135669845, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 79.101814
-      objectReference: {fileID: 0}
-    - target: {fileID: -1461359965547160637, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.446873
-      objectReference: {fileID: 0}
-    - target: {fileID: -1461359965547160637, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.000378426
-      objectReference: {fileID: 0}
-    - target: {fileID: -1461359965547160637, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.094480366
-      objectReference: {fileID: 0}
-    - target: {fileID: -961496266243732776, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -26.48969
-      objectReference: {fileID: 0}
-    - target: {fileID: -961496266243732776, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 22.014132
-      objectReference: {fileID: 0}
-    - target: {fileID: -961496266243732776, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -87.005486
-      objectReference: {fileID: 0}
-    - target: {fileID: -384105263703401068, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 38.629177
-      objectReference: {fileID: 0}
-    - target: {fileID: -384105263703401068, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 12.3976
-      objectReference: {fileID: 0}
-    - target: {fileID: -384105263703401068, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 29.996403
-      objectReference: {fileID: 0}
-    - target: {fileID: -93767206995345027, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.3340579
-      objectReference: {fileID: 0}
-    - target: {fileID: -93767206995345027, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 29.169325
-      objectReference: {fileID: 0}
-    - target: {fileID: -93767206995345027, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -110.63647
-      objectReference: {fileID: 0}
-    - target: {fileID: 276917766365468927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.00020443367
-      objectReference: {fileID: 0}
-    - target: {fileID: 276917766365468927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00020443376
-      objectReference: {fileID: 0}
-    - target: {fileID: 276917766365468927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 445690743777778823, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -59.382214
-      objectReference: {fileID: 0}
-    - target: {fileID: 445690743777778823, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -27.30091
-      objectReference: {fileID: 0}
-    - target: {fileID: 445690743777778823, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 86.14349
-      objectReference: {fileID: 0}
-    - target: {fileID: 815874861908775355, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 9.183522
-      objectReference: {fileID: 0}
-    - target: {fileID: 815874861908775355, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000017736764
-      objectReference: {fileID: 0}
-    - target: {fileID: 815874861908775355, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.0000022084673
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       propertyPath: m_Name
       value: Centurion
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
+    - target: {fileID: 5866666021909216657, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_Avatar
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1576780192586582883, guid: 02869e50947a84b4998e8aae92d014c1,
+    - target: {fileID: 5866666021909216657, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 38.629177
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576780192586582883, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -12.397604
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576780192586582883, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -29.996403
-      objectReference: {fileID: 0}
-    - target: {fileID: 1816763689295338192, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.44686896
-      objectReference: {fileID: 0}
-    - target: {fileID: 1816763689295338192, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00038018264
-      objectReference: {fileID: 0}
-    - target: {fileID: 1816763689295338192, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.09448012
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153172228810849838, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 77.186
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153172228810849838, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 95.23082
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153172228810849838, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 107.657684
-      objectReference: {fileID: 0}
-    - target: {fileID: 2222252652985420940, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 82.23233
-      objectReference: {fileID: 0}
-    - target: {fileID: 2222252652985420940, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 2222252652985420940, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455155413738758944, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 29.168766
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455155413738758944, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 5.374172
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455155413738758944, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 20.450018
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762801285820532510, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000032037178
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762801285820532510, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00000032016504
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762801285820532510, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.0000012303868
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240388298602987225, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 15.409783
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240388298602987225, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -5.0682135
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240388298602987225, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.228302
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436805663696350335, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436805663696350335, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436805663696350335, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436805663696350335, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4876220345589385899, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -67.38726
-      objectReference: {fileID: 0}
-    - target: {fileID: 4876220345589385899, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 63.628414
-      objectReference: {fileID: 0}
-    - target: {fileID: 4876220345589385899, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -108.09486
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222981211986774927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 68.713875
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222981211986774927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.615387
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222981211986774927, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -33.84368
-      objectReference: {fileID: 0}
-    - target: {fileID: 6043780146788951169, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -23.854584
-      objectReference: {fileID: 0}
-    - target: {fileID: 6043780146788951169, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -9.784896
-      objectReference: {fileID: 0}
-    - target: {fileID: 6043780146788951169, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 68.67001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6467711592880044286, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -23.854584
-      objectReference: {fileID: 0}
-    - target: {fileID: 6467711592880044286, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 9.784896
-      objectReference: {fileID: 0}
-    - target: {fileID: 6467711592880044286, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -68.67001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802270711611523180, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 29.16875
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802270711611523180, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -5.37417
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802270711611523180, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -20.450018
-      objectReference: {fileID: 0}
-    - target: {fileID: 6928305759593219818, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 37.777668
-      objectReference: {fileID: 0}
-    - target: {fileID: 6928305759593219818, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000036226234
-      objectReference: {fileID: 0}
-    - target: {fileID: 6928305759593219818, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.000010587552
-      objectReference: {fileID: 0}
-    - target: {fileID: 7397936455627540733, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 68.405945
-      objectReference: {fileID: 0}
-    - target: {fileID: 7397936455627540733, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 73.848694
-      objectReference: {fileID: 0}
-    - target: {fileID: 7397936455627540733, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 67.174225
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976377324194508343, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 16.518995
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976377324194508343, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.5150665
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976377324194508343, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 3.9052808
-      objectReference: {fileID: 0}
-    - target: {fileID: 8353157386816358443, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.681475
-      objectReference: {fileID: 0}
-    - target: {fileID: 8353157386816358443, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 17.617558
-      objectReference: {fileID: 0}
-    - target: {fileID: 8353157386816358443, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -86.68016
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059489048445882226, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -35.28942
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059489048445882226, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -27.213919
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059489048445882226, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -10.698571
-      objectReference: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cd8a35a2308824448b7c7b4dfe09002f, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5504875720616501136, guid: 02869e50947a84b4998e8aae92d014c1, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 577483473}
+      addedObject: {fileID: 357861505}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02869e50947a84b4998e8aae92d014c1, type: 3}
 --- !u!4 &94736581 stripped
 Transform:
@@ -1412,6 +1955,119 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 94736580}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &98734398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98734399}
+  - component: {fileID: 98734402}
+  - component: {fileID: 98734401}
+  - component: {fileID: 98734400}
+  m_Layer: 0
+  m_Name: ROTATION GUIDE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &98734399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98734398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.6488743, z: -1.67}
+  m_LocalScale: {x: 0.29289, y: 0.29289, z: 23.145262}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1446794204}
+  m_Father: {fileID: 35435907}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &98734400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98734398}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &98734401
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98734398}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &98734402
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98734398}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &104342074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +2095,7 @@ Transform:
   m_GameObject: {fileID: 104342074}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21637,6 +22293,119 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &357861504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 357861505}
+  - component: {fileID: 357861508}
+  - component: {fileID: 357861507}
+  - component: {fileID: 357861506}
+  m_Layer: 0
+  m_Name: COPY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &357861505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357861504}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.1, y: -0.6488743, z: -4}
+  m_LocalScale: {x: 0.29289, y: 0.29289, z: 23.145262}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 17311774}
+  m_Father: {fileID: 94736581}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &357861506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357861504}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &357861507
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357861504}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &357861508
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357861504}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!21 &361579223
 Material:
   serializedVersion: 8
@@ -27266,7 +28035,7 @@ Transform:
   m_GameObject: {fileID: 557264399}
   serializedVersion: 2
   m_LocalRotation: {x: 0.46193978, y: 0.33141357, z: -0.19134171, w: 0.8001032}
-  m_LocalPosition: {x: -13.417716, y: 54.535133, z: -13.761719}
+  m_LocalPosition: {x: -13.417395, y: 54.535133, z: -13.762039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27350,34 +28119,12 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
---- !u!1 &577483472 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
+--- !u!95 &577483473 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 02869e50947a84b4998e8aae92d014c1,
     type: 3}
   m_PrefabInstance: {fileID: 94736580}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &577483473
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577483472}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b857f63a7556d4e48b6a61a5ffd4696f, type: 3}
-  m_Controller: {fileID: 9100000, guid: cd8a35a2308824448b7c7b4dfe09002f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &607773069
 GameObject:
   m_ObjectHideFlags: 0
@@ -33173,6 +33920,118 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1446794203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446794204}
+  - component: {fileID: 1446794207}
+  - component: {fileID: 1446794206}
+  - component: {fileID: 1446794205}
+  m_Layer: 0
+  m_Name: cHILD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1446794204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446794203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.427}
+  m_LocalScale: {x: 10.469231, y: 2.1225, z: 0.085420854}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 98734399}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1446794205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446794203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1446794206
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446794203}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1446794207
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446794203}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!21 &1510021781
 Material:
   serializedVersion: 8
@@ -33439,7 +34298,7 @@ Transform:
   m_GameObject: {fileID: 1551827356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38290,79 +39149,6 @@ Transform:
   - {fileID: 1313038308}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1632605767
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.5747595
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.389629
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.382289
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_Name
-      value: Centurion
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 02869e50947a84b4998e8aae92d014c1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 02869e50947a84b4998e8aae92d014c1, type: 3}
 --- !u!1 &1746220866
 GameObject:
   m_ObjectHideFlags: 0
@@ -38488,7 +39274,7 @@ MonoBehaviour:
           serializedVersion: 2
           x: -572.88
           y: -387.87
-          width: 2123
+          width: 2228.37
           height: 1146
         _icon: {fileID: 0}
         _color:
@@ -38540,12 +39326,16 @@ MonoBehaviour:
           - rid: 5678760299880252093
           - rid: 5678760300644925519
           - rid: 5678760300802736749
+          - rid: 6191123979340612001
+          - rid: 6191123984957047185
           _ownerValue:
             rid: 5678760287836569602
           _owner: {fileID: 1781683498}
           Expanded: 1
           _editorOnlyList:
             _items:
+            - rid: 6191123984957046981
+            - rid: 6191123979340612002
             - rid: 5678760300802736750
             - rid: 5678760300644925520
             - rid: 5678760299880252094
@@ -39778,10 +40568,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 1872.37
+          x: 1838.37
           y: 267.92
-          width: 210
-          height: 118
+          width: 360
+          height: 125
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -39793,6 +40583,7 @@ MonoBehaviour:
         _disabled: 0
         _substates:
         - rid: 5678760289845904309
+        - rid: 6191123984019882762
         _transitions: []
         _startState:
           rid: 5678760289845904309
@@ -39810,7 +40601,7 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 55
-          y: 38.75
+          y: 34.95
           width: 100
           height: 22
         _icon: {fileID: 0}
@@ -39826,14 +40617,20 @@ MonoBehaviour:
           - rid: 5678760290620801176
           - rid: 5678760290620801028
           - rid: 6191123963362410706
-          - rid: 6191123963362411129
+          - rid: 6191123979119100223
+          - rid: 6191123979340611703
+          - rid: 6191123979119100652
+          - rid: 6191123983458108347
           Expanded: 1
           _editorOnlyList:
             _items:
             - rid: 5678760290620801177
             - rid: 5678760290620801029
             - rid: 6191123963362410707
-            - rid: 6191123963362411130
+            - rid: 6191123979119100224
+            - rid: 6191123979340611704
+            - rid: 6191123979119100653
+            - rid: 6191123983458108348
             _locked: 0
         _transitions: []
         _isEndState: 0
@@ -39842,7 +40639,7 @@ MonoBehaviour:
       type: {class: TransformLookAtPoint, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
       data:
         IsEnabled: 0
-        UpdateMode: 2051
+        UpdateMode: 2057
         _expanded: 0
         _customName: 
         ShowDebugInfo: 0
@@ -39872,7 +40669,7 @@ MonoBehaviour:
           _isConstant: 1
         _worldUp:
           _variable:
-            rid: 6191123962679526152
+            rid: 6191123984957047163
           _isWriteOnly: 0
           _value: {x: 0, y: 0, z: 0}
           _isConstant: 0
@@ -39899,7 +40696,7 @@ MonoBehaviour:
       data:
         IsEnabled: 1
         UpdateMode: 3
-        _expanded: 1
+        _expanded: 0
         _customName: 
         ShowDebugInfo: 0
         _gameObject:
@@ -40005,7 +40802,7 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 1882.84
-          y: 405.92
+          y: 412.92
           width: 210
           height: 112
         _icon: {fileID: 0}
@@ -40559,7 +41356,7 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 949.11
-          y: 529.92
+          y: 536.87
           width: 696.22
           height: 429
         _icon: {fileID: 0}
@@ -40765,6 +41562,7 @@ MonoBehaviour:
         _actionList:
           _list:
           - rid: 5678760299880252087
+          - rid: 6191123984957047360
           - rid: 5678760301125698279
           - rid: 5678760299880252281
           - rid: 5678760300644925544
@@ -40772,6 +41570,7 @@ MonoBehaviour:
           _editorOnlyList:
             _items:
             - rid: 5678760299880252088
+            - rid: 6191123984957047361
             - rid: 5678760301125698280
             - rid: 5678760299880252282
             - rid: 5678760300644925545
@@ -40929,11 +41728,13 @@ MonoBehaviour:
         _actionList:
           _list:
           - rid: 5678760301125698498
+          - rid: 6191123984957047159
           - rid: 5678760299880252328
           Expanded: 1
           _editorOnlyList:
             _items:
             - rid: 5678760301125698499
+            - rid: 6191123984957047160
             - rid: 5678760299880252329
             _locked: 0
         _transitions:
@@ -41478,24 +42279,13 @@ MonoBehaviour:
         _action:
           rid: 5678760301125698498
         _fullTypeName: HutongGames.PlayMaker.Actions.ParticleSystemStop
-    - rid: 6191123962679526152
-      type: {class: Vector3UpValue, ns: HutongGames.PlayMaker, asm: HutongGames.PlayMaker}
-      data:
-        _guid:
-          _value0: 12587540980288765659
-          _value1: 6588756648430659698
-        _debug: 0
-        _saveMode: 0
-        _description: 
-        _name: 
-        _value: {x: 0, y: 0, z: 0}
     - rid: 6191123963362410706
       type: {class: TransformMoveTowardsPosition, ns: HutongGames.PlayMaker.Actions,
         asm: HutongGames.PlayMaker}
       data:
         IsEnabled: 1
         UpdateMode: 3
-        _expanded: 1
+        _expanded: 0
         _customName: 
         ShowDebugInfo: 0
         _transform:
@@ -41545,11 +42335,11 @@ MonoBehaviour:
         _action:
           rid: 6191123963362410706
         _fullTypeName: HutongGames.PlayMaker.Actions.TransformMoveTowardsPosition
-    - rid: 6191123963362411129
+    - rid: 6191123979119100223
       type: {class: TransformLookAtTarget, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
       data:
         IsEnabled: 1
-        UpdateMode: 3
+        UpdateMode: 2057
         _expanded: 1
         _customName: 
         ShowDebugInfo: 0
@@ -41557,7 +42347,7 @@ MonoBehaviour:
           _variable:
             rid: -2
           _isWriteOnly: 0
-          _value: {fileID: 1580882615}
+          _value: {fileID: 98734399}
           _isConstant: 1
         _target:
           _variable:
@@ -41579,7 +42369,7 @@ MonoBehaviour:
           _isConstant: 1
         _worldUp:
           _variable:
-            rid: 6191123963362411131
+            rid: 6191123984957047163
           _isWriteOnly: 0
           _value: {x: 0, y: 0, z: 0}
           _isConstant: 0
@@ -41595,23 +42385,305 @@ MonoBehaviour:
           _isWriteOnly: 0
           _value: 555
           _isConstant: 1
-    - rid: 6191123963362411130
+    - rid: 6191123979119100224
       type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
       data:
         _action:
-          rid: 6191123963362411129
+          rid: 6191123979119100223
         _fullTypeName: HutongGames.PlayMaker.Actions.TransformLookAtTarget
-    - rid: 6191123963362411131
+    - rid: 6191123979119100652
+      type: {class: TransformClampRotation, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 9
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _transform:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 98734399}
+          _isConstant: 1
+        _rotationAxis:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 2
+          _isConstant: 1
+        _minAngle:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _maxAngle:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 6191123979119100653
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123979119100652
+        _fullTypeName: HutongGames.PlayMaker.Actions.TransformClampRotation
+    - rid: 6191123979340611703
+      type: {class: TransformClampRotation, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 9
+        _expanded: 0
+        _customName: 
+        ShowDebugInfo: 0
+        _transform:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 98734399}
+          _isConstant: 1
+        _rotationAxis:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _minAngle:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _maxAngle:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 6191123979340611704
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123979340611703
+        _fullTypeName: HutongGames.PlayMaker.Actions.TransformClampRotation
+    - rid: 6191123979340612001
+      type: {class: QuaternionVariable, ns: HutongGames.PlayMaker, asm: HutongGames.PlayMaker}
+      data:
+        _guid:
+          _value0: 10466448986227972145
+          _value1: 15230615968405977366
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: RotationGuideRotation
+        _value: {x: 0, y: 0, z: 0, w: 0}
+    - rid: 6191123979340612002
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191123979340612001
+    - rid: 6191123983458108347
+      type: {class: MatchRotationAxis, ns: MyGame.PlayMaker.Actions, asm: Assembly-CSharp}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2057
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _target:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 1580882615}
+          _isConstant: 1
+        _source:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 98734399}
+          _isConstant: 1
+        _axis: 1
+        _invert:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+    - rid: 6191123983458108348
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123983458108347
+        _fullTypeName: MyGame.PlayMaker.Actions.MatchRotationAxis
+    - rid: 6191123984019882762
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: State
+        _guid:
+          _value0: 12326160298557238374
+          _value1: 16429463019591093908
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 201.51
+          y: 45.95
+          width: 103
+          height: 22
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list: []
+          Expanded: 1
+          _editorOnlyList:
+            _items: []
+            _locked: 0
+        _transitions: []
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 6191123984957046981
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191123984957047185
+    - rid: 6191123984957047159
+      type: {class: SetFsmBool, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _target:
+          _fsmComponent:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: {fileID: 1781683498}
+            _isConstant: 1
+          _variableName:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: isDashing
+            _isConstant: 1
+          _variableGuid:
+            _value0: 1565067177738074054
+            _value1: 15339161876840194176
+        _fsmComponent:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        _variableName:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 
+          _isConstant: 1
+        _setValue:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _notFoundEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _logError: 0
+        _serializationVersion: 1
+    - rid: 6191123984957047160
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957047159
+        _fullTypeName: HutongGames.PlayMaker.Actions.SetFsmBool
+    - rid: 6191123984957047163
       type: {class: Vector3UpValue, ns: HutongGames.PlayMaker, asm: HutongGames.PlayMaker}
       data:
         _guid:
-          _value0: 6725950940809835150
-          _value1: 11732271537765323334
+          _value0: 829197466373317109
+          _value1: 201559818714490547
         _debug: 0
         _saveMode: 0
         _description: 
         _name: 
         _value: {x: 0, y: 0, z: 0}
+    - rid: 6191123984957047185
+      type: {class: BoolVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 1565067177738074054
+          _value1: 15339161876840194176
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: isDashing
+        _value: 0
+    - rid: 6191123984957047360
+      type: {class: SetFsmBool, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _target:
+          _fsmComponent:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: {fileID: 1781683498}
+            _isConstant: 1
+          _variableName:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: isDashing
+            _isConstant: 1
+          _variableGuid:
+            _value0: 1565067177738074054
+            _value1: 15339161876840194176
+        _fsmComponent:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        _variableName:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 
+          _isConstant: 1
+        _setValue:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+        _notFoundEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _logError: 0
+        _serializationVersion: 1
+    - rid: 6191123984957047361
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 6191123984957047360
+        _fullTypeName: HutongGames.PlayMaker.Actions.SetFsmBool
 --- !u!54 &1781683500
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42073,7 +43145,7 @@ Transform:
   m_GameObject: {fileID: 1973420018}
   serializedVersion: 2
   m_LocalRotation: {x: 0.46193978, y: 0.33141357, z: -0.19134171, w: 0.8001032}
-  m_LocalPosition: {x: -13.417716, y: 54.535133, z: -13.761719}
+  m_LocalPosition: {x: -13.417395, y: 54.535133, z: -13.762039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47133,4 +48205,3 @@ SceneRoots:
   - {fileID: 1409915727}
   - {fileID: 237212606}
   - {fileID: 1973420020}
-  - {fileID: 1632605767}
