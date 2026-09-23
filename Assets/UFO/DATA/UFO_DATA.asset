@@ -19,20 +19,22 @@ MonoBehaviour:
     - rid: 5678760288792871329
     - rid: 5678760288792871331
     - rid: 5678760288792871539
+    - rid: 6191124003331244909
     _ownerValue:
       rid: -2
     _owner: {fileID: 11400000}
     Expanded: 1
     _editorOnlyList:
       _items:
+      - rid: 6191124003331244908
       - rid: 5678760288792871334
       - rid: 5678760288792871332
       - rid: 5678760288792871330
       - rid: 5678760288792871328
       _locked: 0
   _firstFieldGuid:
-    _value0: 5356914805978787067
-    _value1: 2459822923758120259
+    _value0: 15814515036992875715
+    _value1: 17508237606284574563
   _description: 
   references:
     version: 2
@@ -103,3 +105,19 @@ MonoBehaviour:
         _description: 
         _name: baseHealth
         _value: 0
+    - rid: 6191124003331244908
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 6191124003331244909
+    - rid: 6191124003331244909
+      type: {class: GameObjectVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 15814515036992875715
+          _value1: 17508237606284574563
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: MODEL
+        _value: {fileID: 0}
