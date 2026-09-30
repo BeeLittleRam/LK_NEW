@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: PlayMaker.Runtime.dll::HutongGames.PlayMaker.FsmComponent
   _assetGuid:
-    _value0: 14883697040119834198
-    _value1: 17637886331251386098
+    _value0: 1979105109408873322
+    _value1: 16405278319121671677
   _instanceGuid:
     _value0: 0
     _value1: 0
@@ -757,7 +757,7 @@ MonoBehaviour:
           _variable:
             rid: -2
           _isWriteOnly: 0
-          _value: {x: 0, y: 0, z: 222}
+          _value: {x: 0, y: 0, z: 400}
           _isConstant: 1
         _space:
           _variable:
