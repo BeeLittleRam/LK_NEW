@@ -20,15 +20,16 @@ Material:
   - _FOG_ON
   - _GREYSCALESTAGE_BEFORELIGHTING
   - _HEIGHTGRADIENTPOSITIONSPACE_LOCAL
-  - _LIGHTMODEL_TOONRAMP
+  - _LIGHTMODEL_CLASSIC
   - _MATCAPBLENDMODE_MULTIPLY
+  - _MATCAP_ON
   - _OUTLINETYPE_SIMPLE
   - _RECEIVEDSHADOWSTYPE_CLASSIC
   - _RECEIVE_SHADOWS_ON
-  - _REFLECTIONS_CLASSIC
+  - _REFLECTIONS_NONE
   - _RIMLIGHTINGSTAGE_BEFORELIGHTINGLAST
   - _SHADINGMODEL_PBR
-  - _SPECULARMODEL_CLASSIC
+  - _SPECULARMODEL_ANISOTROPICTOON
   - _TEXTUREBLENDINGMODE_RGB
   - _TEXTUREBLENDINGSOURCE_VERTEXCOLOR
   - _TRIPLANARNORMALSPACE_WORLD
@@ -158,7 +159,7 @@ Material:
     - _AlphaCutoffOn: 0
     - _AlphaCutoffValue: 0.25
     - _AlphaRoundOn: 0
-    - _AnisoShininess: 0.85
+    - _AnisoShininess: 0.207
     - _Anisotropy: 0.45
     - _BlendDst: 0
     - _BlendSrc: 1
@@ -205,7 +206,7 @@ Material:
     - _FadePower: 1
     - _FadeTransition: 0.2
     - _FadeUVSet: 0
-    - _FlatNormalsBlend: 1
+    - _FlatNormalsBlend: 0
     - _FlatNormalsEnabled: 0
     - _FogOn: 1
     - _GeneralAlpha: 1
@@ -254,12 +255,12 @@ Material:
     - _IntersectionFadeFactor: 1
     - _IntersectionFadeOn: 0
     - _IntersectionGlowOn: 0
-    - _LightModel: 3
+    - _LightModel: 1
     - _LightmapColorCorrection: 0
-    - _Matcap: 0
+    - _Matcap: 1
     - _MatcapBlend: 1
     - _MatcapBlendMode: 0
-    - _MatcapIntensity: 1
+    - _MatcapIntensity: 6.89
     - _MaxCameraDistance: 1000
     - _MaxDistanceToFade: 100
     - _MaxFadeDistance: 250
@@ -287,7 +288,7 @@ Material:
     - _RecalculateNormals: 0
     - _ReceiveShadows: 1
     - _ReceivedShadowsType: 0
-    - _Reflections: 1
+    - _Reflections: 0
     - _ReflectionsAtten: 1
     - _RenderPreset: 1
     - _RimAttenuation: 1
@@ -307,10 +308,10 @@ Material:
     - _ShakeBlend: 1
     - _ShakeSpeedMult: 1
     - _Shininess: 6.94
-    - _Smoothness: 0.5
-    - _SpecularAtten: 1
-    - _SpecularModel: 1
-    - _SpecularToonCutoff: 0.836
+    - _Smoothness: 0.83
+    - _SpecularAtten: 0.2
+    - _SpecularModel: 4
+    - _SpecularToonCutoff: 0.385
     - _SpecularToonSmoothness: 0
     - _SpherizeNormals: 0
     - _StencilRef: 1
@@ -358,7 +359,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AOColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
     - _CustomAmbientColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     - _DepthGlowColor: {r: 1, g: 0.9869999, b: 0.6, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
