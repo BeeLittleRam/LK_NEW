@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3525232309634707482}
   - component: {fileID: 6127988175891941731}
   - component: {fileID: 1893887882652422861}
+  - component: {fileID: 4913908745149903462}
   m_Layer: 16
   m_Name: ProjectileSample
   m_TagString: Untagged
@@ -47,8 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: PlayMaker.Runtime.dll::HutongGames.PlayMaker.FsmComponent
   _assetGuid:
-    _value0: 3965949400005979664
-    _value1: 2935272541935991670
+    _value0: 7037415824596457954
+    _value1: 14803897107732385074
   _instanceGuid:
     _value0: 0
     _value1: 0
@@ -76,6 +77,161 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 4187767147508533125
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: COMPARE TAG
+        _guid:
+          _value0: 4548179398975969930
+          _value1: 10911888399751565445
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 59.5
+          y: 114.65
+          width: 177
+          height: 66
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 4187767147508533135
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 4187767147508533136
+            _locked: 0
+        _transitions:
+        - _name: Ignore
+          _guid:
+            _value0: 8083892464480289552
+            _value1: 16065811940374034709
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 4187767147508533148
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 5678760398793474210
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        - _name: G
+          _guid:
+            _value0: 1882896586229627833
+            _value1: 12167922383532146999
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 5678760398793474231
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 5678760398793474234
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 4187767147508533135
+      type: {class: GameObjectCompareTag, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        TrueEvent:
+          _event:
+            rid: 4187767147508533148
+          _eventDataSetter:
+            rid: -2
+        FalseEvent:
+          _event:
+            rid: 5678760398793474231
+          _eventDataSetter:
+            rid: -2
+        StoreResult:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+        GameObject:
+          _variable:
+            rid: 5678760398793474419
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        Tag:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: Detectors
+          _isConstant: 1
+    - rid: 4187767147508533136
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 4187767147508533135
+        _fullTypeName: HutongGames.PlayMaker.Actions.GameObjectCompareTag
+    - rid: 4187767147508533148
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: Ignore
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 4187767147508533149
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 4187767147508533148
+        _expanded: 0
     - rid: 5678760398793474209
       type: {class: RegionNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
       data:
@@ -86,10 +242,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 455.25
+          x: 484.75
           y: 66.5
           width: 285
-          height: 344.18
+          height: 410.18
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -103,6 +259,7 @@ MonoBehaviour:
         - rid: 5678760398793474210
         - rid: 5678760398793474234
         - rid: 6191124141483753509
+        - rid: 4187767147508533125
         _transitions: []
         _startState:
           rid: 5678760398793474210
@@ -165,7 +322,7 @@ MonoBehaviour:
           _eventSentByGetter:
             rid: -2
           _toState:
-            rid: 5678760398793474234
+            rid: 4187767147508533125
           _skipActiveState: 0
           _linkStyle: 0
           _linkRoute: 0
@@ -202,7 +359,7 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 72
-          y: 160
+          y: 226.76
           width: 141
           height: 44
         _icon: {fileID: 0}
@@ -467,10 +624,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: -70.25
+          x: -99.75
           y: -68.55
-          width: 770.25
-          height: 462.68
+          width: 799.75
+          height: 528.68
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -516,10 +673,12 @@ MonoBehaviour:
           - rid: 5678760398793474333
           - rid: 5678760398793474423
           - rid: 5678760399319335653
+          - rid: 4187767147508533148
           Expanded: 1
           Locked: 0
           _editorOnlyList:
             _items:
+            - rid: 4187767147508533149
             - rid: 5678760399319335654
             - rid: 5678760398793474424
             - rid: 5678760398793474334
@@ -876,7 +1035,7 @@ MonoBehaviour:
         _position:
           serializedVersion: 2
           x: 79
-          y: 265.18
+          y: 331.18
           width: 127
           height: 22
         _icon: {fileID: 0}
@@ -1067,6 +1226,27 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4913908745149903462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710674771675887339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.16, y: 7, z: 4.79}
+  m_Center: {x: 0, y: 0, z: -1.9}
 --- !u!1 &4288603270537799089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,10 +1258,8 @@ GameObject:
   - component: {fileID: 247048788403332938}
   - component: {fileID: 8073252446335025550}
   - component: {fileID: 2005684667951921491}
-  - component: {fileID: 805151455716417057}
   - component: {fileID: 1964586491875220763}
-  - component: {fileID: 2607596815543008547}
-  m_Layer: 16
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,27 +1338,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &805151455716417057
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4288603270537799089}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 30290177
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 66048
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1964586491875220763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,24 +1350,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c5dbbb1030d96d438905b0e01caa8d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AllIn1VfxAssmebly::AllIn1VfxToolkit.AllIn1VfxComponent
---- !u!65 &2607596815543008547
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4288603270537799089}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 5.41, y: 90, z: 1.0000001}
-  m_Center: {x: 0, y: 0, z: 0}
