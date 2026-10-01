@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: PlayMaker.Runtime.dll::HutongGames.PlayMaker.FsmComponent
   _assetGuid:
-    _value0: 4512106553846656715
-    _value1: 7440869050923740742
+    _value0: 3965949400005979664
+    _value1: 2935272541935991670
   _instanceGuid:
     _value0: 0
     _value1: 0
@@ -86,10 +86,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 464.25
-          y: 32
+          x: 455.25
+          y: 66.5
           width: 285
-          height: 343.13
+          height: 344.18
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -282,8 +282,8 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 47
-          y: 101
+          x: 38
+          y: 158.55
           width: 211
           height: 44
         _icon: {fileID: 0}
@@ -467,10 +467,10 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: -79.25
-          y: -33
-          width: 779.25
-          height: 427.13
+          x: -70.25
+          y: -68.55
+          width: 770.25
+          height: 462.68
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -497,12 +497,14 @@ MonoBehaviour:
           _list:
           - rid: 5678760398793474251
           - rid: 5678760398793474419
+          - rid: 7571648318025499642
           _ownerValue:
             rid: 6191124006831128580
           _owner: {fileID: 6127988175891941731}
           Expanded: 1
           _editorOnlyList:
             _items:
+            - rid: 7571648318025499641
             - rid: 5678760398793474420
             - rid: 5678760398793474252
             _locked: 0
@@ -558,8 +560,8 @@ MonoBehaviour:
           serializedVersion: 2
           x: 30
           y: 32
-          width: 293
-          height: 314
+          width: 285
+          height: 371.55
         _icon: {fileID: 0}
         _color:
           serializedVersion: 2
@@ -614,16 +616,18 @@ MonoBehaviour:
         _attachedNodeIds: []
         _attachedNodes: []
         _actionList:
-          _list: []
+          _list:
+          - rid: 7571648320034570287
           Expanded: 1
           _editorOnlyList:
-            _items: []
+            _items:
+            - rid: 7571648320034570288
             _locked: 0
         _transitions:
-        - _name: FINISHED
+        - _name: G
           _guid:
-            _value0: 2546054445241923211
-            _value1: 11096904336309535564
+            _value0: 7283585643539127400
+            _value1: 16370980863586548502
           _description: 
           _position:
             serializedVersion: 2
@@ -631,7 +635,7 @@ MonoBehaviour:
             y: 0
             width: 0
             height: 0
-          _icon: {fileID: 2800000, guid: a342d18175ac43a4792e462802d503b5, type: 3}
+          _icon: {fileID: 0}
           _color:
             serializedVersion: 2
             rgba: 4286085240
@@ -640,7 +644,7 @@ MonoBehaviour:
           _attachedNodeIds: []
           _attachedNodes: []
           _event:
-            rid: 6191124006831128667
+            rid: 5678760398793474231
           _eventDataGetter:
             rid: -2
           _eventSentByGetter:
@@ -682,8 +686,8 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 81
-          y: 175
+          x: 72
+          y: 232.55
           width: 141
           height: 44
         _icon: {fileID: 0}
@@ -807,8 +811,8 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 88
-          y: 235
+          x: 79
+          y: 292.55
           width: 127
           height: 22
         _icon: {fileID: 0}
@@ -871,8 +875,8 @@ MonoBehaviour:
         _description: 
         _position:
           serializedVersion: 2
-          x: 74.45
-          y: 264.13
+          x: 79
+          y: 265.18
           width: 127
           height: 22
         _icon: {fileID: 0}
@@ -885,10 +889,12 @@ MonoBehaviour:
         _attachedNodes: []
         _actionList:
           _list:
+          - rid: 7571648320034570347
           - rid: 6191124141483753559
           Expanded: 1
           _editorOnlyList:
             _items:
+            - rid: 7571648320034570348
             - rid: 6191124141483753560
             _locked: 0
         _transitions: []
@@ -931,6 +937,109 @@ MonoBehaviour:
           _isWriteOnly: 0
           _value: 0
           _isConstant: 0
+    - rid: 7571648318025499641
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 7571648318025499642
+    - rid: 7571648318025499642
+      type: {class: GameObjectVariable, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 18379661361782052472
+          _value1: 3776145516698546056
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: PrimeObject
+        _value: {fileID: 0}
+    - rid: 7571648320034570287
+      type: {class: ObjectCheckIsNotNull, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        TrueEvent:
+          _event:
+            rid: 5678760398793474231
+          _eventDataSetter:
+            rid: -2
+        FalseEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        StoreResult:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+        Object:
+          _variable:
+            rid: 7571648318025499642
+          _isWriteOnly: 0
+    - rid: 7571648320034570288
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 7571648320034570287
+        _fullTypeName: HutongGames.PlayMaker.Actions.ObjectCheckIsNotNull
+    - rid: 7571648320034570347
+      type: {class: SetFsmGameObject, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _target:
+          _fsmComponent:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: {fileID: 6127988175891941731}
+            _isConstant: 1
+          _variableName:
+            _variable:
+              rid: -2
+            _isWriteOnly: 0
+            _value: PrimeObject
+            _isConstant: 1
+          _variableGuid:
+            _value0: 18379661361782052472
+            _value1: 3776145516698546056
+        _fsmComponent:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        _variableName:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 
+          _isConstant: 1
+        _setValue:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        _notFoundEvent:
+          _event:
+            rid: -2
+          _eventDataSetter:
+            rid: -2
+        _logError: 0
+        _serializationVersion: 1
+    - rid: 7571648320034570348
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 7571648320034570347
+        _fullTypeName: HutongGames.PlayMaker.Actions.SetFsmGameObject
 --- !u!54 &1893887882652422861
 Rigidbody:
   m_ObjectHideFlags: 0
