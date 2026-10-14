@@ -1,0 +1,48 @@
+knight_sword.png
+size:4096,512
+filter:Linear,Linear
+pma:true
+belt
+bounds:3070,11,126,158
+body
+bounds:662,38,604,377
+face helm
+bounds:2571,119,296,287
+rotate:90
+head lock
+bounds:3930,29,82,119
+helm
+bounds:1288,11,404,479
+rotate:90
+l hand 1
+bounds:3541,249,166,154
+rotate:90
+l leg
+bounds:3693,94,129,215
+rotate:90
+l leg pad
+bounds:3350,58,92,86
+l lower hand
+bounds:3386,166,133,249
+l shoulder
+bounds:3142,191,224,222
+rotate:90
+l upper arm
+bounds:3541,58,130,169
+r arm
+bounds:2880,54,240,361
+r hand
+bounds:3717,245,170,145
+rotate:90
+r leg
+bounds:3884,170,145,245
+r leg pad
+bounds:3218,73,110,96
+r shoulder
+bounds:2291,66,349,258
+rotate:90
+shield
+bounds:1789,143,272,480
+rotate:90
+sword
+bounds:11,23,629,392

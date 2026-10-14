@@ -1,0 +1,59 @@
+Spear_Knight.png
+size:4096,2048
+filter:Linear,Linear
+pma:true
+back armor
+bounds:3695,304,361,346
+rotate:90
+back visor
+bounds:514,173,287,180
+body
+bounds:3093,408,581,661
+eyes
+bounds:1175,80,303,94
+head
+bounds:2428,426,643,643
+head design
+bounds:2020,191,689,603
+l arm
+bounds:1548,80,228,226
+l f pad
+bounds:1798,116,190,263
+rotate:90
+l hand
+bounds:3361,11,195,194
+l leg
+bounds:3112,203,183,444
+offsets:453,0,942,466
+rotate:90
+l s
+bounds:3696,687,349,382
+l s pad
+bounds:857,179,296,206
+mid pad
+bounds:2731,94,310,359
+rotate:90
+mouth
+bounds:1555,1000,138,69
+mouth 2
+bounds:1715,1036,98,33
+r arm
+bounds:3833,56,228,226
+r f pad
+bounds:3578,68,233,214
+r hand
+bounds:2083,15,195,194
+r leg
+bounds:1061,898,171,472
+rotate:90
+r s
+bounds:1175,196,349,382
+rotate:90
+r s pad
+bounds:1579,328,419,311
+shield
+bounds:11,191,481,878
+spear
+bounds:514,375,1892,694
+visor
+bounds:514,746,525,323

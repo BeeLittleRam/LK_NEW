@@ -6,41 +6,38 @@ using Spine.Unity;
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory("Spine")]
-    [Tooltip("Sets a Spine 4.3 SkeletonAnimation animation.")]
+    [Tooltip("Sets a Spine animation with strict loop control and prevents frame-by-frame re-triggering.")]
     public class PlaymakerSpineSetAnimation : BaseAction
     {
         [RequiredField]
-        [Tooltip("GameObject containing the Spine 4.3 SkeletonAnimation component.")]
+        [Tooltip("GameObject containing the Spine SkeletonAnimation component.")]
         public GameObject gameObject;
 
         [RequiredField]
-        [Tooltip("Spine animation name. Can be assigned from a PlayMaker 2 String Variable.")]
+        [Tooltip("Spine animation name.")]
         public StringVar animationName;
 
-        [Tooltip("Spine animation track. Usually 0 for the main animation.")]
+        [Tooltip("Spine animation track.")]
         public int trackIndex = 0;
 
         [Tooltip("Whether the animation should loop.")]
-        public bool loop = true;
+        public bool loop = false;
 
-        [Tooltip("Restart the animation if the requested animation is already playing.")]
+        [Tooltip("Restart the animation if already playing.")]
         public bool restart = false;
 
         [Tooltip("Clear the selected track before setting the animation.")]
         public bool clearTrack = false;
 
-
         public override void Reset()
         {
             gameObject = null;
             animationName = null;
-
             trackIndex = 0;
-            loop = true;
+            loop = false;
             restart = false;
             clearTrack = false;
         }
-
 
         public override bool CanExecute()
         {
@@ -49,129 +46,34 @@ namespace HutongGames.PlayMaker.Actions
                    !string.IsNullOrEmpty(animationName.Value);
         }
 
-
         public override void Execute()
         {
-            // ---------------------------------------------------------
-            // Validate GameObject
-            // ---------------------------------------------------------
-
-            if (gameObject == null)
+            if (gameObject == null || animationName == null || string.IsNullOrEmpty(animationName.Value))
             {
-                Debug.LogWarning(
-                    "PlaymakerSpineSetAnimation: No GameObject assigned."
-                );
-
                 Finish();
                 return;
             }
-
-
-            // ---------------------------------------------------------
-            // Validate Animation Name
-            // ---------------------------------------------------------
-
-            if (animationName == null ||
-                string.IsNullOrEmpty(animationName.Value))
-            {
-                Debug.LogWarning(
-                    "PlaymakerSpineSetAnimation: Animation Name is empty."
-                );
-
-                Finish();
-                return;
-            }
-
 
             string requestedAnimation = animationName.Value;
 
-
-            // ---------------------------------------------------------
-            // Get SkeletonAnimation
-            // ---------------------------------------------------------
-
-            SkeletonAnimation skeletonAnimation =
-                gameObject.GetComponent<SkeletonAnimation>();
-
+            SkeletonAnimation skeletonAnimation = gameObject.GetComponent<SkeletonAnimation>();
             if (skeletonAnimation == null)
             {
-                Debug.LogWarning(
-                    "PlaymakerSpineSetAnimation: GameObject '" +
-                    gameObject.name +
-                    "' does not have a Spine SkeletonAnimation component."
-                );
-
                 Finish();
                 return;
             }
 
-
-            // ---------------------------------------------------------
-            // Get AnimationState
-            // ---------------------------------------------------------
-
-            Spine.AnimationState animationState =
-                skeletonAnimation.AnimationState;
-
+            Spine.AnimationState animationState = skeletonAnimation.AnimationState;
             if (animationState == null)
             {
-                Debug.LogWarning(
-                    "PlaymakerSpineSetAnimation: AnimationState is null on '" +
-                    gameObject.name +
-                    "'."
-                );
-
                 Finish();
                 return;
             }
-
-
-            // ---------------------------------------------------------
-            // Validate Animation Exists
-            // ---------------------------------------------------------
-
-            Spine.Animation animation =
-                skeletonAnimation.Skeleton.Data.FindAnimation(
-                    requestedAnimation
-                );
-
-            if (animation == null)
-            {
-                Debug.LogWarning(
-                    "PlaymakerSpineSetAnimation: Animation '" +
-                    requestedAnimation +
-                    "' was not found on '" +
-                    gameObject.name +
-                    "'."
-                );
-
-                Finish();
-                return;
-            }
-
-
-            // ---------------------------------------------------------
-            // Validate Track
-            // ---------------------------------------------------------
 
             int track = Mathf.Max(0, trackIndex);
+            TrackEntry currentEntry = animationState.GetTrack(track);
 
-
-            // ---------------------------------------------------------
-            // Get Current TrackEntry
-            //
-            // Spine 4.3:
-            // GetTrack() is used to retrieve the current TrackEntry.
-            // ---------------------------------------------------------
-
-            TrackEntry currentEntry =
-                animationState.GetTrack(track);
-
-
-            // ---------------------------------------------------------
-            // Don't restart if already playing
-            // ---------------------------------------------------------
-
+            // Prevents the FSM from restarting a non-looping animation every frame
             if (!restart &&
                 currentEntry != null &&
                 currentEntry.Animation != null &&
@@ -181,31 +83,21 @@ namespace HutongGames.PlayMaker.Actions
                 return;
             }
 
-
-            // ---------------------------------------------------------
-            // Clear Track
-            // ---------------------------------------------------------
-
             if (clearTrack)
             {
                 animationState.ClearTrack(track);
             }
 
-
-            // ---------------------------------------------------------
-            // Set Animation
-            // ---------------------------------------------------------
-
-            animationState.SetAnimation(
+            TrackEntry newEntry = animationState.SetAnimation(
                 track,
                 requestedAnimation,
                 loop
             );
 
-
-            // ---------------------------------------------------------
-            // Finish
-            // ---------------------------------------------------------
+            if (newEntry != null)
+            {
+                newEntry.Loop = loop;
+            }
 
             Finish();
         }

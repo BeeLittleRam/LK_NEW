@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: db88271173c9bec42abe82ffd51b38ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -678529123072674798
+    second: LightningStrikeVFX_Spritesheet_0
+  - first:
+      213: -4836122924059343810
+    second: LightningStrikeVFX_Spritesheet_1
+  - first:
+      213: -1870608972108988676
+    second: LightningStrikeVFX_Spritesheet_2
+  - first:
+      213: 3600665755624436242
+    second: LightningStrikeVFX_Spritesheet_3
+  - first:
+      213: 8971880606613600167
+    second: LightningStrikeVFX_Spritesheet_4
+  - first:
+      213: -5316550421664560341
+    second: LightningStrikeVFX_Spritesheet_5
+  - first:
+      213: -2093704145246844271
+    second: LightningStrikeVFX_Spritesheet_6
+  - first:
+      213: 5026381575747855290
+    second: LightningStrikeVFX_Spritesheet_7
+  - first:
+      213: 8272943967746849207
+    second: LightningStrikeVFX_Spritesheet_8
+  - first:
+      213: -3125941679740625953
+    second: LightningStrikeVFX_Spritesheet_9
+  - first:
+      213: -9112056991836999423
+    second: LightningStrikeVFX_Spritesheet_10
+  - first:
+      213: -3987240367258895096
+    second: LightningStrikeVFX_Spritesheet_11
+  - first:
+      213: 7482778285569423196
+    second: LightningStrikeVFX_Spritesheet_12
+  - first:
+      213: 280081508763134434
+    second: LightningStrikeVFX_Spritesheet_13
+  - first:
+      213: 1837383225026459086
+    second: LightningStrikeVFX_Spritesheet_14
+  - first:
+      213: 6226119816359380217
+    second: LightningStrikeVFX_Spritesheet_15
+  - first:
+      213: -6496010111749689516
+    second: LightningStrikeVFX_Spritesheet_16
+  - first:
+      213: 5105508981084953831
+    second: LightningStrikeVFX_Spritesheet_17
+  - first:
+      213: 7172997572388047171
+    second: LightningStrikeVFX_Spritesheet_18
+  - first:
+      213: -3344814920518927558
+    second: LightningStrikeVFX_Spritesheet_19
+  - first:
+      213: 6643396691190909949
+    second: LightningStrikeVFX_Spritesheet_20
+  - first:
+      213: 8051483151096320690
+    second: LightningStrikeVFX_Spritesheet_21
+  - first:
+      213: -8073664426204051132
+    second: LightningStrikeVFX_Spritesheet_22
+  - first:
+      213: 8662001064859517767
+    second: LightningStrikeVFX_Spritesheet_23
+  - first:
+      213: 4510480310461661814
+    second: LightningStrikeVFX_Spritesheet_24
+  - first:
+      213: -2242739134443404905
+    second: LightningStrikeVFX_Spritesheet_25
+  - first:
+      213: -8855572431628913474
+    second: LightningStrikeVFX_Spritesheet_26
+  - first:
+      213: 5601795643198349178
+    second: LightningStrikeVFX_Spritesheet_27
+  - first:
+      213: -7019325315763922703
+    second: LightningStrikeVFX_Spritesheet_28
+  - first:
+      213: -8732553610893405156
+    second: LightningStrikeVFX_Spritesheet_29
+  - first:
+      213: 2064700355485181558
+    second: LightningStrikeVFX_Spritesheet_30
+  - first:
+      213: 3136683419151243492
+    second: LightningStrikeVFX_Spritesheet_31
+  - first:
+      213: 7650803136320606821
+    second: LightningStrikeVFX_Spritesheet_32
+  - first:
+      213: -2617063204023891187
+    second: LightningStrikeVFX_Spritesheet_33
+  - first:
+      213: 3031260940959007418
+    second: LightningStrikeVFX_Spritesheet_34
+  - first:
+      213: -4488090825131850161
+    second: LightningStrikeVFX_Spritesheet_35
+  - first:
+      213: -4131526931221317247
+    second: LightningStrikeVFX_Spritesheet_36
+  - first:
+      213: -6141328674351811006
+    second: LightningStrikeVFX_Spritesheet_37
+  - first:
+      213: 7855765208826472673
+    second: LightningStrikeVFX_Spritesheet_38
+  - first:
+      213: -8872558372163897970
+    second: LightningStrikeVFX_Spritesheet_39
+  - first:
+      213: -6576378677123515921
+    second: LightningStrikeVFX_Spritesheet_40
+  - first:
+      213: -6956512906264150126
+    second: LightningStrikeVFX_Spritesheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1673
+        width: 428
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214fe798b516596f0800000000000000
+      internalID: -678529123072674798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1675
+        width: 431
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34c15dc2d3a2ecb0800000000000000
+      internalID: -4836122924059343810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1677
+        width: 469
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef8cffc034a06e0800000000000000
+      internalID: -1870608972108988676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1680
+        width: 458
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21278e67d6228f130800000000000000
+      internalID: 3600665755624436242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 1897
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a77b6c60e5828c70800000000000000
+      internalID: 8971880606613600167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 1732
+        width: 63
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b0b3e4f81d736b0800000000000000
+      internalID: -5316550421664560341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1125
+        width: 537
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a8ccd3c2ba1f2e0800000000000000
+      internalID: -2093704145246844271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1176
+        width: 500
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3e408896b41c540800000000000000
+      internalID: 5026381575747855290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1183
+        width: 238
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9f24ce4b66fc270800000000000000
+      internalID: 8272943967746849207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 1186
+        width: 447
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbd87eaa9c6e94d0800000000000000
+      internalID: -3125941679740625953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1366
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101f07491787b8180800000000000000
+      internalID: -9112056991836999423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 1291
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d7f63e20a7aa8c0800000000000000
+      internalID: -3987240367258895096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 1307
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c573f5c843b28d760800000000000000
+      internalID: 7482778285569423196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 1227
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e96bf5f5ac03e300800000000000000
+      internalID: 280081508763134434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 774
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5b6fbee42bf7910800000000000000
+      internalID: 1837383225026459086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 677
+        width: 446
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f40f1f4cfe976650800000000000000
+      internalID: 6226119816359380217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 678
+        width: 222
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f60df783989d5a0800000000000000
+      internalID: -6496010111749689516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 767
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec922f3e596ad640800000000000000
+      internalID: 5105508981084953831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 680
+        width: 410
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349cde4b94b9b8360800000000000000
+      internalID: 7172997572388047171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 767
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bfa072d84d491d0800000000000000
+      internalID: -3344814920518927558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 690
+        width: 406
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb8078a716123c50800000000000000
+      internalID: 6643396691190909949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 718
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b29320744d9cbf60800000000000000
+      internalID: 8051483151096320690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 292
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44946600bf494ff80800000000000000
+      internalID: -8073664426204051132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 285
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743c103431c953870800000000000000
+      internalID: 8662001064859517767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 184
+        width: 175
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672067fd1f1789e30800000000000000
+      internalID: 4510480310461661814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 291
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79142a7c3a030e0e0800000000000000
+      internalID: -2242739134443404905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 295
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb43402dacfaa1580800000000000000
+      internalID: -8855572431628913474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 307
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f1b2935739dbd40800000000000000
+      internalID: 5601795643198349178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 193
+        width: 153
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f81cf6b0d8569e90800000000000000
+      internalID: -7019325315763922703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 270
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14d4a802ccbfc680800000000000000
+      internalID: -8732553610893405156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 206
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6762158b80a47ac10800000000000000
+      internalID: 2064700355485181558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 289
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81e5b63fcb78b20800000000000000
+      internalID: 3136683419151243492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 214
+        width: 142
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56295d2baec1d2a60800000000000000
+      internalID: 7650803136320606821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b0969b1e25eabd0800000000000000
+      internalID: -2617063204023891187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 225
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c067f3c3311a20800000000000000
+      internalID: 3031260940959007418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 271
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4683586c2917b1c0800000000000000
+      internalID: -4488090825131850161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 256
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189f794552ed9a6c0800000000000000
+      internalID: -4131526931221317247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 213
+        width: 96
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f65cdb1e95caa0800000000000000
+      internalID: -6141328674351811006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 210
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e869f6f5d8450d60800000000000000
+      internalID: 7855765208826472673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 242
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85b04a5b275ed480800000000000000
+      internalID: -8872558372163897970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 238
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97991bf620cb4a0800000000000000
+      internalID: -6576378677123515921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrikeVFX_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 246
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f74b27e50857f90800000000000000
+      internalID: -6956512906264150126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightningStrikeVFX_Spritesheet_0: -678529123072674798
+      LightningStrikeVFX_Spritesheet_1: -4836122924059343810
+      LightningStrikeVFX_Spritesheet_10: -9112056991836999423
+      LightningStrikeVFX_Spritesheet_11: -3987240367258895096
+      LightningStrikeVFX_Spritesheet_12: 7482778285569423196
+      LightningStrikeVFX_Spritesheet_13: 280081508763134434
+      LightningStrikeVFX_Spritesheet_14: 1837383225026459086
+      LightningStrikeVFX_Spritesheet_15: 6226119816359380217
+      LightningStrikeVFX_Spritesheet_16: -6496010111749689516
+      LightningStrikeVFX_Spritesheet_17: 5105508981084953831
+      LightningStrikeVFX_Spritesheet_18: 7172997572388047171
+      LightningStrikeVFX_Spritesheet_19: -3344814920518927558
+      LightningStrikeVFX_Spritesheet_2: -1870608972108988676
+      LightningStrikeVFX_Spritesheet_20: 6643396691190909949
+      LightningStrikeVFX_Spritesheet_21: 8051483151096320690
+      LightningStrikeVFX_Spritesheet_22: -8073664426204051132
+      LightningStrikeVFX_Spritesheet_23: 8662001064859517767
+      LightningStrikeVFX_Spritesheet_24: 4510480310461661814
+      LightningStrikeVFX_Spritesheet_25: -2242739134443404905
+      LightningStrikeVFX_Spritesheet_26: -8855572431628913474
+      LightningStrikeVFX_Spritesheet_27: 5601795643198349178
+      LightningStrikeVFX_Spritesheet_28: -7019325315763922703
+      LightningStrikeVFX_Spritesheet_29: -8732553610893405156
+      LightningStrikeVFX_Spritesheet_3: 3600665755624436242
+      LightningStrikeVFX_Spritesheet_30: 2064700355485181558
+      LightningStrikeVFX_Spritesheet_31: 3136683419151243492
+      LightningStrikeVFX_Spritesheet_32: 7650803136320606821
+      LightningStrikeVFX_Spritesheet_33: -2617063204023891187
+      LightningStrikeVFX_Spritesheet_34: 3031260940959007418
+      LightningStrikeVFX_Spritesheet_35: -4488090825131850161
+      LightningStrikeVFX_Spritesheet_36: -4131526931221317247
+      LightningStrikeVFX_Spritesheet_37: -6141328674351811006
+      LightningStrikeVFX_Spritesheet_38: 7855765208826472673
+      LightningStrikeVFX_Spritesheet_39: -8872558372163897970
+      LightningStrikeVFX_Spritesheet_4: 8971880606613600167
+      LightningStrikeVFX_Spritesheet_40: -6576378677123515921
+      LightningStrikeVFX_Spritesheet_41: -6956512906264150126
+      LightningStrikeVFX_Spritesheet_5: -5316550421664560341
+      LightningStrikeVFX_Spritesheet_6: -2093704145246844271
+      LightningStrikeVFX_Spritesheet_7: 5026381575747855290
+      LightningStrikeVFX_Spritesheet_8: 8272943967746849207
+      LightningStrikeVFX_Spritesheet_9: -3125941679740625953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
