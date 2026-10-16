@@ -1,0 +1,61 @@
+FarDeepWarlock.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+back head
+	bounds: 1217, 1114, 326, 266
+back r sh0ulder
+	bounds: 1591, 1357, 319, 212
+eyeball
+	bounds: 62, 1676, 105, 105
+front head
+	bounds: 961, 820, 334, 274
+l back cape
+	bounds: 0, 647, 280, 847
+	rotate: 90
+l front cape
+	bounds: 867, 533, 267, 942
+	rotate: 90
+l horns
+	bounds: 1086, 1609, 182, 172
+l shoulder pad
+	bounds: 1638, 1589, 224, 192
+pupil
+	bounds: 0, 1744, 37, 42
+	rotate: 90
+r back cape
+	bounds: 0, 63, 450, 887
+	rotate: 90
+r front cape
+	bounds: 907, 0, 513, 993
+	rotate: 90
+r horns
+	bounds: 844, 1638, 143, 222
+	rotate: 90
+r shoulder pad
+	bounds: 1563, 1071, 342, 266
+t1
+	bounds: 1288, 1604, 177, 330
+	rotate: 90
+t11
+	bounds: 0, 947, 230, 941
+	rotate: 90
+t2
+	bounds: 0, 1212, 223, 302
+	rotate: 90
+t22
+	bounds: 0, 1455, 180, 766
+	rotate: 90
+t3
+	bounds: 545, 1655, 126, 279
+	rotate: 90
+t33
+	bounds: 786, 1400, 184, 785
+	rotate: 90
+t4
+	bounds: 187, 1665, 116, 338
+	offsets: 0, 0, 131, 338
+	rotate: 90
+t44
+	bounds: 322, 1197, 183, 875
+	rotate: 90

@@ -1,0 +1,67 @@
+plant monster cutout.png
+size:4096,2048
+filter:Linear,Linear
+pma:true
+back body leaf design
+bounds:2816,506,492,261
+inside mouth l copy
+bounds:1985,906,897,425
+inside mouth l
+bounds:1985,906,897,425
+inside mouth l copy 2
+bounds:987,391,650,259
+inside upper mouth
+bounds:3306,393,938,360
+rotate:90
+l behind leg 1
+bounds:1119,167,542,202
+l ear
+bounds:3370,235,572,247
+offsets:0,0,573,247
+rotate:180
+l fnt leg 1
+bounds:2845,204,280,320
+rotate:90
+l mid leg 1
+bounds:1789,294,564,329
+rotate:180
+lef leaf design
+bounds:957,1135,132,196
+lower mouth
+bounds:11,833,945,498
+lower mouth teeth
+bounds:3688,501,830,289
+rotate:90
+lower mouth teeth back
+bounds:1642,612,830,289
+main body
+bounds:436,435,537,432
+main neck
+bounds:2424,427,909,904
+neck leaf 1
+bounds:3187,13,196,220
+neck leaf 2
+bounds:2556,50,343,163
+r behind leg 1
+bounds:211,215,426,227
+r behind leg 2
+bounds:711,166,466,271
+rotate:180
+r ear
+bounds:1856,55,345,292
+r fnt leg 1
+bounds:1589,11,245,213
+r fnt leg 2
+bounds:11,442,282,369
+r mid leg 1
+bounds:2283,153,381,288
+rotate:180
+r mid leg 2
+bounds:3710,105,331,375
+offsets:1,0,332,375
+rotate:90
+r side leaf
+bounds:268,54,426,195
+rotate:180
+upper mouth
+bounds:967,794,1000,537

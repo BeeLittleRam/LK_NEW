@@ -1,0 +1,322 @@
+{
+"skeleton": {
+	"hash": "RrAgE4EwCQA",
+	"spine": "4.3.26",
+	"x": -10111.852,
+	"y": -16377.7,
+	"width": 33902.75,
+	"height": 17025.2,
+	"images": "../../WRECK/ANIMATED/KNIGHT GIRL and NINJA GAL Pack/SHOWCASE/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Wall", "parent": "root", "x": 17929.283, "y": -8380.262 },
+	{ "name": "ImpactBurst", "parent": "root", "x": 10034.7, "y": -9406.527 },
+	{ "name": "Streak", "parent": "root", "x": 16339.992, "y": -11012.236 },
+	{ "name": "Block", "parent": "root", "x": -7700.422, "y": -9284.236 },
+	{ "name": "Spark", "parent": "root", "x": 21125.96, "y": -5087.443 }
+],
+"slots": [
+	{ "name": "DAGGER", "bone": "root", "attachment": "DAGGER" },
+	{ "name": "ImpactBurstFX01", "bone": "ImpactBurst", "attachment": "ImpactBurst/ImpactBurstFX" },
+	{ "name": "ImpactSlashFX01", "bone": "Streak", "attachment": "impactSlash/ImpactSlashFX01" },
+	{ "name": "aura (69)", "bone": "Block", "attachment": "aura (69)" },
+	{ "name": "aura (330)", "bone": "Spark", "attachment": "aura (330)", "blend": "screen" },
+	{ "name": "particle (80)", "bone": "Wall", "attachment": "particle (80)" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"aura (69)": {
+				"aura (69)": { "scaleX": 18.839287, "scaleY": 18.839287, "width": 256, "height": 256 }
+			},
+			"aura (330)": {
+				"aura (330)": { "x": -54.50976, "y": 44.11621, "scaleX": 21.24569, "scaleY": 21.24569, "width": 256, "height": 256 }
+			},
+			"DAGGER": {
+				"DAGGER": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 0, 1, 3 ],
+					"vertices": [ 212.0, -647.5, -212.0, -647.5, -212.0, 647.5, 212.0, 647.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 424.0,
+					"height": 1295.0
+				}
+			},
+			"ImpactBurstFX01": {
+				"ImpactBurst/ImpactBurstFX": {
+					"scaleX": 28.98426,
+					"scaleY": 28.98426,
+					"width": 256,
+					"height": 256,
+					"sequence": { "count": 11, "digits": 2 }
+				}
+			},
+			"ImpactSlashFX01": {
+				"impactSlash/ImpactSlashFX01": { "x": 48.00391, "y": 24.001953, "scaleX": 24.83624, "scaleY": 24.83624, "width": 268, "height": 434 }
+			},
+			"particle (80)": {
+				"particle (80)": { "color": "ffe537ff", "scaleX": 29.523657, "scaleY": 29.523657, "width": 256, "height": 256 }
+			}
+		}
+	}
+],
+"events": {
+	"Attack1": {},
+	"Attack2": {},
+	"Attack3": {},
+	"Attack4": {},
+	"ChargeUpSoundCue": {},
+	"Death": {},
+	"DeathLandImpact": {},
+	"Free": {},
+	"Hurt": {},
+	"KnockbackWallImpact": {},
+	"Midair_Attack1": {},
+	"ProjectileThrow": {},
+	"RollStop": {},
+	"RunStep1": {},
+	"RunStep2": {},
+	"SideStepFX": {},
+	"WalkStep1": {},
+	"WalkStep2": {}
+},
+"animations": {
+	"Showcase": {
+		"slots": {
+			"DAGGER": {
+				"attachment": [
+					{ "time": 14.633333 },
+					{ "time": 18.333334, "name": "DAGGER" },
+					{ "time": 18.666666 },
+					{ "time": 19.3, "name": "DAGGER" },
+					{ "time": 19.5 },
+					{ "time": 21.3, "name": "DAGGER" },
+					{ "time": 21.666666 }
+				]
+			},
+			"ImpactBurstFX01": {
+				"rgba": [
+					{ "time": 8.266666, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 8.533334, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 11.466666, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 15.566667, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 21.833334, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 22.03333, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 22.233334, "color": "2b0400ff", "curve": "stepped" },
+					{ "time": 22.766666, "color": "2b0400ff" }
+				],
+				"attachment": [
+					{ "time": 8.866667 },
+					{ "time": 11.466666, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 11.8 },
+					{ "time": 15.566667, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 15.9 },
+					{ "time": 21.833334, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 22.03333, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 22.233334, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 22.5 },
+					{ "time": 22.766666, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 23.1 }
+				]
+			},
+			"particle (80)": {
+				"rgba": [
+					{ "time": 12.066667, "color": "ffffffff" },
+					{ "time": 12.333333, "color": "ffffff00" },
+					{ "time": 16.06667, "color": "ffffffff" },
+					{ "time": 16.46667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 12.066667, "name": "particle (80)" },
+					{ "time": 12.333333 },
+					{ "time": 16.06667, "name": "particle (80)" },
+					{ "time": 16.46667 }
+				]
+			}
+		},
+		"bones": {
+			"ImpactBurst": {
+				"rotate": [
+					{ "time": 8.266666, "value": -15.236664, "curve": "stepped" },
+					{ "time": 8.533334, "value": 83.22037, "curve": "stepped" },
+					{ "time": 11.466666, "value": -42.53455, "curve": "stepped" },
+					{ "time": 15.566667, "value": -7.236778, "curve": "stepped" },
+					{ "time": 21.833334, "value": -0.11014557, "curve": "stepped" },
+					{ "time": 22.03333, "value": -73.77798, "curve": "stepped" },
+					{ "time": 22.233334, "value": 56.62824, "curve": "stepped" },
+					{ "time": 22.766666, "value": -12.166687 }
+				],
+				"translate": [
+					{ "time": 8.266666, "x": -41025.15, "y": 11279.314, "curve": "stepped" },
+					{ "time": 8.4, "x": -41025.15, "y": 11279.314, "curve": "stepped" },
+					{ "time": 8.533334, "x": -42238.29, "y": 11191.087, "curve": "stepped" },
+					{ "time": 11.466666, "x": -32731.695, "y": 12095.424, "curve": "stepped" },
+					{ "time": 15.566667, "x": -35290.32, "y": 11036.687, "curve": "stepped" },
+					{ "time": 21.833334, "x": -38201.85, "y": 10816.115, "curve": "stepped" },
+					{ "time": 22.03333, "x": -37193.86, "y": 11200.116, "curve": "stepped" },
+					{ "time": 22.1, "x": -38681.86, "y": 10528.116, "curve": "stepped" },
+					{ "time": 22.233334, "x": -37473.97, "y": 11124.916, "curve": "stepped" },
+					{ "time": 22.3, "x": -36503.46, "y": 10617.604, "curve": "stepped" },
+					{ "time": 22.766666, "x": -34297.77, "y": 13043.88, "curve": "stepped" },
+					{ "time": 22.8, "x": -34209.54, "y": 11014.63 }
+				],
+				"scale": [
+					{ "time": 8.266666, "x": 0.551383, "y": 0.9713253, "curve": "stepped" },
+					{ "time": 8.533334, "x": 0.7004468, "y": 0.7004468, "curve": "stepped" },
+					{ "time": 11.466666, "x": 0.4588212, "y": 1.3831286, "curve": "stepped" },
+					{ "time": 15.566667, "curve": "stepped" },
+					{ "time": 21.833334, "x": 0.45469725, "y": 1.4376293, "curve": "stepped" },
+					{ "time": 22.03333, "x": 0.45469725, "y": 1.4376293, "curve": "stepped" },
+					{ "time": 22.233334, "curve": "stepped" },
+					{ "time": 22.766666, "x": 0.37135255, "y": 1.8752465 }
+				],
+				"shear": [
+					{ "time": 11.466666, "x": 41.6657, "y": 8.29032, "curve": "stepped" },
+					{ "time": 15.566667, "curve": "stepped" },
+					{ "time": 21.833334, "curve": "stepped" },
+					{ "time": 22.03333, "curve": "stepped" },
+					{ "time": 22.233334, "curve": "stepped" },
+					{ "time": 22.766666 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 6.666666, "curve": "stepped" },
+					{ "time": 6.7 }
+				],
+				"translate": [
+					{ "x": 26400, "curve": "stepped" },
+					{ "time": 6.666666, "x": 26400, "curve": "stepped" },
+					{ "time": 6.7, "x": 26400 }
+				],
+				"scale": [
+					{ "time": 6.666666, "curve": "stepped" },
+					{ "time": 6.7 }
+				],
+				"shear": [
+					{ "time": 6.666666, "curve": "stepped" },
+					{ "time": 6.7 }
+				]
+			},
+			"Wall": {
+				"rotate": [
+					{ "time": 12.066667, "value": 2.786209, "curve": "stepped" },
+					{ "time": 16.06667, "value": -0.688982 }
+				],
+				"translate": [
+					{ "time": 12.066667, "x": -54480, "y": 9744, "curve": "stepped" },
+					{ "time": 16.06667, "x": -34200, "y": 9744 }
+				],
+				"scale": [
+					{ "time": 12.066667, "x": 0.28, "curve": "stepped" },
+					{ "time": 16.06667, "x": 0.28 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"DAGGER": {
+					"DAGGER": {
+						"deform": [
+							{
+								"time": 14.433333,
+								"vertices": [ -34477.89, 1481.2786, -34107.99, 1901.8123, -32823.57, 772.054, -33193.47, 351.5195 ],
+								"curve": [ 14.433333, 0, 14.477778, 1 ]
+							},
+							{
+								"time": 14.5,
+								"vertices": [ -29025.02, 1481.2786, -28655.123, 1901.8123, -27370.7, 772.054, -27740.604, 351.5195 ],
+								"curve": [ 14.51111, 0, 14.522222, 1 ]
+							},
+							{
+								"time": 14.533334,
+								"vertices": [ -28625.914, 1481.2786, -28256.016, 1901.8123, -26971.594, 772.054, -27341.496, 351.5195 ],
+								"curve": [ 14.544445, 0, 14.555555, 1 ]
+							},
+							{
+								"time": 14.566667,
+								"vertices": [ -28625.914, 1724.637, -28256.016, 2145.1704, -26971.594, 772.054, -27341.496, 351.5195 ],
+								"curve": [ 14.577778, 0, 14.588888, 1 ]
+							},
+							{
+								"time": 14.6,
+								"vertices": [ -28625.914, 1598.0903, -28256.016, 2018.624, -26971.594, 772.054, -27341.496, 351.5195 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 18.333334,
+								"vertices": [ -30421.88, 1481.2786, -30051.986, 1901.8123, -28767.566, 772.054, -29137.47, 351.5195 ],
+								"curve": [ 18.333334, 0, 18.555555, 1 ]
+							},
+							{
+								"time": 18.666666,
+								"vertices": [ -13165.89, 1481.2786, -12795.992, 1901.8123, -11511.572, 772.054, -11881.475, 351.5195 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 19.3,
+								"vertices": [ -32512.297, 3425.062, -31764.807, 3150.9546, -32602.033, 867.9608, -33349.51, 1142.075 ],
+								"curve": [ 19.3, 0, 19.43333, 1 ]
+							},
+							{
+								"time": 19.5,
+								"vertices": [ -40503.73, -4665.23, -39756.23, -4939.337, -40593.46, -7222.33, -41340.94, -6948.217 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 21.3,
+								"vertices": [ -30376.65, 1481.2786, -29898.545, 1901.8123, -31182.965, 772.054, -31661.06, 351.5195 ],
+								"curve": [ 21.311186, 0, 21.32237, 0.25334445 ]
+							},
+							{
+								"time": 21.333334,
+								"vertices": [ -31627.807, 1481.2786, -31149.703, 1901.8123, -32434.123, 772.054, -32912.21, 351.5195 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 21.366667,
+								"vertices": [ -31326.77, 2998.478, -31323.664, 3049.7065, -31480.123, 469.1864, -31483.23, 417.9652 ]
+							},
+							{
+								"time": 21.43333,
+								"vertices": [ -33534.34, 4049.733, -33297.28, 3669.1604, -32134.91, 1803.2417, -32371.99, 2183.8164 ]
+							},
+							{
+								"time": 21.5,
+								"vertices": [ -34902.2, 4210.327, -34161.09, 4029.1646, -33607.77, 3702.708, -34348.89, 3883.864 ]
+							},
+							{
+								"time": 21.56667,
+								"vertices": [ -35391.13, 3823.9016, -34634.8, 4087.221, -35439.04, 3807.219, -36195.36, 3543.9 ]
+							},
+							{
+								"time": 21.666666,
+								"vertices": [ -36337.75, 1438.6406, -36000.34, 1853.7075, -37268.05, 294.2606, -37605.46, -120.80417 ]
+							}
+						]
+					}
+				},
+				"ImpactBurstFX01": {
+					"ImpactBurst/ImpactBurstFX": {
+						"sequence": [
+							{ "time": 8.266666, "mode": "once", "delay": 0.03333333 },
+							{ "time": 8.533334, "mode": "once" },
+							{ "time": 11.466666, "mode": "once" },
+							{ "time": 15.566667, "mode": "once" },
+							{ "time": 21.833334, "mode": "once" },
+							{ "time": 22.03333, "mode": "once" },
+							{ "time": 22.233334, "mode": "once" },
+							{ "time": 22.766666, "mode": "once" }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

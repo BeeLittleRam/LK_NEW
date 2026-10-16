@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: dec5f614f43e47740974436db65de5c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1432162989633421003
+    second: plant monster cutout_0
+  - first:
+      213: -5238627692051620345
+    second: plant monster cutout_1
+  - first:
+      213: 8591327455270359735
+    second: plant monster cutout_2
+  - first:
+      213: 7872588555720396779
+    second: plant monster cutout_3
+  - first:
+      213: -564521077977562930
+    second: plant monster cutout_4
+  - first:
+      213: -7049531433846174408
+    second: plant monster cutout_5
+  - first:
+      213: -3415766890415295179
+    second: plant monster cutout_6
+  - first:
+      213: 8692726349221083734
+    second: plant monster cutout_7
+  - first:
+      213: -4152266230973088818
+    second: plant monster cutout_8
+  - first:
+      213: 4012912489164445052
+    second: plant monster cutout_9
+  - first:
+      213: -7093784752479559349
+    second: plant monster cutout_10
+  - first:
+      213: -3668926042016675065
+    second: plant monster cutout_11
+  - first:
+      213: 7056168990253166906
+    second: plant monster cutout_12
+  - first:
+      213: 1507078655727171522
+    second: plant monster cutout_13
+  - first:
+      213: -7247610128066544420
+    second: plant monster cutout_14
+  - first:
+      213: 8036695662386246168
+    second: plant monster cutout_15
+  - first:
+      213: 1378831832077727607
+    second: plant monster cutout_16
+  - first:
+      213: -7264444252951544098
+    second: plant monster cutout_17
+  - first:
+      213: 3721658901131955628
+    second: plant monster cutout_18
+  - first:
+      213: -5852986255842154172
+    second: plant monster cutout_19
+  - first:
+      213: 9204206409086379600
+    second: plant monster cutout_20
+  - first:
+      213: -1388980516766484054
+    second: plant monster cutout_21
+  - first:
+      213: -620777078229055063
+    second: plant monster cutout_22
+  - first:
+      213: -330994781693614939
+    second: plant monster cutout_23
+  - first:
+      213: -6455163652294216649
+    second: plant monster cutout_24
+  - first:
+      213: -8108136260828948940
+    second: plant monster cutout_25
+  - first:
+      213: 8220557357202503379
+    second: plant monster cutout_26
+  - first:
+      213: 6734550589851423818
+    second: plant monster cutout_27
+  - first:
+      213: -7665075115202524191
+    second: plant monster cutout_28
+  - first:
+      213: -3219433680177414504
+    second: plant monster cutout_29
+  - first:
+      213: -3832046951258403729
+    second: plant monster cutout_30
+  - first:
+      213: -3005690409589651456
+    second: plant monster cutout_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

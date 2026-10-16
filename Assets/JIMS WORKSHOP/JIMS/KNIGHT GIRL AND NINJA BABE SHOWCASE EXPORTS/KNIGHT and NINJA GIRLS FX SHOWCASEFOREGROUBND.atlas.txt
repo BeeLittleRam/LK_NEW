@@ -1,0 +1,56 @@
+KNIGHT and NINJA GIRLS FX SHOWCASEFOREGROUBND.png
+	size: 1224, 364
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+DAGGER
+	bounds: 0, 39, 106, 324
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_00
+	bounds: 541, 127, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_01
+	bounds: 626, 256, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_02
+	bounds: 541, 0, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_03
+	bounds: 676, 0, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_04
+	bounds: 676, 129, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_05
+	bounds: 761, 256, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_06
+	bounds: 811, 129, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_07
+	bounds: 896, 256, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_08
+	bounds: 811, 2, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_09
+	bounds: 946, 2, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_10
+	bounds: 946, 129, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_11
+	bounds: 1031, 256, 115, 107
+DoubleJumpFX PNG EXPORT/DoubleJumpFX-animation_12
+	bounds: 1081, 129, 115, 107
+aura (330)
+	bounds: 1081, 45, 64, 64
+aura (69)
+	bounds: 1166, 307, 56, 56
+	offsets: 4, 4, 64, 64
+impactSlash/ImpactSlashFX01
+	bounds: 539, 254, 67, 109
+impactSlash/ImpactSlashFX02
+	bounds: 232, 225, 85, 138
+impactSlash/ImpactSlashFX03
+	bounds: 126, 60, 86, 141
+impactSlash/ImpactSlashFX04
+	bounds: 232, 61, 85, 140
+impactSlash/ImpactSlashFX05
+	bounds: 126, 221, 86, 142
+impactSlash/ImpactSlashFX06
+	bounds: 337, 225, 84, 138
+impactSlash/ImpactSlashFX07
+	bounds: 337, 69, 82, 136
+impactSlash/ImpactSlashFX08
+	bounds: 439, 69, 82, 136
+impactSlash/ImpactSlashFX09
+	bounds: 441, 237, 78, 126

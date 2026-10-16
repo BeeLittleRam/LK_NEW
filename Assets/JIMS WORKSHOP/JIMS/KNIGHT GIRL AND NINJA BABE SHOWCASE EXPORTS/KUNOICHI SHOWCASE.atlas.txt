@@ -1,0 +1,61 @@
+KUNOICHI SHOWCASE.png
+	size: 2004, 552
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+Kunoichi/BANGS
+	bounds: 350, 167, 416, 382
+Kunoichi/CHAIN
+	bounds: 409, 14, 116, 133
+Kunoichi/ChainLine
+	bounds: 786, 173, 128, 32
+Kunoichi/DAGGER
+	bounds: 786, 225, 106, 324
+Kunoichi/EYES
+	bounds: 0, 1, 253, 143
+Kunoichi/HAIR_BACK
+	bounds: 1243, 245, 341, 304
+Kunoichi/HEAD
+	bounds: 912, 231, 311, 318
+Kunoichi/L_ARM
+	bounds: 273, 2, 116, 142
+Kunoichi/L_FOREARM
+	bounds: 1874, 38, 92, 107
+Kunoichi/L_HAND
+	bounds: 1456, 1, 86, 76
+Kunoichi/L_LEG
+	bounds: 1293, 0, 143, 225
+Kunoichi/MOUTH
+	bounds: 934, 181, 34, 30
+Kunoichi/PONYTAIL
+	bounds: 0, 164, 330, 385
+Kunoichi/R_ARM
+	bounds: 1752, 164, 102, 124
+Kunoichi/R_FOREARM
+	bounds: 1875, 299, 123, 102
+Kunoichi/R_HAND
+	bounds: 1752, 60, 71, 84
+Kunoichi/R_LEG
+	bounds: 1735, 308, 120, 241
+	offsets: 10, 0, 130, 241
+Kunoichi/Slash_1
+	bounds: 701, 19, 128, 128
+Kunoichi/Slash_2
+	bounds: 849, 25, 128, 128
+Kunoichi/Slash_3
+	bounds: 997, 83, 128, 128
+Kunoichi/SpinFX
+	bounds: 1145, 83, 128, 128
+Kunoichi/TORSO
+	bounds: 1874, 165, 118, 114
+Kunoichi/WAIST
+	bounds: 545, 19, 136, 128
+Kunoichi/WIPLASH_1
+	bounds: 1456, 97, 128, 128
+Kunoichi/WIPLASH_2
+	bounds: 1604, 97, 128, 128
+Kunoichi/WIPLASH_3
+	bounds: 1875, 421, 128, 128
+Kunoichi/WIPON_CHAIN
+	bounds: 1604, 271, 111, 278
+	offsets: 0, 0, 282, 278

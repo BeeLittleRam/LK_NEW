@@ -1,0 +1,50 @@
+KNIGHT and NINJA GIRLS FX SHOWCASE.png
+	size: 280, 484
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+DAGGER
+	bounds: 0, 158, 106, 324
+ImpactBurst/ImpactBurstFX01
+	bounds: 230, 0, 32, 29
+	offsets: 16, 17, 64, 64
+ImpactBurst/ImpactBurstFX02
+	bounds: 230, 49, 42, 35
+	offsets: 11, 14, 64, 64
+ImpactBurst/ImpactBurstFX03
+	bounds: 158, 30, 52, 54
+	offsets: 6, 5, 64, 64
+ImpactBurst/ImpactBurstFX04
+	bounds: 80, 53, 58, 58
+	offsets: 3, 3, 64, 64
+ImpactBurst/ImpactBurstFX05
+	bounds: 126, 291, 63, 62
+	offsets: 1, 1, 64, 64
+ImpactBurst/ImpactBurstFX06
+	bounds: 213, 338, 64, 60
+	offsets: 0, 2, 64, 64
+ImpactBurst/ImpactBurstFX07
+	bounds: 209, 258, 62, 60
+	offsets: 1, 2, 64, 64
+ImpactBurst/ImpactBurstFX08
+	bounds: 126, 211, 62, 60
+	offsets: 1, 2, 64, 64
+ImpactBurst/ImpactBurstFX09
+	bounds: 208, 178, 62, 60
+	offsets: 1, 2, 64, 64
+ImpactBurst/ImpactBurstFX10
+	bounds: 207, 104, 60, 54
+	offsets: 2, 5, 64, 64
+ImpactBurst/ImpactBurstFX11
+	bounds: 0, 86, 60, 52
+	offsets: 2, 6, 64, 64
+aura (330)
+	bounds: 213, 418, 64, 64
+aura (69)
+	bounds: 0, 10, 56, 56
+	offsets: 4, 4, 64, 64
+impactSlash/ImpactSlashFX01
+	bounds: 126, 373, 67, 109
+particle (80)
+	bounds: 126, 131, 61, 60
+	offsets: 2, 2, 64, 64

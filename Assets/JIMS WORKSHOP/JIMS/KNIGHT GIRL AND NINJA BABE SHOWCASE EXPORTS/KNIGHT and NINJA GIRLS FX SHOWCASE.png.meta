@@ -1,0 +1,1101 @@
+fileFormatVersion: 2
+guid: f5a7b75a5d7944d43bd8187b1f87301e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6664859949733595268
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_0
+  - first:
+      213: 3061342147054617875
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_1
+  - first:
+      213: 2723754406275561060
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_2
+  - first:
+      213: 7516114659716284990
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_3
+  - first:
+      213: -8559855225629870568
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_4
+  - first:
+      213: 6281231772460187224
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_5
+  - first:
+      213: -5974575937023693699
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_6
+  - first:
+      213: -4730429660117146329
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_7
+  - first:
+      213: 7479535749393165575
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_8
+  - first:
+      213: -8391917228527996532
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_9
+  - first:
+      213: -5357958641629862469
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_10
+  - first:
+      213: -3696898287336674972
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_11
+  - first:
+      213: -4625257738896752884
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_12
+  - first:
+      213: -7182619312448455361
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_13
+  - first:
+      213: 2400468223668239485
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_14
+  - first:
+      213: 5603780981625651807
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_15
+  - first:
+      213: -8162672183178431000
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_16
+  - first:
+      213: -7411959925006072317
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_17
+  - first:
+      213: -7020287712818615597
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_18
+  - first:
+      213: -1762333770135444554
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_19
+  - first:
+      213: -506367529589631552
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_20
+  - first:
+      213: -9013953150076669108
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_21
+  - first:
+      213: 5703933569682768806
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_22
+  - first:
+      213: -4431173645943328785
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_23
+  - first:
+      213: 5115258066536685784
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_24
+  - first:
+      213: -8448663216378011758
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_25
+  - first:
+      213: 5975798524288313491
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_26
+  - first:
+      213: -1675904867461437075
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_27
+  - first:
+      213: 3185111647071055679
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_28
+  - first:
+      213: 7670279377753409822
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_29
+  - first:
+      213: 197510585236672306
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_30
+  - first:
+      213: 6194251553259785512
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_31
+  - first:
+      213: 7237910312996194052
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_32
+  - first:
+      213: 6512431970085588538
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_33
+  - first:
+      213: 192525031747455677
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_34
+  - first:
+      213: 1954912976869157158
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_35
+  - first:
+      213: 8048543689358065712
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_36
+  - first:
+      213: -2727759338203035140
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_37
+  - first:
+      213: 8141839733030356187
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_38
+  - first:
+      213: -3725723910385521534
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_39
+  - first:
+      213: 6509679858485746900
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_40
+  - first:
+      213: 8450570922214852619
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_41
+  - first:
+      213: -5552109151242697404
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_42
+  - first:
+      213: 3035121048911811852
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_43
+  - first:
+      213: 8051507100603866909
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_44
+  - first:
+      213: -5153906814964858378
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_45
+  - first:
+      213: -6286949000671484351
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_46
+  - first:
+      213: 6633156101270034744
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_47
+  - first:
+      213: 2947669825246367755
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_48
+  - first:
+      213: -9145115426284148628
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_49
+  - first:
+      213: -1294650251900118107
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_50
+  - first:
+      213: -1484020473920107312
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_51
+  - first:
+      213: -7411550233444646828
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_52
+  - first:
+      213: -8697272508630010208
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_53
+  - first:
+      213: 5417971520280833049
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_54
+  - first:
+      213: -4666297920714006002
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_55
+  - first:
+      213: 3871989276206717163
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_56
+  - first:
+      213: -3217925785549722887
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_57
+  - first:
+      213: -6369173506405762832
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_58
+  - first:
+      213: 1180007497552560814
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_59
+  - first:
+      213: -4949333904850695021
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_60
+  - first:
+      213: 7442038879587612299
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_61
+  - first:
+      213: 3228425916071867131
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_62
+  - first:
+      213: 6912502037072915746
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_63
+  - first:
+      213: 1862275756967500296
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_64
+  - first:
+      213: -4265562898622675959
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_65
+  - first:
+      213: 3509188170944731134
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_66
+  - first:
+      213: 5239556142951761267
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_67
+  - first:
+      213: -6599641101706652653
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_68
+  - first:
+      213: -439306623103740539
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_69
+  - first:
+      213: -2635128471066499705
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_70
+  - first:
+      213: -4058767607735977604
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_71
+  - first:
+      213: 8469518056656768316
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_72
+  - first:
+      213: -5742330959040398738
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_73
+  - first:
+      213: -7407589347863334898
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_74
+  - first:
+      213: -2568401936769749046
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_75
+  - first:
+      213: 4197259162395921525
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_76
+  - first:
+      213: 7016708982922068559
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_77
+  - first:
+      213: -4376861029854455588
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_78
+  - first:
+      213: -2373572860337265138
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_79
+  - first:
+      213: -3737636020976207368
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_80
+  - first:
+      213: -4479914880535463685
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_81
+  - first:
+      213: 3822606887844046687
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_82
+  - first:
+      213: 123935428881636099
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_83
+  - first:
+      213: 7293204911580975304
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_84
+  - first:
+      213: -7638510935227421848
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_85
+  - first:
+      213: -3453613872421017963
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_86
+  - first:
+      213: 3906480729183005851
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_87
+  - first:
+      213: 5725085325810211127
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_88
+  - first:
+      213: 6500816532026710282
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_89
+  - first:
+      213: -512796514654829875
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_90
+  - first:
+      213: -6242157010487305624
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_91
+  - first:
+      213: -9042777370444521153
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_92
+  - first:
+      213: 6649526860493314904
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_93
+  - first:
+      213: -6962572143743535842
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_94
+  - first:
+      213: -1125641530155702350
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_95
+  - first:
+      213: -930585780666249435
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_96
+  - first:
+      213: -4891160169479605298
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_97
+  - first:
+      213: -563994755562231516
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_98
+  - first:
+      213: 959573871383028614
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_99
+  - first:
+      213: -6270261682181661717
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_100
+  - first:
+      213: 6012222073792707342
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_101
+  - first:
+      213: -6637070967360056974
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_102
+  - first:
+      213: 6523518333551617771
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_103
+  - first:
+      213: -741320000800742574
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_104
+  - first:
+      213: -6643637387208095863
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_105
+  - first:
+      213: -6187866966361283857
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_106
+  - first:
+      213: 6033295442915008296
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_107
+  - first:
+      213: 8899521451384502578
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_108
+  - first:
+      213: -7218307222016681592
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_109
+  - first:
+      213: 7016359334752357394
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_110
+  - first:
+      213: -2175768406968872762
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_111
+  - first:
+      213: 7723466228703934743
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_112
+  - first:
+      213: 4073602767945483846
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_113
+  - first:
+      213: 7292222758145893266
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_114
+  - first:
+      213: -4022619228053077256
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_115
+  - first:
+      213: 8948908916667923454
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_116
+  - first:
+      213: 5499994407231745906
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_117
+  - first:
+      213: -4794845478647104229
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_118
+  - first:
+      213: -222603396845167565
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_119
+  - first:
+      213: -6069801566908517389
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_120
+  - first:
+      213: 6238398509128310872
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_121
+  - first:
+      213: -4698846207233005183
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_122
+  - first:
+      213: -239589897735190440
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_123
+  - first:
+      213: 8550548351232242444
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_124
+  - first:
+      213: -8060285744437664406
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_125
+  - first:
+      213: 6364179397376469472
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_126
+  - first:
+      213: -1805052187921336448
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_127
+  - first:
+      213: 981292489502485715
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_128
+  - first:
+      213: 2667447378763121406
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_129
+  - first:
+      213: -6390525983768804835
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_130
+  - first:
+      213: -1567849092168972282
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_131
+  - first:
+      213: 7604019119482287236
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_132
+  - first:
+      213: 2330004218027882106
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_133
+  - first:
+      213: 8771883359561774583
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_134
+  - first:
+      213: 2831107303508053125
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_135
+  - first:
+      213: -1134968318567190909
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_136
+  - first:
+      213: 2902292832590889698
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_137
+  - first:
+      213: -1819480273704840808
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_138
+  - first:
+      213: -7050456653179834094
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_139
+  - first:
+      213: -7256558234974315621
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_140
+  - first:
+      213: -8631965365102960220
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_141
+  - first:
+      213: 5603662780031069524
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_142
+  - first:
+      213: -7690920026085408671
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_143
+  - first:
+      213: 8038494228439277634
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_144
+  - first:
+      213: -7476136209078338726
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_145
+  - first:
+      213: 4253438862664671068
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_146
+  - first:
+      213: -8691173159828594422
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_147
+  - first:
+      213: 7751803376493792875
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_148
+  - first:
+      213: -7144977473124353576
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_149
+  - first:
+      213: -8222566816118921529
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_150
+  - first:
+      213: -4694479494859278497
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_151
+  - first:
+      213: -5558572970386957437
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_152
+  - first:
+      213: 4863127322203966243
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_153
+  - first:
+      213: -7822417830024902193
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_154
+  - first:
+      213: 3690948477388807438
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_155
+  - first:
+      213: 283693085130115970
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_156
+  - first:
+      213: 2525073841205610064
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_157
+  - first:
+      213: 7226951650356121265
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_158
+  - first:
+      213: 682689543964851461
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_159
+  - first:
+      213: 5820982903794196401
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_160
+  - first:
+      213: -1905920982562537080
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_161
+  - first:
+      213: -7200924757456066915
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_162
+  - first:
+      213: -1028428860858199038
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_163
+  - first:
+      213: 48369182132923751
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_164
+  - first:
+      213: 6304874262933667587
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_165
+  - first:
+      213: -2576607494495664880
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_166
+  - first:
+      213: 6467223328330201781
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_167
+  - first:
+      213: 322332255732482306
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_168
+  - first:
+      213: -2300788267097436148
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_169
+  - first:
+      213: 3811088059734366398
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_170
+  - first:
+      213: 5479227580009415879
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_171
+  - first:
+      213: 385583179290427675
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_172
+  - first:
+      213: 4339903709634894928
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_173
+  - first:
+      213: 5196279540378964898
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_174
+  - first:
+      213: -4485808955104143662
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_175
+  - first:
+      213: -3181574934013191030
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_176
+  - first:
+      213: 8106404652225115298
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_177
+  - first:
+      213: -391432621809513101
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_178
+  - first:
+      213: -7397062340522893329
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_179
+  - first:
+      213: 3853475725894873798
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_180
+  - first:
+      213: -6990068060931436156
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_181
+  - first:
+      213: -7561950841165796219
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_182
+  - first:
+      213: -3858412746964814423
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_183
+  - first:
+      213: -4262778965620492321
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_184
+  - first:
+      213: -3088607780267584785
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_185
+  - first:
+      213: 5947261514859732508
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_186
+  - first:
+      213: -333265334353702272
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_187
+  - first:
+      213: 8971900797600485753
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_188
+  - first:
+      213: 6110858070388557248
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_189
+  - first:
+      213: 3072617216314517323
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_190
+  - first:
+      213: -3933420550138566492
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_191
+  - first:
+      213: 4015677297119857242
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_192
+  - first:
+      213: 1834503226853699780
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_193
+  - first:
+      213: 1385062844384917719
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_194
+  - first:
+      213: -3428793765037085186
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_195
+  - first:
+      213: 1698807989382540392
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_196
+  - first:
+      213: 8534167043662647948
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_197
+  - first:
+      213: -7462295050380073897
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_198
+  - first:
+      213: 8552240902111965390
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_199
+  - first:
+      213: 7759036069214441717
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_200
+  - first:
+      213: -4307938132846913044
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_201
+  - first:
+      213: -8961748596368339898
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_202
+  - first:
+      213: 4542161251152864240
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_203
+  - first:
+      213: 9212815521319325792
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_204
+  - first:
+      213: -9085498853448496257
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_205
+  - first:
+      213: 1951511850192334825
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_206
+  - first:
+      213: -6410424195427881603
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_207
+  - first:
+      213: 2868252498076483871
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_208
+  - first:
+      213: -5192246471051053699
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_209
+  - first:
+      213: 5350978314160367140
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_210
+  - first:
+      213: -5192980406188558228
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_211
+  - first:
+      213: -7259640345073996676
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_212
+  - first:
+      213: -2341030769196465545
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_213
+  - first:
+      213: -1271304264661122571
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_214
+  - first:
+      213: -1786589200456831029
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_215
+  - first:
+      213: -6088845716052861603
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_216
+  - first:
+      213: -5997447327958451505
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_217
+  - first:
+      213: 2423213784057361167
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_218
+  - first:
+      213: 667916693619951705
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_219
+  - first:
+      213: -7348069788042558986
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_220
+  - first:
+      213: -8195309770302015059
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_221
+  - first:
+      213: -7763367535602399989
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_222
+  - first:
+      213: -6661414679152709279
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_223
+  - first:
+      213: -5608074404334752028
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_224
+  - first:
+      213: 7075609251994646677
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_225
+  - first:
+      213: -7838921478250444149
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_226
+  - first:
+      213: 757949914287517944
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_227
+  - first:
+      213: -4097325734598374079
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_228
+  - first:
+      213: -2435420585136098236
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_229
+  - first:
+      213: -6852484107139541765
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_230
+  - first:
+      213: 4861722727271772704
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_231
+  - first:
+      213: -4750465038405390339
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_232
+  - first:
+      213: 4416514367320237810
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_233
+  - first:
+      213: -7403550165106560770
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_234
+  - first:
+      213: -1204271553891465329
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_235
+  - first:
+      213: 6593882568784706268
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_236
+  - first:
+      213: 4857257651946847248
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_237
+  - first:
+      213: -5429817263174362148
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_238
+  - first:
+      213: -8304297919849699717
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_239
+  - first:
+      213: -4380245613101132312
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_240
+  - first:
+      213: 7089905098560349439
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_241
+  - first:
+      213: 3790778694457706170
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_242
+  - first:
+      213: 2229657783217267398
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_243
+  - first:
+      213: -4579829295796387394
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_244
+  - first:
+      213: -8718809278133086003
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_245
+  - first:
+      213: -9001177974544816581
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_246
+  - first:
+      213: -7023607976345954278
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_247
+  - first:
+      213: 4369443507178031160
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_248
+  - first:
+      213: 6268601221349804382
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_249
+  - first:
+      213: -6088806064074649063
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_250
+  - first:
+      213: 1949056217473137378
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_251
+  - first:
+      213: -6679044377966024792
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_252
+  - first:
+      213: 7708555498754310275
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_253
+  - first:
+      213: -3058748968802090134
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_254
+  - first:
+      213: -1692637116131679859
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_255
+  - first:
+      213: 8993550238040770360
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_256
+  - first:
+      213: -6003437492054123578
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_257
+  - first:
+      213: -2196254980150167302
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_258
+  - first:
+      213: 5203817970204489407
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_259
+  - first:
+      213: -7260718967946798756
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_260
+  - first:
+      213: -3176311601365954654
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_261
+  - first:
+      213: -224133626200912707
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_262
+  - first:
+      213: -3186975155946515371
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_263
+  - first:
+      213: -2850729898852861677
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_264
+  - first:
+      213: 1815956042946353773
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_265
+  - first:
+      213: 310475702412443649
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_266
+  - first:
+      213: 4679850464910628070
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_267
+  - first:
+      213: -4684476636072589582
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_268
+  - first:
+      213: -2074817228251775692
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_269
+  - first:
+      213: 3847277880664950607
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_270
+  - first:
+      213: -122054815863027473
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_271
+  - first:
+      213: -492269487206203376
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_272
+  - first:
+      213: -8836635888632346712
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_273
+  - first:
+      213: -577867954631165007
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_274
+  - first:
+      213: 4993954483237162884
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_275
+  - first:
+      213: -3148771860531811546
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_276
+  - first:
+      213: 5116240638849350853
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_277
+  - first:
+      213: 2914738719102210562
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_278
+  - first:
+      213: -5767184834965332511
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_279
+  - first:
+      213: -1425934052116556150
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_280
+  - first:
+      213: 8830228524813231321
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_281
+  - first:
+      213: 3376613220289568220
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_282
+  - first:
+      213: -3115463869068466297
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_283
+  - first:
+      213: 6628127335013116935
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_284
+  - first:
+      213: 7659035448325499096
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_285
+  - first:
+      213: 731613509275139408
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_286
+  - first:
+      213: -1430711426334882956
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_287
+  - first:
+      213: 3013743747010367621
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_288
+  - first:
+      213: -8411796237463941495
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_289
+  - first:
+      213: 4110375204292125253
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_290
+  - first:
+      213: -8372854672772972430
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_291
+  - first:
+      213: -8567195202115934675
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_292
+  - first:
+      213: 1476797900392358107
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_293
+  - first:
+      213: 4790766328147576839
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_294
+  - first:
+      213: 4259883973859635044
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_295
+  - first:
+      213: -6008713825589978468
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_296
+  - first:
+      213: 4148418877837530271
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_297
+  - first:
+      213: 1334955025383219398
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_298
+  - first:
+      213: 5744254724818723759
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_299
+  - first:
+      213: 4169647706821920629
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_300
+  - first:
+      213: 9029311569859045228
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_301
+  - first:
+      213: 8979716837660956345
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_302
+  - first:
+      213: -3078639102576721028
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_303
+  - first:
+      213: 6528895090048191050
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_304
+  - first:
+      213: 7954345742396667857
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_305
+  - first:
+      213: -4146827997362683396
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_306
+  - first:
+      213: 3124820282372931640
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_307
+  - first:
+      213: 4650616635540028370
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_308
+  - first:
+      213: -3374514857279402506
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_309
+  - first:
+      213: -3704056536688360797
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_310
+  - first:
+      213: -3173691946644957683
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_311
+  - first:
+      213: -7415451295949839482
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_312
+  - first:
+      213: 7916732178470652218
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_313
+  - first:
+      213: 1702683140774629669
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_314
+  - first:
+      213: -42277526434685659
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_315
+  - first:
+      213: -6842654752174983933
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_316
+  - first:
+      213: -8757757606148673777
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_317
+  - first:
+      213: 82850252247675666
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_318
+  - first:
+      213: -2276001955326410957
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_319
+  - first:
+      213: -4343568181479292112
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_320
+  - first:
+      213: -7964368567262127047
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_321
+  - first:
+      213: -2464015696168903143
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_322
+  - first:
+      213: -796443912663360392
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_323
+  - first:
+      213: 6691279098625109853
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_324
+  - first:
+      213: -9073072939952893780
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_325
+  - first:
+      213: 6351216721707544896
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_326
+  - first:
+      213: 4480050687424827169
+    second: KNIGHT and NINJA GIRLS FX SHOWCASE_327
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
