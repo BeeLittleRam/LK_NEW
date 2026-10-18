@@ -1,0 +1,64 @@
+Dwarf Miner.png
+	size: 1752, 324
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+accessory 1
+	bounds: 1552, 35, 64, 100
+behind bag
+	bounds: 1108, 145, 169, 136
+	rotate: 90
+behind helmet
+	bounds: 1264, 150, 164, 98
+	rotate: 90
+belt
+	bounds: 1382, 152, 162, 89
+	rotate: 90
+body
+	bounds: 319, 39, 275, 205
+	offsets: 26, 0, 301, 262
+	rotate: 90
+eyes
+	bounds: 810, 28, 101, 42
+	offsets: 0, 0, 101, 73
+front cloth
+	bounds: 1437, 29, 103, 95
+	rotate: 90
+head and beard
+	bounds: 544, 88, 184, 226
+	offsets: 0, 0, 184, 284
+helmet
+	bounds: 915, 100, 173, 214
+l arm
+	bounds: 931, 10, 70, 83
+	rotate: 90
+l hand
+	bounds: 742, 17, 51, 48
+	rotate: 90
+l leg
+	bounds: 544, 10, 58, 81
+	rotate: 90
+l upper arm
+	bounds: 1284, 24, 106, 133
+	rotate: 90
+pick axe
+	bounds: 1121, 13, 112, 143
+	rotate: 90
+r hand
+	bounds: 1034, 12, 68, 67
+	rotate: 90
+r leg
+	bounds: 645, 15, 53, 77
+	rotate: 90
+r lower arm
+	bounds: 1648, 56, 79, 96
+r upper arm
+	bounds: 1491, 155, 137, 159
+rope back
+	bounds: 1648, 172, 142, 91
+	rotate: 90
+treasure chest
+	bounds: 10, 16, 289, 298
+weapon/shovel
+	bounds: 748, 90, 224, 147
+	rotate: 90

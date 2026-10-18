@@ -1,0 +1,47 @@
+Beast Barbarian.png
+size:1676,236
+filter:Linear,Linear
+pma:true
+scale:0.25
+back cloth
+bounds:1255,115,85,107
+back hair
+bounds:11,18,243,204
+body
+bounds:276,24,226,198
+eyes
+bounds:1636,15,82,26
+rotate:90
+front cloth
+bounds:1362,115,85,107
+rotate:90
+front hair
+bounds:703,29,193,147
+rotate:90
+head
+bounds:524,48,174,157
+rotate:90
+l claw
+bounds:871,103,119,114
+rotate:90
+l hand
+bounds:954,23,57,49
+l leg
+bounds:1548,18,71,120
+l lower arm
+bounds:1491,90,87,102
+l upper arm
+bounds:1255,21,72,122
+rotate:90
+r claw
+bounds:1007,94,92,128
+r hand
+bounds:871,23,61,58
+r leg
+bounds:1048,11,67,120
+rotate:90
+r lower arm
+bounds:1399,16,77,121
+rotate:90
+r upper arm
+bounds:1121,100,112,122
