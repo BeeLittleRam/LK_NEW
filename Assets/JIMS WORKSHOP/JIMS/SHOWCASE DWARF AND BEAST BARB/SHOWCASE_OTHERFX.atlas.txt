@@ -1,0 +1,66 @@
+SHOWCASE_OTHERFX.png
+	size: 1000, 316
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+DAGGER
+	bounds: 651, 10, 106, 324
+	rotate: 90
+ImpactBurst/ImpactBurstFX01
+	bounds: 140, 240, 64, 64
+ImpactBurst/ImpactBurstFX02
+	bounds: 224, 240, 64, 64
+ImpactBurst/ImpactBurstFX03
+	bounds: 308, 240, 64, 64
+ImpactBurst/ImpactBurstFX04
+	bounds: 392, 240, 64, 64
+ImpactBurst/ImpactBurstFX05
+	bounds: 476, 240, 64, 64
+ImpactBurst/ImpactBurstFX06
+	bounds: 560, 240, 64, 64
+ImpactBurst/ImpactBurstFX07
+	bounds: 644, 240, 64, 64
+ImpactBurst/ImpactBurstFX08
+	bounds: 728, 240, 64, 64
+ImpactBurst/ImpactBurstFX09
+	bounds: 812, 240, 64, 64
+ImpactBurst/ImpactBurstFX10
+	bounds: 896, 240, 64, 64
+ImpactBurst/ImpactBurstFX11
+	bounds: 10, 162, 64, 64
+aura (251)
+	bounds: 10, 272, 32, 32
+aura (330)
+	bounds: 94, 156, 64, 64
+aura (69)
+	bounds: 62, 246, 58, 58
+	offsets: 3, 3, 64, 64
+impactSlash/ImpactSlashFX01
+	bounds: 262, 153, 67, 109
+	rotate: 90
+impactSlash/ImpactSlashFX02
+	bounds: 10, 51, 85, 138
+	rotate: 90
+impactSlash/ImpactSlashFX03
+	bounds: 328, 36, 86, 141
+	rotate: 90
+impactSlash/ImpactSlashFX04
+	bounds: 168, 48, 85, 140
+	rotate: 90
+impactSlash/ImpactSlashFX05
+	bounds: 489, 32, 86, 142
+	rotate: 90
+impactSlash/ImpactSlashFX06
+	bounds: 849, 136, 84, 138
+	rotate: 90
+impactSlash/ImpactSlashFX07
+	bounds: 537, 138, 82, 136
+	rotate: 90
+impactSlash/ImpactSlashFX08
+	bounds: 693, 138, 82, 136
+	rotate: 90
+impactSlash/ImpactSlashFX09
+	bounds: 391, 142, 78, 126
+	rotate: 90
+particle (80)
+	bounds: 178, 156, 64, 64

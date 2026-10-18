@@ -1,0 +1,62 @@
+KNIGHT FEMALE.png
+	size: 1896, 1008
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+FemaleKnight/BACK_ARM
+	bounds: 1009, 443, 102, 172
+	rotate: 90
+FemaleKnight/BACK_FOREARM
+	bounds: 1771, 127, 114, 108
+FemaleKnight/BACK_HAND
+	bounds: 1470, 169, 84, 93
+FemaleKnight/BACK_PADDING
+	bounds: 1368, 724, 487, 273
+FemaleKnight/BANGS
+	bounds: 1009, 565, 339, 432
+FemaleKnight/FACE_0
+	bounds: 577, 274, 215, 143
+FemaleKnight/FACE_1
+	bounds: 812, 274, 215, 143
+FemaleKnight/FRONT_ARM
+	bounds: 1252, 60, 198, 202
+FemaleKnight/FRONT_FOREARM
+	bounds: 1470, 27, 122, 110
+	rotate: 90
+FemaleKnight/FRONT_HAND
+	bounds: 1771, 18, 89, 88
+	rotate: 90
+FemaleKnight/HAIR
+	bounds: 1201, 282, 354, 263
+FemaleKnight/HAIR_ACCESSORY
+	bounds: 724, 18, 236, 270
+	rotate: 90
+FemaleKnight/HEAD
+	bounds: 1575, 255, 295, 293
+FemaleKnight/HIPS
+	bounds: 1717, 587, 160, 117
+FemaleKnight/L_FORELEG
+	bounds: 1368, 575, 129, 162
+	rotate: 90
+FemaleKnight/L_LEG
+	bounds: 1550, 568, 147, 136
+FemaleKnight/L_PADDING
+	bounds: 504, 23, 180, 200
+	rotate: 90
+FemaleKnight/PONYTAIL
+	bounds: 577, 437, 412, 560
+FemaleKnight/R_FORELEG
+	bounds: 269, 15, 215, 188
+FemaleKnight/R_LEG
+	bounds: 1047, 304, 119, 129
+	rotate: 90
+FemaleKnight/R_PADDING
+	bounds: 1014, 23, 231, 218
+	rotate: 90
+FemaleKnight/TORSO
+	bounds: 10, 10, 193, 239
+	rotate: 90
+FemaleKnight/WAIST_ACCESSORY
+	bounds: 1600, 68, 151, 167
+FemaleKnight/WIPON
+	bounds: 10, 223, 547, 774

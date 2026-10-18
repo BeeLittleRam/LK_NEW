@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 3404f62ea7b7b6647bdf490aa7ef659d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 920044339033787355
+    second: KNIGHT FEMALE_0
+  - first:
+      213: 4772890238143338839
+    second: KNIGHT FEMALE_1
+  - first:
+      213: 7327521173725561111
+    second: KNIGHT FEMALE_2
+  - first:
+      213: -1794930918966067567
+    second: KNIGHT FEMALE_3
+  - first:
+      213: 88796364762310307
+    second: KNIGHT FEMALE_4
+  - first:
+      213: 6142999734980636313
+    second: KNIGHT FEMALE_5
+  - first:
+      213: -2287685027202102213
+    second: KNIGHT FEMALE_6
+  - first:
+      213: 6753319490118069193
+    second: KNIGHT FEMALE_7
+  - first:
+      213: -4389673514617313547
+    second: KNIGHT FEMALE_8
+  - first:
+      213: 4749430972772602602
+    second: KNIGHT FEMALE_9
+  - first:
+      213: -1893486361979328940
+    second: KNIGHT FEMALE_10
+  - first:
+      213: -1821296296451963531
+    second: KNIGHT FEMALE_11
+  - first:
+      213: -4778625165230588893
+    second: KNIGHT FEMALE_12
+  - first:
+      213: 4064006812665413355
+    second: KNIGHT FEMALE_13
+  - first:
+      213: -3894385884698454473
+    second: KNIGHT FEMALE_14
+  - first:
+      213: -8773588457982101776
+    second: KNIGHT FEMALE_15
+  - first:
+      213: 2295829633300265908
+    second: KNIGHT FEMALE_16
+  - first:
+      213: -7815348924504988864
+    second: KNIGHT FEMALE_17
+  - first:
+      213: 7304534067727955076
+    second: KNIGHT FEMALE_18
+  - first:
+      213: 4656901118072711677
+    second: KNIGHT FEMALE_19
+  - first:
+      213: 8916771205735211878
+    second: KNIGHT FEMALE_20
+  - first:
+      213: 830228658594016756
+    second: KNIGHT FEMALE_21
+  - first:
+      213: 8805850833259982241
+    second: KNIGHT FEMALE_22
+  - first:
+      213: 2002859780682472008
+    second: KNIGHT FEMALE_23
+  - first:
+      213: 8329703819125843071
+    second: KNIGHT FEMALE_24
+  - first:
+      213: -3589728122875176530
+    second: KNIGHT FEMALE_25
+  - first:
+      213: 1931479724443942144
+    second: KNIGHT FEMALE_26
+  - first:
+      213: 8317546299177080062
+    second: KNIGHT FEMALE_27
+  - first:
+      213: 3827067197744987652
+    second: KNIGHT FEMALE_28
+  - first:
+      213: -3894145793935746834
+    second: KNIGHT FEMALE_29
+  - first:
+      213: -4977203156079760176
+    second: KNIGHT FEMALE_30
+  - first:
+      213: 7875574718725704389
+    second: KNIGHT FEMALE_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
