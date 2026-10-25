@@ -1,0 +1,58 @@
+Shielded Hero.png
+size:1576,336
+filter:Linear,Linear
+pma:true
+scale:0.25
+back cloth
+bounds:931,19,110,103
+back hair
+bounds:1103,54,123,148
+rotate:270
+body
+bounds:255,45,278,240
+rotate:90
+eyes
+bounds:493,19,95,42
+front cloth
+bounds:1269,31,63,101
+head
+bounds:763,130,166,193
+l hand
+bounds:1442,87,58,62
+l lower arm
+bounds:1349,86,72,78
+l lower leg
+bounds:1354,11,54,91
+rotate:90
+l pad
+bounds:1442,171,54,62
+l shoulder
+bounds:610,14,47,84
+rotate:90
+l upper arm
+bounds:763,39,69,115
+rotate:90
+l upper leg
+bounds:1402,261,62,75
+rotate:270
+pony lock
+bounds:1518,171,57,45
+rotate:90
+r hand
+bounds:1143,199,107,91
+r lower arm
+bounds:1272,165,67,94
+r lower leg
+bounds:1361,185,54,94
+r pad
+bounds:1498,255,44,64
+r shoulder
+bounds:951,144,170,179
+r upper leg
+bounds:1467,19,46,67
+offsets:0,0,66,67
+rotate:90
+shield
+bounds:516,83,225,240
+shield pose 2
+bounds:11,51,222,272

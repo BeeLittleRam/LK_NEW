@@ -1,0 +1,57 @@
+PlagueDoctor.png
+	size: 492, 1052
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+back cloth
+	bounds: 10, 838, 269, 204
+body
+	bounds: 10, 390, 236, 247
+	rotate: 90
+cloth 1
+	bounds: 10, 646, 256, 172
+cloth 2
+	bounds: 277, 438, 201, 120
+eyes
+	bounds: 166, 18, 51, 49
+	rotate: 90
+hat
+	bounds: 299, 801, 241, 182
+	offsets: 33, 96, 274, 278
+	rotate: 90
+hat feather
+	bounds: 10, 89, 155, 93
+	rotate: 90
+head
+	bounds: 286, 578, 203, 175
+	rotate: 90
+injection
+	bounds: 277, 264, 174, 154
+l hand
+	bounds: 10, 10, 59, 52
+	rotate: 90
+l leg
+	bounds: 327, 11, 45, 103
+l lower arm
+	bounds: 309, 134, 70, 110
+l upper arm
+	bounds: 10, 264, 106, 127
+	rotate: 90
+r hand
+	bounds: 157, 249, 121, 95
+	rotate: 90
+r hand main
+	bounds: 82, 13, 56, 64
+	rotate: 90
+r leg
+	bounds: 399, 55, 34, 109
+r upperhand
+	bounds: 214, 105, 75, 124
+tube
+	bounds: 123, 89, 71, 140
+tube 1
+	bounds: 235, 11, 74, 72
+	rotate: 90
+tube 2
+	bounds: 399, 184, 60, 62
+	rotate: 90

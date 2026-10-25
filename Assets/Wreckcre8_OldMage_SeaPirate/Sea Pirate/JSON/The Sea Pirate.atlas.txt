@@ -1,0 +1,54 @@
+The Sea Pirate.png
+	size: 300, 984
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+Layer 1
+	bounds: 10, 118, 89, 62
+Layer 10
+	bounds: 10, 617, 179, 172
+Layer 11
+	bounds: 135, 142, 65, 95
+	rotate: 90
+Layer 12
+	bounds: 233, 739, 53, 97
+Layer 13
+	bounds: 209, 608, 111, 74
+	offsets: 0, 0, 111, 83
+	rotate: 90
+Layer 2
+	bounds: 119, 51, 71, 88
+	rotate: 90
+Layer 3
+	bounds: 178, 319, 112, 119
+Layer 4
+	bounds: 10, 497, 151, 100
+Layer 5
+	bounds: 233, 856, 54, 48
+back bandana
+	bounds: 153, 227, 110, 72
+back bandana 2
+	bounds: 10, 200, 105, 62
+	offsets: 0, 0, 105, 67
+back cloth
+	bounds: 10, 385, 148, 92
+eye
+	bounds: 250, 156, 51, 29
+	rotate: 90
+head
+	bounds: 10, 809, 163, 203
+	rotate: 90
+l lower arm
+	bounds: 10, 26, 84, 72
+left hand
+	bounds: 227, 73, 50, 49
+left knife
+	bounds: 181, 458, 107, 130
+left knife bottom
+	bounds: 227, 10, 43, 48
+	rotate: 90
+left upper arm
+	bounds: 10, 282, 83, 123
+	rotate: 90
+small bag
+	bounds: 233, 924, 56, 48

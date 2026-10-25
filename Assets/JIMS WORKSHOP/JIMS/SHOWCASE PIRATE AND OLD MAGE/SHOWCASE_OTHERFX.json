@@ -1,0 +1,223 @@
+{
+"skeleton": {
+	"hash": "dNx8eVrg4Og",
+	"spine": "4.3.26",
+	"x": -10759.12,
+	"y": -21242.58,
+	"width": 34550.02,
+	"height": 18918.703,
+	"images": "../../../KNIGHT GIRL and NINJA GAL Pack/SHOWCASE/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Wall", "parent": "root", "x": 17929.283, "y": -8380.262 },
+	{ "name": "Streak", "parent": "root", "x": 15030.898, "y": -15689.67 },
+	{ "name": "Block", "parent": "root", "x": -7700.422, "y": -9284.236 },
+	{ "name": "Spark", "parent": "root", "x": 21125.96, "y": -5087.443 }
+],
+"slots": [
+	{ "name": "DAGGER", "bone": "root" },
+	{ "name": "ImpactSlashFX01", "bone": "Streak", "attachment": "impactSlash/ImpactSlashFX" },
+	{ "name": "aura (69)", "bone": "Block", "attachment": "aura (69)" },
+	{ "name": "aura (330)", "bone": "Spark", "attachment": "aura (330)", "blend": "screen" },
+	{ "name": "ImpactBurstFX01", "bone": "Wall", "attachment": "ImpactBurst/ImpactBurstFX" },
+	{ "name": "aura (251)", "bone": "Block" },
+	{ "name": "particle (80)", "bone": "Block", "attachment": "particle (80)" },
+	{ "name": "HexagonPointTopWithBorder", "bone": "Block", "attachment": "HexagonPointTopWithBorder" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"aura (69)": {
+				"aura (69)": { "scaleX": 18.839287, "scaleY": 18.839287, "width": 256, "height": 256 }
+			},
+			"aura (251)": {
+				"aura (251)": { "x": 14614.614, "y": 5947.607, "width": 128, "height": 128 }
+			},
+			"aura (330)": {
+				"aura (330)": { "x": -54.50976, "y": 44.11621, "scaleX": 21.24569, "scaleY": 21.24569, "width": 256, "height": 256 }
+			},
+			"DAGGER": {
+				"DAGGER": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 0, 1, 3 ],
+					"vertices": [ 212.0, -647.5, -212.0, -647.5, -212.0, 647.5, 212.0, 647.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 424.0,
+					"height": 1295.0
+				}
+			},
+			"HexagonPointTopWithBorder": {
+				"HexagonPointTopWithBorder": { "color": "47d5ffff", "scaleX": 17.242184, "scaleY": 17.242184, "width": 256, "height": 256 }
+			},
+			"ImpactBurstFX01": {
+				"ImpactBurst/ImpactBurstFX": {
+					"type": "mesh",
+					"color": "350505ff",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 4519.08, -4519.79, -4519.62, -4519.79, -4519.62, 4518.91, 4519.08, 4518.91 ],
+					"hull": 4,
+					"sequence": { "count": 11, "digits": 2 },
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256.0,
+					"height": 256.0
+				}
+			},
+			"ImpactSlashFX01": {
+				"impactSlash/ImpactSlashFX": {
+					"color": "ff2101ff",
+					"x": 48.00391,
+					"y": 24.001953,
+					"scaleX": 24.83624,
+					"scaleY": 24.83624,
+					"rotation": 60,
+					"width": 268,
+					"height": 434,
+					"sequence": { "count": 9, "digits": 2 }
+				}
+			},
+			"particle (80)": {
+				"particle (80)": {
+					"type": "mesh",
+					"color": "fffb51ff",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3073.1, -3057.3, -3058.7, -3057.3, -3058.7, 3074.5, 3073.1, 3074.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256.0,
+					"height": 256.0
+				}
+			}
+		}
+	}
+],
+"events": {
+	"Attack1": {},
+	"Attack2": {},
+	"Attack3": {},
+	"Attack4": {},
+	"ChargeUpSoundCue": {},
+	"Death": {},
+	"DeathLandImpact": {},
+	"Free": {},
+	"Hurt": {},
+	"KnockbackWallImpact": {},
+	"Midair_Attack1": {},
+	"ProjectileThrow": {},
+	"RollStop": {},
+	"RunStep1": {},
+	"RunStep2": {},
+	"SideStepFX": {},
+	"WalkStep1": {},
+	"WalkStep2": {}
+},
+"animations": {
+	"Showcase": {
+		"slots": {
+			"ImpactBurstFX01": {
+				"attachment": [
+					{ "time": 10.3 },
+					{ "time": 10.666667, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 10.966666 },
+					{ "time": 14.2, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 14.5 },
+					{ "time": 18.366667, "name": "ImpactBurst/ImpactBurstFX" },
+					{ "time": 18.666666 }
+				]
+			},
+			"ImpactSlashFX01": {
+				"attachment": [
+					{ "time": 10.933333 }
+				]
+			}
+		},
+		"bones": {
+			"Streak": {
+				"rotate": [
+					{ "time": 10, "value": 40.39448, "curve": "stepped" },
+					{ "time": 10.666667, "value": -30.84962 }
+				],
+				"translate": [
+					{ "time": 10, "x": -21840, "y": 16968, "curve": "stepped" },
+					{ "time": 10.666667, "x": -22272.004, "y": 16656 }
+				],
+				"scale": [
+					{ "time": 10, "y": 0.5199976, "curve": "stepped" },
+					{ "time": 10.666667, "x": 1.236911, "y": 0.6120332 }
+				]
+			},
+			"Wall": {
+				"rotate": [
+					{ "time": 10, "value": 128.9442, "curve": "stepped" },
+					{ "time": 10.3, "value": 117.40706, "curve": "stepped" },
+					{ "time": 10.666667, "value": 67.27062, "curve": "stepped" },
+					{ "time": 10.966666, "value": 117.40706, "curve": "stepped" },
+					{ "time": 14.2, "curve": "stepped" },
+					{ "time": 14.5 },
+					{ "time": 18.366667, "value": 167.83794, "curve": "stepped" },
+					{ "time": 18.666666, "value": 117.40706 }
+				],
+				"translate": [
+					{ "time": 10, "x": -24816.01, "y": 9744.003, "curve": "stepped" },
+					{ "time": 10.3, "x": -24312.006, "y": 10008, "curve": "stepped" },
+					{ "time": 10.666667, "x": -24816.01, "y": 9744.003, "curve": "stepped" },
+					{ "time": 10.966666, "x": -24312.006, "y": 10008, "curve": "stepped" },
+					{ "time": 14.2, "x": -9648, "y": 10632, "curve": "stepped" },
+					{ "time": 14.233334, "x": -10104.003, "y": 9456, "curve": "stepped" },
+					{ "time": 14.5, "x": -10104.003, "y": 9456, "curve": "stepped" },
+					{ "time": 18.366667, "x": -16656.01, "y": 9984.002, "curve": "stepped" },
+					{ "time": 18.666666, "x": -24312.006, "y": 10008 }
+				],
+				"scale": [
+					{ "time": 10, "curve": "stepped" },
+					{ "time": 10.3, "curve": "stepped" },
+					{ "time": 10.666667, "curve": "stepped" },
+					{ "time": 10.966666, "curve": "stepped" },
+					{ "time": 14.2, "curve": "stepped" },
+					{ "time": 14.5, "curve": "stepped" },
+					{ "time": 18.366667, "curve": "stepped" },
+					{ "time": 18.666666 }
+				],
+				"shear": [
+					{ "time": 10, "x": 35.92681, "curve": "stepped" },
+					{ "time": 10.3, "curve": "stepped" },
+					{ "time": 10.666667, "x": 35.92681, "curve": "stepped" },
+					{ "time": 10.966666, "curve": "stepped" },
+					{ "time": 14.2, "curve": "stepped" },
+					{ "time": 14.5 },
+					{ "time": 18.366667, "x": 35.92681, "curve": "stepped" },
+					{ "time": 18.666666 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"ImpactBurstFX01": {
+					"ImpactBurst/ImpactBurstFX": {
+						"sequence": [
+							{ "time": 10, "mode": "once", "index": 2, "delay": 0.03333333 },
+							{ "time": 10.666667, "mode": "once", "index": 2 },
+							{ "time": 14.2, "mode": "once", "index": 1 },
+							{ "time": 18.366667, "mode": "once", "index": 2 }
+						]
+					}
+				},
+				"ImpactSlashFX01": {
+					"impactSlash/ImpactSlashFX": {
+						"sequence": [
+							{ "time": 10, "mode": "once", "delay": 0.03333333 },
+							{ "time": 10.666667, "mode": "once" }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

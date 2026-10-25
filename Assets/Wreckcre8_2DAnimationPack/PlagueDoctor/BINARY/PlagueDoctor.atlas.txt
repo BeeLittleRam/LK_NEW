@@ -1,0 +1,57 @@
+PlagueDoctor.png
+size:1680,344
+filter:Linear,Linear
+pma:true
+scale:0.25
+back cloth
+bounds:268,62,269,204
+rotate:90
+body
+bounds:11,84,236,247
+cloth 1
+bounds:895,72,256,172
+rotate:90
+cloth 2
+bounds:1265,130,201,120
+rotate:90
+eyes
+bounds:1617,158,51,49
+rotate:90
+hat
+bounds:494,64,241,182
+offsets:33,96,274,278
+rotate:90
+hat feather
+bounds:1176,15,155,93
+head
+bounds:698,128,203,175
+rotate:90
+injection
+bounds:1089,157,174,154
+rotate:90
+l hand
+bounds:848,11,59,52
+l leg
+bounds:11,17,45,103
+rotate:90
+l lower arm
+bounds:1499,26,70,110
+l upper arm
+bounds:1407,130,106,127
+r hand
+bounds:1033,40,121,95
+r hand main
+bounds:1591,72,56,64
+r leg
+bounds:136,28,34,109
+rotate:90
+r upperhand
+bounds:1353,33,75,124
+rotate:90
+tube
+bounds:686,35,71,140
+rotate:90
+tube 1
+bounds:1529,259,74,72
+tube 2
+bounds:1535,158,60,62

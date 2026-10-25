@@ -1,0 +1,38 @@
+Mage.png
+	size: 416, 844
+	filter: Linear, Linear
+	pma: true
+	scale: 0.25
+eyes
+	bounds: 142, 90, 75, 26
+eyes_glow
+	bounds: 248, 332, 134, 64
+front body cloth
+	bounds: 10, 347, 129, 218
+	rotate: 90
+front body inside
+	bounds: 10, 136, 191, 213
+	offsets: 0, 13, 191, 226
+	rotate: 90
+head
+	bounds: 10, 665, 167, 236
+	offsets: 19, 0, 186, 236
+	rotate: 90
+l hand
+	bounds: 354, 57, 37, 50
+	rotate: 90
+l lower arm
+	bounds: 237, 10, 84, 97
+	rotate: 90
+l upper arm
+	bounds: 243, 236, 76, 123
+	rotate: 90
+r lower arm
+	bounds: 243, 114, 102, 122
+	rotate: 90
+r upper arm
+	bounds: 10, 34, 112, 82
+wizard hat
+	bounds: 10, 496, 227, 149
+wizard staff
+	bounds: 266, 416, 136, 416

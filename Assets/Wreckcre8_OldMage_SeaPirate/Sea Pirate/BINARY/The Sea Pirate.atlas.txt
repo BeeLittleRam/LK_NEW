@@ -1,0 +1,58 @@
+The Sea Pirate.png
+size:212,1536
+filter:Linear,Linear
+pma:true
+scale:0.25
+Layer 1
+bounds:76,119,89,62
+Layer 10
+bounds:11,1118,179,172
+rotate:90
+Layer 11
+bounds:74,11,65,95
+rotate:270
+Layer 12
+bounds:132,591,53,97
+Layer 13
+bounds:62,345,111,74
+offsets:0,0,111,83
+rotate:180
+Layer 2
+bounds:11,421,71,88
+rotate:90
+Layer 3
+bounds:11,619,112,119
+rotate:90
+Layer 4
+bounds:11,996,151,100
+Layer 5
+bounds:143,203,54,48
+rotate:90
+back bandana
+bounds:11,275,110,72
+back bandana 2
+bounds:11,193,105,62
+offsets:0,0,105,67
+rotate:180
+back cloth
+bounds:11,753,148,92
+eye
+bounds:163,867,51,29
+rotate:90
+head
+bounds:11,1319,163,203
+l lower arm
+bounds:11,45,84,72
+rotate:180
+left hand
+bounds:146,279,50,49
+left knife
+bounds:11,867,107,130
+rotate:90
+left knife bottom
+bounds:156,511,43,48
+left upper arm
+bounds:11,514,83,123
+rotate:90
+small bag
+bounds:121,441,56,48

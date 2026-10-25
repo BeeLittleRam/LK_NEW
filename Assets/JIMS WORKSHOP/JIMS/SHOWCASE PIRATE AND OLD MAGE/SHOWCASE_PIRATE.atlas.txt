@@ -1,0 +1,62 @@
+SHOWCASE_PIRATE.png
+	size: 1744, 568
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Layer 1
+	bounds: 1607, 377, 178, 125
+	rotate: 90
+Layer 10
+	bounds: 357, 197, 358, 345
+	rotate: 90
+Layer 11
+	bounds: 1458, 365, 129, 190
+Layer 12
+	bounds: 10, 21, 107, 195
+	rotate: 90
+Layer 13
+	bounds: 1147, 334, 221, 147
+	offsets: 0, 0, 221, 167
+	rotate: 90
+Layer 2
+	bounds: 1428, 149, 142, 177
+Layer 3
+	bounds: 1005, 16, 224, 238
+	rotate: 90
+Layer 4
+	bounds: 722, 253, 302, 200
+	rotate: 90
+Layer 5
+	bounds: 342, 19, 109, 97
+	rotate: 90
+back bandana
+	bounds: 1263, 94, 220, 145
+	rotate: 90
+back bandana 2
+	bounds: 1314, 346, 209, 124
+	offsets: 0, 0, 209, 134
+	rotate: 90
+back cloth
+	bounds: 942, 260, 295, 185
+	rotate: 90
+eye
+	bounds: 1263, 17, 102, 57
+head
+	bounds: 10, 148, 327, 407
+l lower arm
+	bounds: 1590, 177, 168, 144
+	rotate: 90
+left hand
+	bounds: 1428, 28, 101, 98
+	rotate: 90
+left knife
+	bounds: 726, 18, 215, 259
+	rotate: 90
+left knife bottom
+	bounds: 1546, 33, 85, 96
+left upper arm
+	bounds: 459, 10, 167, 247
+	rotate: 90
+small bag
+	bounds: 225, 15, 113, 97
+	rotate: 90
